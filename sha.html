@@ -18,6 +18,10 @@ font-size:24pt;
 h4{
 font-size:16pt;
 }
+input{
+margin-top:10px;
+margin-bottom:10px;
+}
 body{
 	background-color:#ffffff;
 	color:#000000;
@@ -25,6 +29,27 @@ body{
 	margin-left:0px;
 	margin-right:0px;
 	margin-top:0px;
+}
+button{
+background-color:#505050;
+border:2px solid #505050;
+color:white;
+padding: 8px;
+width:500px;
+text-align:center;
+display:inline-block;
+transition-duration:0.3s;
+border-radius:2px;
+margin-top:5mm;
+margin-bottom:5mm;
+}
+button:hover{
+background-color:white;
+color:black;
+}
+button:active{
+background-color:#E0E0E0;
+transition-duration:0s;
 }
 #footer{
 font-size:8pt;
@@ -309,23 +334,23 @@ document.getElementById("fencode").value = btoa(s);
 <h4 style="font-weight:normal;">SHA256-HASH / BASE64-ENCODER</h4>
 </div>
 </section>
-
-<div align=center>
-<label for="ftext">Raw String:</label>
-<input type="text" id="ftext" name="ftext" align=center><br>
+<!--<div style="text-align:center">
 
 <label for="frounds">No. Rounds:</label>
-<input type="number" id="frounds" name="frounds" min="1"><br><br>
+</div>-->
+<div style="text-align:center;">
+<!--<label for="ftext" style="float:center;">Raw String:</label>-->
+<input type="text" id="ftext" name="ftext" size=64 placeholder="Raw String" style="margin-top:0px;"><br>
 
-<button type="button" onclick="buttonClick()" style="align:center;">Calculate!</button><br><br>
- 
-<label for="fhashout">Output:</label>
-<input type="text" id="fhashout" name="fhashout" readonly size=128><br><br>
+<input type="number" id="frounds" name="frounds" min="1" placeholder="No. Rounds" size=64><br>
 
-<button type="button" onclick="encode64()">Encode Base64!</button><br><br>
+<button type="button" onclick="buttonClick()">Calculate</button><br>
 
-<label for="fencode">Output:</label>
-<input type="text" id="fencode" name="fencode" readonly size=128><br><br>
+<input type="text" id="fhashout" name="fhashout" readonly size=128 placeholder="Output hash"><br>
+
+<button type="button" onclick="encode64()">Encode Base64</button><br>
+
+<input type="text" id="fencode" name="fencode" readonly size=128 placeholder="Encoded Output"><br>
 <div id=footer>
 Thats it, there is no more. For now.
 </div>
