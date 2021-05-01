@@ -13,13 +13,7 @@ Redirecting...
 	//console.log(url)
 
 	function paramsToObject(params) {
-		let fields
-		if (params[0] != "?") {
-			fields = params.split("?")[1].split("&")
-		}
-		else 
-			fields = params.substr(1).split("&")
-
+		let fields = params.split("&")
 		let obj = {}
 		//let fields = params.substr(1).split("&")
 		for (let s of fields) {
@@ -38,7 +32,12 @@ Redirecting...
 		return url
 	}
 
-	let b = paramsToObject(url)
+	let sl = url.split("#")
+	let query = sl[0].split("?")[1], fragment = ""
+	if (sl.length > 1)
+		fragment = "#" + sl[1]
+
+	let b = paramsToObject(query)
 	//console.log(b)
 	let newUrl = b.redirect
 	delete b.redirect
@@ -46,6 +45,7 @@ Redirecting...
 	if (b.keepUrlParams == "true") {
 		delete b.keepUrlParams
 		newUrl = appendUrlParams(newUrl, b)
+		newUrl += fragment
 	}
 
 	//console.log(newUrl)
