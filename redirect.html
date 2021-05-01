@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Redirecting...</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+Redirecting...
+<script>
+	//console.log("Hallo Welt!")
+	let url = window.location.href
+	//console.log(url)
+
+	function paramsToObject(params) {
+		let fields
+		if (params[0] != "?") {
+			fields = params.split("?")[1].split("&")
+		}
+		else 
+			fields = params.substr(1).split("&")
+
+		let obj = {}
+		//let fields = params.substr(1).split("&")
+		for (let s of fields) {
+			let p = s.split("=")
+			obj[p[0]] = decodeURIComponent(p[1])
+		}
+		return obj
+	}
+
+	function appendUrlParams(url, params) {
+		let first = true
+		for (let e in params) {
+			url += `${first ? "?" : "&"}${encodeURIComponent(e)}=${encodeURIComponent(params[e])}`
+			first = false
+		}
+		return url
+	}
+
+	let b = paramsToObject(url)
+	//console.log(b)
+	let newUrl = b.redirect
+	delete b.redirect
+
+	if (b.keepUrlParams == "true") {
+		delete b.keepUrlParams
+		newUrl = appendUrlParams(newUrl, b)
+	}
+
+	//console.log(newUrl)
+	window.location.replace(newUrl)
+</script>
+
+</body>
+</html> 
