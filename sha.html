@@ -45,6 +45,8 @@ margin-bottom:5mm;
 }
 button.halfsize {
 	width: 250px;
+	margin-left:5px;
+	margin-right: 5px;
 }
 button:hover{
 background-color:white;
@@ -343,6 +345,11 @@ else {
 	document.getElementById("ftruncate").value = out;
 }
 }
+
+function textChanged() {
+	var len = document.getElementById("ftext").value.length;
+	document.getElementById("textchange").innerHTML = `${len} characters`;
+}
 </script>
 </head>
 <body>
@@ -356,26 +363,30 @@ else {
 
 <label for="frounds">No. Rounds:</label>
 </div>-->
-<div style="text-align:center;">
+<div style="display: flex; flex-flow: column;align-items: center;max-width: 1200px; margin:0 auto">
 <!--<label for="ftext" style="float:center;">Raw String:</label>-->
-<input type="text" id="ftext" name="ftext" size=64 placeholder="Raw String" style="margin-top:0px;"><br>
+<input type="text" id="ftext" name="ftext" size=64 placeholder="Raw String" style="margin-top:0px;" onchange="textChanged()">
 
-<input type="number" id="frounds" name="frounds" min="1" placeholder="No. Rounds" size=64><br>
+<span id="textchange">0 characters</span>
 
-<button type="button" onclick="buttonClick()">Calculate</button><br>
+<input type="number" id="frounds" name="frounds" min="1" placeholder="No. Rounds" size=64>
 
-<input type="text" id="fhashout" name="fhashout" readonly size=128 placeholder="Output hash"><br>
+<button type="button" onclick="buttonClick()">Calculate</button>
 
-<button type="button" onclick="encode64()">Encode Base64</button><br>
+<input type="text" id="fhashout" name="fhashout" readonly size=128 placeholder="Output hash">
 
-<input type="text" id="fencode" name="fencode" readonly size=128 placeholder="Encoded Output"><br>
+<button type="button" onclick="encode64()">Encode Base64</button>
 
-<input type="number" id="fchars" name="fchars" min="1" placeholder="No. Chars" size=64><br>
+<input type="text" id="fencode" name="fencode" readonly size=128 placeholder="Encoded Output">
 
+<input type="number" id="fchars" name="fchars" min="1" placeholder="No. Chars" size=64>
+
+<div style="display:flex">
 <button class="halfsize" type="button" onclick="extractText(true)">Extract Left</button>
-<button class="halfsize" type="button" onclick="extractText(false)">Extract Right</button><br>
+<button class="halfsize" type="button" onclick="extractText(false)">Extract Right</button>
+</div>
 
-<input type="text" id="ftruncate" name="ftruncate" readonly size=128 placeholder="Truncated Output"><br>
+<input type="text" id="ftruncate" name="ftruncate" readonly size=128 placeholder="Truncated Output">
 <div id=footer>
 Thats it, there is no more. For now.
 </div>
