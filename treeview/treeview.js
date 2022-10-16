@@ -447,7 +447,6 @@ function nodeSettingClick(ev) {
 			parentNode.classList.add("filter-active")
 			break;
 		case "hide-children":
-			if (!parentNode) {break}
 			Array.from(elemNode.querySelector(".node-children").children).forEach(e => {
 				e.classList.add("hidden")
 			})
