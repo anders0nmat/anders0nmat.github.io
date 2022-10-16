@@ -38,7 +38,7 @@ class LineManager {
 	static svgNS = "http://www.w3.org/2000/svg"
 
 	static makeLine(topLeft, topWidth, bottomLeft, bottomWidth) {
-		let line = document.createElementNS(svgNS, "line")
+		let line = document.createElementNS(LineManager.svgNS, "line")
 		
 		line.setAttributeNS(null, "x1", topLeft + topWidth / 2)
 		line.setAttributeNS(null, "y1", "0")
@@ -49,7 +49,7 @@ class LineManager {
 	}
 
 	static createLineElement(line1, line2) {
-		let svg = document.createElementNS(svgNS, "svg")
+		let svg = document.createElementNS(LineManager.svgNS, "svg")
 	
 		svg.style.position = "absolute"
 	
@@ -79,7 +79,7 @@ class LineManager {
 		let bottom_left = top1 > top2 ? left1 : left2
 		let bottom_width = top1 > top2 ? width1 : width2
 	
-		svg.appendChild(makeLine(top_left - leftmost, top_width, bottom_left - leftmost, bottom_width))
+		svg.appendChild(LineManager.makeLine(top_left - leftmost, top_width, bottom_left - leftmost, bottom_width))
 	
 		svg.classList.add("node-connection")
 	
@@ -98,7 +98,7 @@ class LineManager {
 	
 		let projected_left = container_center - head_width / 2
 	
-		return createLineElement(
+		return LineManager.createLineElement(
 			{x: child.offsetLeft, y: child.offsetTop, width: child.scrollWidth},
 			{x: projected_left, y: 0, width: head_width}
 		)
@@ -108,7 +108,7 @@ class LineManager {
 		if (nodeHead.previousElementSibling?.nodeName == "svg") {
 			nodeHead.parentElement.removeChild(nodeHead.previousElementSibling)
 		}
-		let line = createLineToParent(nodeHead)
+		let line = LineManager.createLineToParent(nodeHead)
 	
 		if (line) {
 			nodeHead.insertAdjacentElement("beforebegin", line)
@@ -116,7 +116,7 @@ class LineManager {
 	}
 	
 	static createLines() {
-		document.querySelectorAll(":not(#container) > .node > .node-head").forEach(createLine)
+		document.querySelectorAll(":not(#container) > .node > .node-head").forEach(LineManager.createLine)
 	}
 	
 	static updateParentLines(child) {
@@ -136,10 +136,10 @@ class LineManager {
 				<element class="node">
 		*/
 	
-		Array.from(child.parentElement.children).reverse().forEach(e => createLine(e.querySelector(".node-head")))
+		Array.from(child.parentElement.children).reverse().forEach(e => LineManager.createLine(e.querySelector(".node-head")))
 	
 		if (child.matches(".node > .node-children > .node")) {
-			updateParentLines(child.parentElement.parentElement)
+			LineManager.updateParentLines(child.parentElement.parentElement)
 		}
 	}
 }
@@ -353,7 +353,7 @@ function loadNodeObject(node) {
 
 	container.appendChild(createHtmlStructure(node.createNodeStructure()))
 
-	createLines()
+	LineManager.createLines()
 	
 	document.querySelectorAll(":not(#container) > .node > .node-head").forEach(e => {
 		nodeResizeObserver.observe(e)
@@ -431,7 +431,7 @@ function nodeSettingClick(ev) {
 		case "hide-self":
 			if (!parentNode) {break}
 			elemNode.classList.add("hidden")
-			updateParentLines(elemNode)
+			LineManager.updateParentLines(elemNode)
 
 			parentNode.classList.add("filter-active")
 			break;
@@ -442,7 +442,7 @@ function nodeSettingClick(ev) {
 				
 				e.classList.add("hidden")
 			})
-			updateParentLines(elemNode)
+			LineManager.updateParentLines(elemNode)
 
 			parentNode.classList.add("filter-active")
 			break;
@@ -451,7 +451,7 @@ function nodeSettingClick(ev) {
 			Array.from(elemNode.querySelector(".node-children").children).forEach(e => {
 				e.classList.add("hidden")
 			})
-			updateParentLines(elemNode)
+			LineManager.updateParentLines(elemNode)
 
 			elemNode.classList.add("filter-active")
 			break;
@@ -459,7 +459,7 @@ function nodeSettingClick(ev) {
 			Array.from(parentNode.querySelector(".node-children").children).forEach(e => {				
 				e.classList.remove("hidden")
 			})
-			updateParentLines(elemNode)
+			LineManager.updateParentLines(elemNode)
 
 			parentNode.classList.remove("filter-active")
 			break;
@@ -467,7 +467,7 @@ function nodeSettingClick(ev) {
 			Array.from(elemNode.querySelector(".node-children").children).forEach(e => {
 				e.classList.remove("hidden")
 			})
-			updateParentLines(elemNode)
+			LineManager.updateParentLines(elemNode)
 
 			elemNode.classList.remove("filter-active")
 			break;
@@ -561,7 +561,7 @@ function drop_handler(ev) {
 let container = document.getElementById("container")
 let settingsContainer = document.getElementById("settings")
 
-let nodeResizeObserver = new ResizeObserver(entries => entries.forEach(e => updateParentLines(e.target)))
+let nodeResizeObserver = new ResizeObserver(entries => entries.forEach(e => LineManager.updateParentLines(e.target)))
 
 let show_settings = visible => settingsContainer.classList.toggle("show", visible)
 
@@ -576,4 +576,4 @@ document.querySelectorAll("label.custom-checkbox[data-container-class]").forEach
 	e.querySelector("input[type='checkbox']").onchange = (ev) => document.getElementById("container").classList.toggle(e.getAttribute("data-container-class"), ev.target.checked)
 })
 
-document.getElementById("active-file").onchange = () => selectFile([...fileUpload.files])
+document.getElementById("active-file").onchange = (ev) => selectFile([...ev.target.files])
