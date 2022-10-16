@@ -247,7 +247,7 @@ class Node {
 				return
 			}
 
-			result.value = tree.nodeValue
+			result.value = tree.nodeValue.trim()
 			result._name = ""
 
 			return result
@@ -274,13 +274,24 @@ class Node {
 		let tags = attributes.filter(e => e.value == "").map(e => e.key)
 		attributes = attributes.filter(e => e.value != "")
 
-		let children = []
-		tree.childNodes.forEach(e => {
-			let child = Node.fromDom(e)
-			if (child) {
-				children.push(child)
-			}
-		})
+		let children = Array.from(tree.childNodes).map(e => Node.fromDom(e)).filter(e => e)
+		// tree.childNodes.forEach(e => {
+		// 	let child = Node.fromDom(e)
+		// 	if (child) {
+		// 		children.push(child)
+		// 	}
+		// })
+
+		if (children.length != 0 && children.every(e => e.type == this.NodeType.text)) {
+			let value = children.reduce((prev, e, idx) => {return prev + (idx == 0 ? "" : " ") + e.value}, "")
+			children[0].value = value
+			children = [children[0]]
+		}
+
+		if (!result.value && children.length == 1 && children[0].type == this.NodeType.text) {
+			result.value = children[0].value
+			children = []
+		}
 
 		result.attributes = attributes
 		result.tags = tags
@@ -314,6 +325,7 @@ class Node {
 			{name: "button", "data-action": "hide-children", innerText: "Hide Children"},
 			{name: "button", "data-action": "show-siblings", innerText: "Show Siblings"},
 			{name: "button", "data-action": "show-children", innerText: "Show Children"},
+			{name: "button", "data-action": "mark-optional", innerText: "Mark Optional"},
 		]
 		
 	
@@ -454,7 +466,7 @@ function nodeSettingClick(ev) {
 
 			elemNode.classList.add("filter-active")
 			break;
-		case "show-siblings": 
+		case "show-siblings":
 			Array.from(parentNode.querySelector(".node-children").children).forEach(e => {				
 				e.classList.remove("hidden")
 			})
@@ -469,6 +481,18 @@ function nodeSettingClick(ev) {
 			LineManager.updateParentLines(elemNode)
 
 			elemNode.classList.remove("filter-active")
+			break;
+		case "mark-optional":
+			let tagContainer = elemNode.querySelector(".node-head #tags")
+			let [optionalTag] = Array.from(tagContainer.children).filter(e => e.textContent === "optional")
+			if (optionalTag) {
+				tagContainer.removeChild(optionalTag)
+			}
+			else {
+				tagContainer.appendChild(createHtmlStructure({name: "span", innerText: "optional"}))
+			}
+
+			elemNode.querySelector(".node-head").classList.toggle("no-tags", tagContainer.childElementCount == 0)
 			break;
 		default: break;
 	}
