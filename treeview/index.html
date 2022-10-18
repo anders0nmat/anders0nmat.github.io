@@ -12,6 +12,7 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+	<script src="nodeWrapper.js"></script>
 	<script defer src="treeview.js"></script>
 </head>
 <body>
@@ -57,11 +58,28 @@
 						</label>
 					</div>
 					<div>
+						<label class="custom-checkbox" data-container-class="edit-enable">
+							<input type="checkbox">
+							<i class="material-icons icon-button"></i>
+							<span>Edit Nodes</span>
+						</label>
 						<label class="custom-checkbox" data-container-class="node-settings">
 							<input type="checkbox">
 							<i class="material-icons icon-button"></i>
-							<span>Show Node Settings</span>
+							<span>Show/Hide Nodes</span>
 						</label>
+					</div>
+					<div>
+						<div class="custom-radiobutton">
+							<label>
+								<input type="radio" name="orientation" value="vertical" checked>
+								<span>Vertical</span>
+							</label>
+							<label>
+								<input type="radio" name="orientation" value="horizontal">
+								<span>Horizontal</span>
+							</label>
+						</div>
 					</div>
 					<div>
 						<p>

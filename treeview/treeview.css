@@ -6,16 +6,29 @@
 	--col-text-drag-drop: rgb(220, 220, 220);
 	--col-text-filter-active: rgb(209, 136, 0);
 	--col-text-filter-adjacent: rgb(0, 135, 224);
+	--col-text-radio-inactive: rgba(0, 0, 0, 0.35);
 
 	--col-text-attr-key: rgb(196, 117, 0);
 	--col-text-attr-value: rgb(128, 128, 128);
+
+	
+	--col-text-attr-value-null: rgb(155, 78, 255);
+	--col-text-attr-value-number: rgb(80, 139, 80);
+	--col-text-attr-value-bool: rgb(65, 125, 255);
 
 	--col-border-node-items: rgba(128, 128, 128, 0.1);
 	--col-border-attr: rgba(128, 128, 128, 0.1);
 	--col-border-attr-keyvalue: rgba(128, 128, 128, 0);
 	--col-border-tags: rgba(128, 128, 128, 0.3);
 
+	--col-border-textfield-focus: rgb(34, 104, 255);
+
 	--col-bg-page: rgb(229, 229, 229);
+	
+	--col-bg-radio-hover: rgba(128, 128, 128, 0.05);
+	--col-bg-radio-checked: rgba(128, 128, 128, 0.25);
+	
+	--col-bg-add-attr-hover: rgba(128, 128, 128, 0.05);
 	
 	--col-bg-noscript: rgba(255, 0, 0, 0.25);
 
@@ -47,6 +60,11 @@
 		--col-text-drag-drop: rgb(220, 220, 220);
 		--col-text-filter-active: rgb(219, 143, 0);
 		--col-text-filter-adjacent: rgb(0, 135, 224);
+		--col-text-radio-inactive: rgba(220, 220, 220, 0.5);
+
+		--col-text-attr-value-null: rgb(155, 78, 255);
+		--col-text-attr-value-number: rgb(153, 216, 153);
+		--col-text-attr-value-bool: rgb(65, 125, 255);
 
 		--col-text-attr-key: rgb(200, 150, 75);
 		--col-text-attr-value: rgb(170, 170, 170);
@@ -56,7 +74,17 @@
 		--col-border-attr-keyvalue: rgba(128, 128, 128, 0);
 		--col-border-tags: rgba(128, 128, 128, 0.5);
 
+		--col-border-radio: rgba(128, 128, 128, 0.5);
+		--col-border-radio-separator: rgba(128, 128, 128, 0.4);
+
+		--col-border-textfield-focus: rgb(34, 104, 255);
+
 		--col-bg-page: rgb(24, 24, 24);
+
+		--col-bg-radio-hover: rgba(128, 128, 128, 0.1);
+		--col-bg-radio-checked: rgba(128, 128, 128, 0.25);
+
+		--col-bg-add-attr-hover: var(--col-bg-node);
 
 		--col-bg-noscript: rgba(255, 0, 0, 0.5);
 
@@ -88,16 +116,29 @@
 	--col-text-drag-drop: rgb(220, 220, 220);
 	--col-text-filter-active: rgb(219, 143, 0);
 	--col-text-filter-adjacent: rgb(0, 135, 224);
+	--col-text-radio-inactive: rgba(220, 220, 220, 0.5);
 
 	--col-text-attr-key: rgb(200, 150, 75);
 	--col-text-attr-value: rgb(170, 170, 170);
+
+	
+	--col-text-attr-value-null: rgb(155, 78, 255);
+	--col-text-attr-value-number: rgb(153, 216, 153);
+	--col-text-attr-value-bool: rgb(65, 125, 255);
 
 	--col-border-node-items: rgba(128, 128, 128, 0.2);
 	--col-border-attr: rgba(128, 128, 128, 0.25);
 	--col-border-attr-keyvalue: rgba(128, 128, 128, 0);
 	--col-border-tags: rgba(128, 128, 128, 0.5);
 
+	--col-border-textfield-focus: rgb(34, 104, 255);
+
 	--col-bg-page: rgb(24, 24, 24);
+
+	--col-bg-radio-hover: rgba(128, 128, 128, 0.1);
+	--col-bg-radio-checked: rgba(128, 128, 128, 0.25);
+
+	--col-bg-add-attr-hover: var(--col-bg-node);
 
 	--col-bg-noscript: rgba(255, 0, 0, 0.5);
 
@@ -284,6 +325,10 @@ body:not(.drag) > #drag-overlay {
 	transition: opacity 150ms ease-in-out;
 }
 
+#color-theme-toggle {
+	rotate: 45deg;
+}
+
 #settings.show #settings-show {
 	opacity: 0;
 }
@@ -322,6 +367,47 @@ label {
 	content: "check_box";
 }
 
+.custom-radiobutton {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.custom-radiobutton input[type="radio"] {
+	display: none;
+}
+
+.custom-radiobutton input[type="radio"] + span {
+	padding: 0.3em 0.8em;
+
+	border: thin solid var(--col-bg-radio-checked);
+}
+
+.custom-radiobutton > label:nth-of-type(1) > span {
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+
+.custom-radiobutton > label > span {
+	/* border-right: thin solid var(--col-border-radio-separator); */
+	color: var(--col-text-radio-inactive);
+}
+
+.custom-radiobutton > label:hover > span {
+	background-color: var(--col-bg-radio-hover);
+}
+
+.custom-radiobutton > label:last-of-type > span {
+	/* border-right: none; */
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+.custom-radiobutton > label > input[type="radio"]:checked + span {
+	background-color: var(--col-bg-radio-checked);
+	color: var(--col-text);
+}
+
 /* ----- Node Placeholder Text ----- */
 
 .node-placeholder {
@@ -340,8 +426,10 @@ label {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+}
 
-	gap: 0rem;
+#container.horizontal .node {
+	flex-flow: row nowrap;
 }
 
 .node.hidden {
@@ -359,8 +447,14 @@ label {
 	gap: 2rem;
 }
 
+#container.horizontal .node-children {
+	padding-top: 0;
+	padding-left: 4rem;
+	flex-flow: column nowrap;
+}
+
 .node-head {
-	margin: 0em 0.5em;
+	/* margin: 0em 0.5em; */
 	background-color: var(--col-bg-node);
 
 	display: flex;
@@ -376,13 +470,15 @@ label {
 	padding: 0.25em 1em;
 }
 
-.node-head.no-attributes .attributes,
+#container:not(.edit-enable) .node-head.no-attributes .attributes,
 .node-head:not(.no-attributes) .no-attributes-label,
-.node-head.no-value #value,
+#container:not(.edit-enable) .node-head.no-value #value,
 .node-head:not(.no-value) .no-value-label,
-.node-head.no-tags #tags,
+#container:not(.edit-enable) .node-head.no-tags #tags,
 #container:not(.show-missing-attributes) .no-attributes-label,
-#container:not(.show-missing-values) .no-value-label {
+#container:not(.show-missing-values) .no-value-label,
+#container.edit-enable .no-attributes-label,
+#container.edit-enable .no-value-label {
 	display: none;
 }
 
@@ -481,6 +577,7 @@ label {
 
 #attributes-table {
 	border-collapse: collapse;
+	width: 100%;
 }
 
 #attributes-table td {
@@ -490,7 +587,7 @@ label {
 	padding-block: 0.25em;
 }
 
-#attributes-table td:first-child {
+#attributes-table td.attr-key {
 	text-align: right;
 	vertical-align: top;
 	padding-right: 0.5em;
@@ -500,13 +597,28 @@ label {
 	color: var(--col-text-attr-key);
 }
 
-#attributes-table td:last-child {
+#attributes-table td.attr-value {
 	color: var(--col-text-attr-value);
 	padding-left: 0.5em;
 }
 
 #attributes-table tr + tr > td {
 	border-top: thin solid var(--col-border-attr);
+}
+
+
+/* ----- Attribute Value Types ----- */
+
+td.attr-value.attr-value-null {
+	color: var(--col-text-attr-value-null) !important;
+}
+
+td.attr-value.attr-value-number {
+	color: var(--col-text-attr-value-number) !important;
+}
+
+td.attr-value.attr-value-bool {
+	color: var(--col-text-attr-value-bool) !important;
 }
 
 /* ----- Tags ----- */
@@ -518,8 +630,10 @@ label {
 	padding-inline: 0.25em;
 }
 
-#tags > span {
-	display: inline-block;
+#tags > .node-tag {
+	display: inline-flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
 
 	font-size: 0.75rem;
 	padding: 0.2ch 1.2ch;
@@ -627,4 +741,75 @@ label {
 	stroke-linecap: round;
 
 	z-index: -2;
+}
+
+/* ----- Edit Tools ----- */
+
+#container:not(.edit-enable) .edit-button {
+	display: none;
+}
+
+#tags .icon-button {
+	padding: 0.2ch;
+
+	font-size: 0.75rem;
+}
+
+#tags .node-tag .edit-button {
+	margin-right: 0.2ch;
+}
+
+#tags #add-tag-button {
+	order: 1;
+	aspect-ratio: 1;
+	align-items: center;
+}
+
+.attribute-container > .edit-button {
+	aspect-ratio: unset;
+	margin-top: 0.25em;
+}
+
+.attribute-container > .edit-button:hover {
+	background-color: var(--col-bg-add-attr-hover);
+}
+
+.tag-text-field {
+	width: 15ch;
+}
+
+.attribute-container #add-attr-button {
+	width: 100%;
+}
+
+.attr-text-field,
+#title .name-text-field,
+#value .value-text-field {
+	width: 20ch;
+	background-color: transparent;
+	color: inherit;
+	border: thin solid var(--col-border-attr);
+	padding: 0.25em 0.5em;
+}
+
+.tag-text-field:focus-within,
+.attr-text-field:focus-within,
+#title .name-text-field:focus-within,
+#value .value-text-field:focus-within {
+	outline: thin solid var(--col-border-textfield-focus);
+}
+
+#attributes-table .edit-button .icon-button,
+#title .edit-button,
+#value .edit-button {
+	font-size: inherit;
+}
+
+#attributes-table .edit-button .icon-button {
+	margin-right: 0.5em;
+}
+
+#title .edit-button,
+#value .edit-button {
+	align-self: center;
 }
