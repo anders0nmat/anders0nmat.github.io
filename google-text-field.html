@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google Textfield</title>
+	<style>
+:root {
+	--clr-input-text: black;
+	--clr-title-highlight: #238cf5;
+	--opacity-input-hint: 50%;
+	--bg-title: white;
+	--clr-border: gray;
+	--clr-bg-input: white;
+
+	--col-bg: rgb(248, 248, 248);
+	--col-text: black;
+
+
+	--col-code-bg: rgb(243, 243, 243);
+	--col-code-border: rgb(204, 204, 204);
+
+	--clr-bg-input: var(--col-bg);
+	--bg-title: var(--clr-bg-input);
+
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--clr-input-text: 220, 220, 220;
+		--clr-title-highlight: #238cf5;
+		--opacity-input-hint: 50%;
+		--bg-title: rgb(29, 29, 29);
+		--clr-border: gray;
+		--clr-bg-input: rgb(29, 29, 29);
+
+
+		--col-bg: rgb(36, 36, 36);
+		--col-text: rgb(212, 212, 212);
+
+		--col-code-bg: rgb(29, 29, 29);
+		--col-code-border: rgb(46, 46, 46);
+
+		--clr-bg-input: var(--col-bg);
+		--bg-title: var(--clr-bg-input);
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--col-bg);
+	color: var(--col-text);
+}
+
+main {
+	margin-inline: auto;
+	max-width: 100ch;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+textarea {
+	font: inherit;
+}
+
+pre {
+	background: var(--col-code-bg);
+	padding: 0.5em 0.5em;
+	border-left: thick solid var(--col-code-border);
+	tab-size: 4;
+}
+
+/* 
+	Fancy google-like text field with morphing descriptor.
+	Adjustable variables:
+		--clr-input-text
+		--clr-title-highlight
+		--opacity-input-hint
+		--bg-title
+		--clr-border
+		--clr-bg-input
+
+	Requires placeholder attribute! Needs structure of: 
+	<label class="text-input">
+		<input type=text/password/email/url placeholder=""> || <textarea placeholder=""></textarea>
+		<span> Description/Title </span>
+	</label>
+*/
+
+label.text-input {
+	position: relative;
+	font-size: 0.875rem;
+	display: inline-block;
+	margin-top: 0.9375em;
+}
+
+label.text-input > input,
+label.text-input > textarea {
+	font-size: 100%;
+	border-radius: 0.25em;
+	border: thin solid var(--clr-border);
+	padding: 0.5em 0.875em;
+	outline: none;
+	width: 100%;
+	background-color: var(--clr-bg-input);
+
+	color: transparent; /* needed for placeholder fade */
+	transition: color 200ms ease-in-out;
+}
+
+label.text-input > input::placeholder,
+label.text-input > textarea::placeholder {
+	opacity: var(--opacity-input-hint); /* placeholder color always 50% of base color */
+}
+
+label.text-input > span {
+	position: absolute;
+	left: 0;
+	margin: 0.5em calc(0.875em - 0.375em);
+	padding-inline: 0.25em;
+	transform: translateY(0) scale(1);
+	transform-origin: left;
+	max-width: calc(100% - 0.875em - 0.25em);
+
+	font-size: 100%;
+	/* color: #888888; */
+	color: rgba(var(--clr-input-text), var(--opacity-input-hint));
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	
+	pointer-events: none;
+	background-color: transparent;
+	transition: 
+		transform 200ms ease-in-out,
+		background-color 200ms ease-in-out,
+		color 200ms ease-in-out,
+		max-width 200ms ease-in-out;
+}
+
+label.text-input:focus-within > input,
+label.text-input:focus-within > textarea {
+	border-color: var(--clr-title-highlight);
+	outline: none;
+}
+
+label.text-input > input:not(:placeholder-shown),
+label.text-input:focus-within > input,
+label.text-input > textarea:not(:placeholder-shown),
+label.text-input:focus-within > textarea {
+	color: rgb(var(--clr-input-text)); /* needed for placeholder fade */
+}
+
+label.text-input > input:not(:placeholder-shown) + span,
+label.text-input > textarea:not(:placeholder-shown) + span,
+label.text-input:focus-within > input + span,
+label.text-input:focus-within > textarea + span {
+	background-color: var(--bg-title);
+	transform: translateY(calc(-0.5em - 50%)) scale(75%);
+	max-width: calc((100% - 0.875em - 0.25em) * 1/0.75);
+}
+
+label.text-input > input:not(:placeholder-shown) + span,
+label.text-input > textarea:not(:placeholder-shown) + span {
+	color: rgba(var(--clr-input-text), var(--opacity-input-hint));
+}
+
+label.text-input:focus-within > input + span,
+label.text-input:focus-within > textarea + span {
+	color: var(--clr-title-highlight);
+}
+
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Google Text Field</h1>
+		<p>An attempt to replicate Googles text input fields</p>
+		
+		<label class="text-input">
+			<input type="text" placeholder="">
+			<span>Normal Text</span>
+		</label>
+
+		<label class="text-input">
+			<input type="password" placeholder="">
+			<span>Password Field</span>
+		</label>
+
+		<label class="text-input">
+			<textarea placeholder=""></textarea>
+			<span>Text Area</span>
+		</label>
+
+		<h3>Source</h3>
+
+		<pre><code>/* 
+Fancy google-like text field with morphing descriptor.
+Adjustable variables:
+	--clr-input-text
+	--clr-title-highlight
+	--opacity-input-hint
+	--bg-title
+	--clr-border
+	--clr-bg-input
+
+Requires placeholder attribute! Needs structure of: 
+&lt;label class="text-input"&gt;
+	&lt;input type=text/password/email/url placeholder=""&gt; || &lt;textarea placeholder=""&gt;&lt;/textarea&gt;
+	&lt;span&gt; Description/Title &lt;/span&gt;
+&lt;/label&gt;
+*/
+
+label.text-input {
+position: relative;
+font-size: 0.875rem;
+display: inline-block;
+margin-top: 0.9375em;
+}
+
+label.text-input > input,
+label.text-input > textarea {
+font-size: 100%;
+border-radius: 0.25em;
+border: thin solid var(--clr-border);
+padding: 0.5em 0.875em;
+outline: none;
+width: 100%;
+background-color: var(--clr-bg-input);
+
+color: transparent; /* needed for placeholder fade */
+transition: color 200ms ease-in-out;
+}
+
+label.text-input > input::placeholder,
+label.text-input > textarea::placeholder {
+opacity: var(--opacity-input-hint); /* placeholder color always 50% of base color */
+}
+
+label.text-input > span {
+position: absolute;
+left: 0;
+margin: 0.5em calc(0.875em - 0.375em);
+padding-inline: 0.25em;
+transform: translateY(0) scale(1);
+transform-origin: left;
+max-width: calc(100% - 0.875em - 0.25em);
+
+font-size: 100%;
+/* color: #888888; */
+color: rgba(var(--clr-input-text), var(--opacity-input-hint));
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+
+pointer-events: none;
+background-color: transparent;
+transition: 
+	transform 200ms ease-in-out,
+	background-color 200ms ease-in-out,
+	color 200ms ease-in-out,
+	max-width 200ms ease-in-out;
+}
+
+label.text-input:focus-within > input,
+label.text-input:focus-within > textarea {
+	border-color: var(--clr-title-highlight);
+	outline: none;
+}
+
+label.text-input > input:not(:placeholder-shown),
+label.text-input:focus-within > input,
+label.text-input > textarea:not(:placeholder-shown),
+label.text-input:focus-within > textarea {
+	color: rgb(var(--clr-input-text)); /* needed for placeholder fade */
+}
+
+label.text-input > input:not(:placeholder-shown) + span,
+label.text-input > textarea:not(:placeholder-shown) + span,
+label.text-input:focus-within > input + span,
+label.text-input:focus-within > textarea + span {
+	background-color: var(--bg-title);
+	transform: translateY(calc(-0.5em - 50%)) scale(75%);
+	max-width: calc((100% - 0.875em - 0.25em) * 1/0.75);
+}
+
+label.text-input > input:not(:placeholder-shown) + span,
+label.text-input > textarea:not(:placeholder-shown) + span {
+	color: rgba(var(--clr-input-text), var(--opacity-input-hint));
+}
+
+label.text-input:focus-within > input + span,
+label.text-input:focus-within > textarea + span {
+	color: var(--clr-title-highlight);
+}</code></pre>
+
+	</main>
+</body>
+</html>

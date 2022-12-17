@@ -1,60 +1,240 @@
-<!DOCTYPE html><!--index.html-->
+<!DOCTYPE html>
+<!--index.html-->
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>A playground for stuff</title>
-<style>
-#topper{
-background-color:#000000;
-color:#ffffff;
-font-family:"segoe ui", sans-serif;
-height:180px;
-padding-top:20px;
-margin-bottom:40px;
-}
-h1{
-font-size:24pt;
-}
-h4{
-font-size:16pt;
-}
-body{
-	background-color:#ffffff;
-	color:#000000;
-	font-family:calibri;
-	margin-left:0px;
-	margin-right:0px;
-	margin-top:0px;
-}
-#footer{
-font-size:8pt;
-color:#8f8f8f;
-margin-top:20px;
-}
-</style>
+	<meta charset="utf-8">
+	<title>A playground for stuff</title>
+	<style>
+		:root {
+			--col-bg-header: black;
+			--col-text-header: white;
+
+			--col-bg-main: white;
+			--col-text-main: black;
+			--col-subtext-main: black;
+
+			--col-header-project: rgb(243, 243, 243);
+			--col-text-project: white;
+			--col-subtext-project: rgb(189, 189, 189);
+
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--col-bg-header: black;
+				--col-text-header: rgb(219, 219, 219);
+
+				--col-bg-main: rgb(24, 24, 26);
+				--col-text-main: rgb(209, 209, 209);
+				--col-subtext-main: black;
+
+				--col-header-project: rgb(212, 212, 212);
+				--col-text-project: rgb(202, 202, 202);
+				--col-subtext-project: rgb(189, 189, 189);
+			}
+		}
+
+
+		/* CSS RESET by https://piccalil.li/blog/a-modern-css-reset/ */
+
+		/* Box sizing rules */
+		*,
+		*::before,
+		*::after {
+			box-sizing: border-box;
+		}
+
+		/* Remove default margin */
+		body,
+		h1, h2, h3, h4,
+		p,
+		figure,
+		blockquote,
+		dl, dd {
+			margin: 0;
+		}
+
+		/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+		ul[role='list'],
+		ol[role='list'] {
+			list-style: none;
+		}
+
+		/* Set core root defaults */
+		html:focus-within {
+			scroll-behavior: smooth;
+		}
+
+		/* Set core body defaults */
+		body {
+			min-height: 100vh;
+			text-rendering: optimizeSpeed;
+			line-height: 1.5;
+		}
+
+		/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+		@media (prefers-reduced-motion: reduce) {
+		html:focus-within {
+			scroll-behavior: auto;
+		}
+		
+		*,
+		*::before,
+		*::after {
+			animation-duration: 0.01ms !important;
+			animation-iteration-count: 1 !important;
+			transition-duration: 0.01ms !important;
+			scroll-behavior: auto !important;
+		}
+		}
+
+		header {
+			background: var(--col-bg-header);
+			color: var(--col-text-header);
+			
+			display: flex;
+			flex-flow: column nowrap;
+			align-items: center;
+			
+			padding-block: 3rem;
+		}
+
+		h1, p.subtitle {
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+		}
+
+		body {
+			background-color: var(--col-bg-main);
+		}
+
+		main {
+			max-width: 100ch;
+			margin-inline: auto;
+			padding-block: 2em;
+			display: flex;
+			flex-flow: column nowrap;
+			align-items: stretch;
+			gap: 1em;
+
+			color: var(--col-text-main);
+		}
+
+		#description {
+			text-align: center;
+		}
+
+		#project-grid {
+			display: grid;
+			gap: 1em;
+
+			grid-template-columns: repeat(auto-fill, 20ch);
+			grid-auto-rows: 20ch;
+			justify-content: center;
+		}
+
+		.project {
+			color: var(--col-text-project);
+
+			text-decoration: none;
+
+			padding: 0.5em 1em;
+
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+
+			overflow: hidden;
+			position: relative;
+			isolation: isolate;
+
+			background:
+				linear-gradient(
+					5deg, 
+					rgba(0, 0, 0, 0.7),
+					rgba(0, 0, 0, 0.5) 70%,
+					rgba(0, 0, 0, 0)),
+				var(--bg, radial-gradient(
+					circle at 20% 0%,
+					rgb(128, 128, 128) 0%,
+					rgb(87,87,87) 60%,
+					rgb(36,36,36) 100%)
+				);
+		}
+
+		.project::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+
+			z-index: -1;
+			backdrop-filter: blur(0);
+
+			transition: backdrop-filter 250ms ease-out;
+		}
+
+		.project:hover::before {
+			backdrop-filter: blur(10px);
+		}
+
+		.project h2 {
+			color: var(--col-header-project);
+		}
+
+		.project .description {
+			max-height: 0;
+			opacity: 0;
+
+			color: var(--col-subtext-project);
+
+			transition:
+				opacity 200ms ease-in-out,
+				max-height 300ms ease-in-out;
+			
+			overflow: hidden;
+
+			font-size: 0.85rem;
+		}
+
+		.project:hover .description {
+			max-height: 100%;
+			opacity: 1;
+		}
+
+	</style>
 </head>
+
 <body>
-<section id=topper>
-<div align=center>
-<h1 style="font-weight:normal">MY WEB PLAYGROUND</h1>
-<h4 style="font-weight:normal;">A PLACE FOR ALL THOSE FANCY WEB EXPERIMENTS</h4>
-</div>
-</section>
-<div align=center>
-<div>
-There is some interesting text around here.<br><br>
-Actually this site is for various testing purpose of HTML, CSS ans JavaScript.
-</div>
-<div>
-	<p>
-		You may be interested in my small project to view XML and JSON files as tree structures.
-		<br>
-		<a href="https://anders0nmat.github.io/json-tree-preview/" style="font-size: 1.15rem; font-weight: 600;">Tree View for JSON and XML</a>
-	</p>
-</div>
-<div id=footer>
-Thats it, there is no more. For now.
-</div>
-</div>
+
+	<header>
+		<h1>My Web Playground</h1>
+		<p class="subtitle">A place for all those fancy web experiments</p>
+	</header>
+
+	<main>
+		<p id="description">
+			These are some projects regarding web development. 
+		</p>
+		
+		<div id="project-grid">
+			<a href="ascii.html" class="project" style="--bg: center/cover no-repeat url(/ascii-bg.png)">
+				<h2>ASCII Table</h2>
+				<p class="description">Because there is no good one</p>
+			</a>
+			<a href="google-text-field.html" class="project" style="--bg: center/cover no-repeat url(/google-bg.png)">
+				<h2>Text Field</h2>
+				<p class="description">Copying googles text field</p>
+			</a>
+			<a href="json-tree-preview/" class="project" style="--bg: center/cover no-repeat url(/treeview-bg.png); grid-area: span 2 / span 2;">
+				<h2>JSON Tree View</h2>
+				<p class="description">
+					Quick treeview for JSON and XML
+				</p>
+			</a>
+		</div>
+	</main>
 </body>
+
 </html>

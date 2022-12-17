@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		:root {
+			--clr-text: #000;
+			--clr-border: #eee;
+			--clr-bg: #f8f8f8;
+
+			--clr-distinguish: rgba(128, 128, 128, 0.05);
+			--clr-highlight: rgb(255, 255, 218);
+			--clr-hint: rgb(128, 128, 128);
+
+			--clr-hex: rgb(177, 44, 11);
+			--clr-dec: rgb(0, 172, 0);
+		}
+
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--clr-text: #d1d1d1;
+				--clr-border: #383838;
+				--clr-bg: #15171a;
+
+				--clr-distinguish: rgba(128, 128, 128, 0.05);
+				--clr-highlight: rgb(48, 48, 41);
+				--clr-hint: rgb(80, 80, 80);
+
+				--clr-hex: rgb(216, 150, 9);
+				--clr-dec: rgb(0, 172, 0);
+			}
+		}
+
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			min-height: 100%;
+		}
+
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			background-color: var(--clr-bg);
+			overflow-x: hidden;
+			color: var(--clr-text);
+		}
+
+		.container {
+			margin-inline: auto;
+			max-width: 100ch;
+			padding-inline: 2em;
+		}
+
+		h1 {
+			font-size: 3rem;
+			text-align: center;
+			font-weight: 600;
+			margin-bottom: 0.25em;
+			border-bottom: thin solid var(--clr-border);
+			color: var(--clr-text)
+		}
+
+		abbr {
+			text-decoration: underline dotted var(--clr-hint);
+		}
+
+		.tables {
+			display: flex;
+			flex-flow: row wrap;
+			gap: 2em;
+			justify-content: center;
+			margin-bottom: 2em;
+		}
+
+		table {
+			border-collapse: collapse;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 1rem;
+			color: var(--clr-text);
+		}
+
+		th {
+			border-bottom: thin solid var(--clr-border);
+			text-align: center;
+			padding-inline: 0.75em;
+		}
+
+		td {
+			text-align: right;
+			padding: 0.25em 0.75em;
+		}
+
+		td:nth-child(1) {
+			color: var(--clr-hex);
+		}
+
+		td:nth-child(1)::before {
+			content: "0x";
+			font-size: 85%;
+			opacity: 0.5;
+			padding-right: 0.2em;
+		}
+
+		td:nth-child(2) {
+			color: var(--clr-dec);
+		}
+
+		td:nth-child(3) {
+			text-align: left;
+		}
+
+		tr:nth-child(even) {
+			background-color: var(--clr-distinguish);
+		}
+
+		th {
+			width: 33%;
+			border-radius: 16px;
+		}
+
+		tbody > tr:hover {
+			background-color: var(--clr-highlight);
+		}
+
+		tbody > tr:nth-child(8),
+		tbody > tr:nth-child(24) {
+			border-bottom: thin solid rgba(128, 128, 128, 0.2)
+		}
+		
+		tbody > tr:nth-child(16) {
+			border-bottom: thin solid rgba(128, 128, 128, 0.4)
+		}
+
+	</style>
+
+	<title>Ascii Table</title>
+</head>
+<body>
+	<div class="container">
+		<h1>ASCII-Table</h1>
+		<div class="tables">
+			<table>
+				<thead><th>Hex</th><th>Dec</th><th>Char</th></thead>
+				<tbody>
+					<tr><td>00</td><td>0</td><td><abbr title="Null">NUL</abbr></td></tr>
+					<tr><td>01</td><td>1</td><td><abbr title="Start of Heading">SOH</abbr></td></tr>
+					<tr><td>02</td><td>2</td><td><abbr title="Start of Text">STX</abbr></td></tr>
+					<tr><td>03</td><td>3</td><td><abbr title="End of Text">ETX</abbr></td></tr>
+					<tr><td>04</td><td>4</td><td><abbr title="End of Transmission">EOT</abbr></td></tr>
+					<tr><td>05</td><td>5</td><td><abbr title="Enquiry">ENQ</abbr></td></tr>
+					<tr><td>06</td><td>6</td><td><abbr title="Acknowledgement">ACK</abbr></td></tr>
+					<tr><td>07</td><td>7</td><td><abbr title="Bell">BEL</abbr></td></tr>
+					<tr><td>08</td><td>8</td><td><abbr title="Backspace">BS</abbr></td></tr>
+					<tr><td>09</td><td>9</td><td><abbr title="Horizontal Tab">TAB</abbr></td></tr>
+					<tr><td>0A</td><td>10</td><td><abbr title="Line Feed">LF</abbr></td></tr>
+					<tr><td>0B</td><td>11</td><td><abbr title="Vertical Tab">VT</abbr></td></tr>
+					<tr><td>0C</td><td>12</td><td><abbr title="Form Feed">FF</abbr></td></tr>
+					<tr><td>0D</td><td>13</td><td><abbr title="Carriage Return">CR</abbr></td></tr>
+					<tr><td>0E</td><td>14</td><td><abbr title="Shift Out">SO</abbr></td></tr>
+					<tr><td>0F</td><td>15</td><td><abbr title="Shift In">SI</abbr></td></tr>
+					<tr><td>10</td><td>16</td><td><abbr title="Data Link Escape">DLE</abbr></td></tr>
+					<tr><td>11</td><td>17</td><td><abbr title="Device Control 1">DC1</abbr></td></tr>
+					<tr><td>12</td><td>18</td><td><abbr title="Device Control 2">DC2</abbr></td></tr>
+					<tr><td>13</td><td>19</td><td><abbr title="Device Control 3">DC3</abbr></td></tr>
+					<tr><td>14</td><td>20</td><td><abbr title="Device Control 4">DC4</abbr></td></tr>
+					<tr><td>15</td><td>21</td><td><abbr title="Negative Acknowledgement">NAK</abbr></td></tr>
+					<tr><td>16</td><td>22</td><td><abbr title="Synchronous Idle">SYN</abbr></td></tr>
+					<tr><td>17</td><td>23</td><td><abbr title="End of Transmission Block">ETB</abbr></td></tr>
+					<tr><td>18</td><td>24</td><td><abbr title="Cancel">CAN</abbr></td></tr>
+					<tr><td>19</td><td>25</td><td><abbr title="End of Medium">EM</abbr></td></tr>
+					<tr><td>1A</td><td>26</td><td><abbr title="Substitute">SUB</abbr></td></tr>
+					<tr><td>1B</td><td>27</td><td><abbr title="Escape">Esc</abbr></td></tr>
+					<tr><td>1C</td><td>28</td><td><abbr title="File Separator">FS</abbr></td></tr>
+					<tr><td>1D</td><td>29</td><td><abbr title="Group Separator">GS</abbr></td></tr>
+					<tr><td>1E</td><td>30</td><td><abbr title="Record Separator">RS</abbr></td></tr>
+					<tr><td>1F</td><td>31</td><td><abbr title="Unit Separator">US</abbr></td></tr>
+				</tbody>
+			</table>
+			<table>
+				<thead><th>Hex</th><th>Dec</th><th>Char</th></thead>
+				<tbody>
+					<tr><td>20</td><td>32</td><td>SP</td></tr>
+					<tr><td>21</td><td>33</td><td>!</td></tr>
+					<tr><td>22</td><td>34</td><td>"</td></tr>
+					<tr><td>23</td><td>35</td><td>#</td></tr>
+					<tr><td>24</td><td>36</td><td>$</td></tr>
+					<tr><td>25</td><td>37</td><td>%</td></tr>
+					<tr><td>26</td><td>38</td><td>&amp;</td></tr>
+					<tr><td>27</td><td>39</td><td>'</td></tr>
+					<tr><td>28</td><td>40</td><td>(</td></tr>
+					<tr><td>29</td><td>41</td><td>)</td></tr>
+					<tr><td>2A</td><td>42</td><td>*</td></tr>
+					<tr><td>2B</td><td>43</td><td>+</td></tr>
+					<tr><td>2C</td><td>44</td><td>,</td></tr>
+					<tr><td>2D</td><td>45</td><td>-</td></tr>
+					<tr><td>2E</td><td>46</td><td>.</td></tr>
+					<tr><td>2F</td><td>47</td><td>/</td></tr>
+					<tr><td>30</td><td>48</td><td>0</td></tr>
+					<tr><td>31</td><td>49</td><td>1</td></tr>
+					<tr><td>32</td><td>50</td><td>2</td></tr>
+					<tr><td>33</td><td>51</td><td>3</td></tr>
+					<tr><td>34</td><td>52</td><td>4</td></tr>
+					<tr><td>35</td><td>53</td><td>5</td></tr>
+					<tr><td>36</td><td>54</td><td>6</td></tr>
+					<tr><td>37</td><td>55</td><td>7</td></tr>
+					<tr><td>38</td><td>56</td><td>8</td></tr>
+					<tr><td>39</td><td>57</td><td>9</td></tr>
+					<tr><td>3A</td><td>58</td><td>:</td></tr>
+					<tr><td>3B</td><td>59</td><td>;</td></tr>
+					<tr><td>3C</td><td>60</td><td>&lt;</td></tr>
+					<tr><td>3D</td><td>61</td><td>=</td></tr>
+					<tr><td>3E</td><td>62</td><td>&gt;</td></tr>
+					<tr><td>3F</td><td>63</td><td>?</td></tr>
+				</tbody>
+			</table>
+			<table>
+				<thead><th>Hex</th><th>Dec</th><th>Char</th></thead>
+				<tbody>
+					<tr><td>40</td><td>64</td><td>@</td></tr>
+					<tr><td>41</td><td>65</td><td>A</td></tr>
+					<tr><td>42</td><td>66</td><td>B</td></tr>
+					<tr><td>43</td><td>67</td><td>C</td></tr>
+					<tr><td>44</td><td>68</td><td>D</td></tr>
+					<tr><td>45</td><td>69</td><td>E</td></tr>
+					<tr><td>46</td><td>70</td><td>F</td></tr>
+					<tr><td>47</td><td>71</td><td>G</td></tr>
+					<tr><td>48</td><td>72</td><td>H</td></tr>
+					<tr><td>49</td><td>73</td><td>I</td></tr>
+					<tr><td>4A</td><td>74</td><td>J</td></tr>
+					<tr><td>4B</td><td>75</td><td>K</td></tr>
+					<tr><td>4C</td><td>76</td><td>L</td></tr>
+					<tr><td>4D</td><td>77</td><td>M</td></tr>
+					<tr><td>4E</td><td>78</td><td>N</td></tr>
+					<tr><td>4F</td><td>79</td><td>O</td></tr>
+					<tr><td>50</td><td>80</td><td>P</td></tr>
+					<tr><td>51</td><td>81</td><td>Q</td></tr>
+					<tr><td>52</td><td>82</td><td>R</td></tr>
+					<tr><td>53</td><td>83</td><td>S</td></tr>
+					<tr><td>54</td><td>84</td><td>T</td></tr>
+					<tr><td>55</td><td>85</td><td>U</td></tr>
+					<tr><td>56</td><td>86</td><td>V</td></tr>
+					<tr><td>57</td><td>87</td><td>W</td></tr>
+					<tr><td>58</td><td>88</td><td>X</td></tr>
+					<tr><td>59</td><td>89</td><td>Y</td></tr>
+					<tr><td>5A</td><td>90</td><td>Z</td></tr>
+					<tr><td>5B</td><td>91</td><td>[</td></tr>
+					<tr><td>5C</td><td>92</td><td>\</td></tr>
+					<tr><td>5D</td><td>93</td><td>]</td></tr>
+					<tr><td>5E</td><td>94</td><td>^</td></tr>
+					<tr><td>5F</td><td>95</td><td>_</td></tr>
+				</tbody>
+			</table>
+			<table>
+				<thead><th>Hex</th><th>Dec</th><th>Char</th></thead>
+				<tbody>
+					<tr><td>60</td><td>96</td><td>`</td></tr>
+					<tr><td>61</td><td>97</td><td>a</td></tr>
+					<tr><td>62</td><td>98</td><td>b</td></tr>
+					<tr><td>63</td><td>99</td><td>c</td></tr>
+					<tr><td>64</td><td>100</td><td>d</td></tr>
+					<tr><td>65</td><td>101</td><td>e</td></tr>
+					<tr><td>66</td><td>102</td><td>f</td></tr>
+					<tr><td>67</td><td>103</td><td>g</td></tr>
+					<tr><td>68</td><td>104</td><td>h</td></tr>
+					<tr><td>69</td><td>105</td><td>i</td></tr>
+					<tr><td>6A</td><td>106</td><td>j</td></tr>
+					<tr><td>6B</td><td>107</td><td>k</td></tr>
+					<tr><td>6C</td><td>108</td><td>l</td></tr>
+					<tr><td>6D</td><td>109</td><td>m</td></tr>
+					<tr><td>6E</td><td>110</td><td>n</td></tr>
+					<tr><td>6F</td><td>111</td><td>o</td></tr>
+					<tr><td>70</td><td>112</td><td>p</td></tr>
+					<tr><td>71</td><td>113</td><td>q</td></tr>
+					<tr><td>72</td><td>114</td><td>r</td></tr>
+					<tr><td>73</td><td>115</td><td>s</td></tr>
+					<tr><td>74</td><td>116</td><td>t</td></tr>
+					<tr><td>75</td><td>117</td><td>u</td></tr>
+					<tr><td>76</td><td>118</td><td>v</td></tr>
+					<tr><td>77</td><td>119</td><td>w</td></tr>
+					<tr><td>78</td><td>120</td><td>x</td></tr>
+					<tr><td>79</td><td>121</td><td>y</td></tr>
+					<tr><td>7A</td><td>122</td><td>z</td></tr>
+					<tr><td>7B</td><td>123</td><td>{</td></tr>
+					<tr><td>7C</td><td>124</td><td>|</td></tr>
+					<tr><td>7D</td><td>125</td><td>}</td></tr>
+					<tr><td>7E</td><td>126</td><td>~</td></tr>
+					<tr><td>7F</td><td>127</td><td><abbr title="Delete">DEL</abbr></td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
