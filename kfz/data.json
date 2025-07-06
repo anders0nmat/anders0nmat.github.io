@@ -1,0 +1,5260 @@
+[
+	{
+		"licenseNumber": "0",
+		"name": "0-1 Kraftfahrzeuge (Kfz) des Bundespräsidenten",
+		"location": "",
+		"county": "",
+		"additional_names": [
+			"0-2 Kfz des Bundeskanzlers",
+			"0-3 Kfz des Außenministers",
+			"0-4 Kfz des ersten Staatssekretärs im Auswärtigen Amt",
+			"0-99(9)-9 (X), 0-99(9)-99 (X) oder 0-99(9)-999 (X) Kfz des Diplomatischen Korps (sofern in Deutschland akkreditiert)"
+		]
+	},
+	{
+		"licenseNumber": "1",
+		"name": "1-1 Kfz der Bundestagspräsidentin",
+		"location": "",
+		"county": "",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "A",
+		"name": "Augsburg",
+		"location": "Stadt Augsburg",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Augsburg"
+		]
+	},
+	{
+		"licenseNumber": "AA",
+		"name": "AAlen",
+		"location": "Ostalbkreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AB",
+		"name": "AschaffenBurg",
+		"location": "Stadt Aschaffenburg",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Aschaffenburg"
+		]
+	},
+	{
+		"licenseNumber": "ABG",
+		"name": "AltenBurG",
+		"location": "Landkreis Altenburger Land",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ABI",
+		"name": "Anhalt-BItterfeld",
+		"location": "Landkreis Anhalt-Bitterfeld",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AC",
+		"name": "AaChen / Aix la Chapelle",
+		"location": "Städteregion Aachen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AE",
+		"name": "AuErbach",
+		"location": "Vogtlandkreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AH",
+		"name": "AHaus",
+		"location": "Kreis Borken",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AIB",
+		"name": "AIBling",
+		"location": "Landkreis München",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Rosenheim"
+		]
+	},
+	{
+		"licenseNumber": "AIC",
+		"name": "AIChach",
+		"location": "Landkreis Aichach-Friedberg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AK",
+		"name": "AltenKirchen",
+		"location": "Landkreis Altenkirchen (Westerwald)",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ALF",
+		"name": "ALFeld",
+		"location": "Landkreis Hildesheim",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ALZ",
+		"name": "ALZenau",
+		"location": "Landkreis Aschaffenburg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AM",
+		"name": "AMberg",
+		"location": "Stadt Amberg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AN",
+		"name": "ANsbach",
+		"location": "Stadt Ansbach",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Ansbach"
+		]
+	},
+	{
+		"licenseNumber": "ANA",
+		"name": "ANnAberg",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ANG",
+		"name": "ANGermünde",
+		"location": "Landkreis Uckermark",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ANK",
+		"name": "ANKlam",
+		"location": "ehemaliger Kreis Anklam",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AÖ",
+		"name": "AltÖtting",
+		"location": "Landkreis Altötting",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AP",
+		"name": "APolda",
+		"location": "Landkreis Weimarer Land",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "APD",
+		"name": "APolDa",
+		"location": "Landkreis Weimarer Land",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ARN",
+		"name": "ARNstadt",
+		"location": "Ilm-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ART",
+		"name": "ARTern",
+		"location": "Kyffhäuserkreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AS",
+		"name": "Amberg, Sulzbach",
+		"location": "Landkreis Amberg-Sulzbach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ASL",
+		"name": "ASchersLeben",
+		"location": "Salzlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ASZ",
+		"name": "Aue, SchwarZenberg",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AT",
+		"name": "AltenTreptow",
+		"location": "ehemaliger Kreis Altentreptow",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AU",
+		"name": "AUe",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AUR",
+		"name": "AURich",
+		"location": "Landkreis Aurich",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AW",
+		"name": "AhrWeiler",
+		"location": "Landkreis Ahrweiler",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AZ",
+		"name": "AlZey",
+		"location": "Landkreis Alzey-Worms",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "AZE",
+		"name": "Landkreis Anhalt-ZErbst (bis 2007)",
+		"location": "Landkreis Anhalt-Bitterfeld",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "B",
+		"name": "Berlin",
+		"location": "Stadt Berlin",
+		"county": "Berlin",
+		"additional_names": [
+			"Berlin, Senat und Abgeordnetenhaus",
+			"Diplomaten"
+		]
+	},
+	{
+		"licenseNumber": "BA",
+		"name": "BAmberg",
+		"location": "Stadt Bamberg",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Bamberg"
+		]
+	},
+	{
+		"licenseNumber": "BAD",
+		"name": "BADen-Baden",
+		"location": "Stadt Baden-Baden",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BAR",
+		"name": "BARnim",
+		"location": "Landkreis Barnim",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BB",
+		"name": "BöBlingen",
+		"location": "Landkreis Böblingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BBG",
+		"name": "BernBurG",
+		"location": "Salzlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BBL",
+		"name": "BrandenBurgische Landesregierung",
+		"location": "Brandenburg, Landesregierung, Landtag und Polizei",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BC",
+		"name": "BiberaCh",
+		"location": "Landkreis Biberach",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BCH",
+		"name": "BuCHen",
+		"location": "Neckar-Odenwald-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BD",
+		"name": "BundesDienst",
+		"location": "Deutscher Bundestag, Bundesrat, Bundespräsidialamt, Bundesregierung, Bundesministerien, Bundesfinanzverwaltung (z. B. Zoll) und Bundesverfassungsgericht",
+		"county": "bundesweit",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BE",
+		"name": "BEckum",
+		"location": "Kreis Warendorf",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BED",
+		"name": "Brand-ErbisDorf",
+		"location": "Landkreis Mittelsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BER",
+		"name": "BERnau",
+		"location": "Landkreis Barnim",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BF",
+		"name": "BurgsteinFurt",
+		"location": "Kreis Steinfurt",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BGD",
+		"name": "BerchtesGaDen",
+		"location": "Landkreis Berchtesgadener Land",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BGL",
+		"name": "BerchtesGadener Land",
+		"location": "Landkreis Berchtesgadener Land",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BH",
+		"name": "BüHl",
+		"location": "Ortenaukreis",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Rastatt"
+		]
+	},
+	{
+		"licenseNumber": "BI",
+		"name": "BIelefeld",
+		"location": "Stadt Bielefeld",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BID",
+		"name": "BIeDenkopf",
+		"location": "Landkreis Marburg-Biedenkopf",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BIN",
+		"name": "BINgen",
+		"location": "Landkreis Mainz-Bingen",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BIR",
+		"name": "BIRkenfeld",
+		"location": "Landkreis Birkenfeld",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BIT",
+		"name": "BITburg",
+		"location": "Eifelkreis Bitburg-Prüm",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BIW",
+		"name": "BIschofsWerda",
+		"location": "Landkreis Bautzen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BK",
+		"name": "BacKnang",
+		"location": "Rems-Murr-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Schwäbisch Hall",
+			"Landkreis Börde"
+		]
+	},
+	{
+		"licenseNumber": "BKS",
+		"name": "BernKaStel",
+		"location": "Landkreis Bernkastel-Wittlich",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BL",
+		"name": "BaLingen",
+		"location": "Zollernalbkreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BLB",
+		"name": "BerLeBurg",
+		"location": "Kreis Siegen-Wittgenstein",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BLK",
+		"name": "BurgenLandKreis",
+		"location": "Burgenlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BM",
+		"name": "BergheiM",
+		"location": "Rhein-Erft-Kreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BN",
+		"name": "BonN",
+		"location": "Stadt Bonn",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": [
+			"Diplomaten"
+		]
+	},
+	{
+		"licenseNumber": "BNA",
+		"name": "BorNA",
+		"location": "Landkreis Leipzig",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BO",
+		"name": "BOchum",
+		"location": "Stadt Bochum",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BÖ",
+		"name": "BÖrde",
+		"location": "Landkreis Börde",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BOG",
+		"name": "BOGen",
+		"location": "Landkreis Straubing-Bogen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BOH",
+		"name": "BOcHolt",
+		"location": "Kreis Borken",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BOR",
+		"name": "BORken",
+		"location": "Kreis Borken",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BOT",
+		"name": "BOTtrop",
+		"location": "Stadt Bottrop",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BP",
+		"name": "BundesPolizei",
+		"location": "Bundespolizei",
+		"county": "bundesweit",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BR",
+		"name": "BRuchsal",
+		"location": "Landkreis Karlsruhe",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BRA",
+		"name": "BRAke",
+		"location": "Landkreis Wesermarsch",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BRB",
+		"name": "BRandenBurg",
+		"location": "Stadt Brandenburg an der Havel",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BRG",
+		"name": "BuRG",
+		"location": "Landkreis Jerichower Land",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BRK",
+		"name": "BRücKenau",
+		"location": "Landkreis Bad Kissingen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BRL",
+		"name": "BRaunLage",
+		"location": "Landkreis Goslar",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BRV",
+		"name": "BRemerVörde",
+		"location": "Landkreis Rotenburg (Wümme)",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BS",
+		"name": "BraunSchweig",
+		"location": "Stadt Braunschweig",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BSB",
+		"name": "BerSenBrück",
+		"location": "Landkreis Osnabrück",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BSK",
+		"name": "BeeSKow",
+		"location": "Landkreis Oder-Spree",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BT",
+		"name": "BayreuTh",
+		"location": "Stadt Bayreuth",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Bayreuth"
+		]
+	},
+	{
+		"licenseNumber": "BTF",
+		"name": "BitTerFeld",
+		"location": "Landkreis Anhalt-Bitterfeld",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BÜD",
+		"name": "BÜDingen",
+		"location": "Wetteraukreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BUL",
+		"name": "BUrgLengenfeld",
+		"location": "Landkreis Amberg-Sulzbach",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Schwandorf"
+		]
+	},
+	{
+		"licenseNumber": "BÜR",
+		"name": "BÜRen",
+		"location": "Kreis Paderborn",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BÜS",
+		"name": "BÜSingen",
+		"location": "Gemeinde Büsingen am Hochrhein (Gemeinde im Landkreis Konstanz, deutsche Exklave in der Schweiz)",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BÜZ",
+		"name": "BÜtZow",
+		"location": "Landkreis Rostock",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BW",
+		"name": "Bundes-Wasserstraßen- und Schifffahrtsverwaltung",
+		"location": "Wasserstraßen- und Schifffahrtsverwaltung des Bundes",
+		"county": "bundesweit",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BWL",
+		"name": "Baden-Württembergischer Landtag",
+		"location": "Baden-Württemberg, Landesregierung, Landtag und Polizei",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BYL",
+		"name": "BaYerischer Landtag",
+		"location": "Bayern, Landesregierung und Landtag",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "BZ",
+		"name": "BautZen",
+		"location": "Landkreis Bautzen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "C",
+		"name": "Chemnitz",
+		"location": "Stadt Chemnitz",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CA",
+		"name": "CAlau",
+		"location": "Landkreis Oberspreewald-Lausitz",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CAS",
+		"name": "CAStrop",
+		"location": "Kreis Recklinghausen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CB",
+		"name": "CottBus",
+		"location": "Stadt Cottbus",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CE",
+		"name": "CElle",
+		"location": "Landkreis Celle",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CHA",
+		"name": "CHAm",
+		"location": "Landkreis Cham",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CLP",
+		"name": "CLopPenburg",
+		"location": "Landkreis Cloppenburg",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CLZ",
+		"name": "CLausthal-Zellerfeld",
+		"location": "Landkreis Goslar",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CO",
+		"name": "COburg",
+		"location": "Stadt Coburg und Landkreis Coburg (→ Zweckverband Zulassungsstelle Coburg)",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "COC",
+		"name": "COChem",
+		"location": "Landkreis Cochem-Zell",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "COE",
+		"name": "COEsfeld",
+		"location": "Kreis Coesfeld",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CR",
+		"name": "CRailsheim",
+		"location": "Landkreis Schwäbisch Hall",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CUX",
+		"name": "CUXhaven",
+		"location": "Landkreis Cuxhaven",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "CW",
+		"name": "CalW",
+		"location": "Landkreis Calw",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "D",
+		"name": "Düsseldorf",
+		"location": "Stadt Düsseldorf",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DA",
+		"name": "DArmstadt",
+		"location": "Landkreis Darmstadt-Dieburg und Stadt Darmstadt",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DAH",
+		"name": "DAcHau",
+		"location": "Landkreis Dachau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DAN",
+		"name": "DANnenberg",
+		"location": "Landkreis Lüchow-Dannenberg",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DAU",
+		"name": "DAUn",
+		"location": "Landkreis Vulkaneifel",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DBR",
+		"name": "DoBeRan",
+		"location": "Landkreis Rostock",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DD",
+		"name": "DresDen",
+		"location": "Stadt Dresden",
+		"county": "Sachsen",
+		"additional_names": [
+			"Polizei Sachsen"
+		]
+	},
+	{
+		"licenseNumber": "DE",
+		"name": "DEssau",
+		"location": "Stadt Dessau-Roßlau",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DEG",
+		"name": "DEGgendorf",
+		"location": "Landkreis Deggendorf",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DEL",
+		"name": "DELmenhorst",
+		"location": "Stadt Delmenhorst",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DGF",
+		"name": "DinGolFing",
+		"location": "Landkreis Dingolfing-Landau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DH",
+		"name": "DiepHolz",
+		"location": "Landkreis Diepholz",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DI",
+		"name": "DIeburg",
+		"location": "Landkreis Darmstadt-Dieburg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DIL",
+		"name": "DILlenburg",
+		"location": "Lahn-Dill-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DIN",
+		"name": "DINslaken",
+		"location": "Kreis Wesel",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DIZ",
+		"name": "DIeZ",
+		"location": "Rhein-Lahn-Kreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DKB",
+		"name": "DinKelsBühl",
+		"location": "Landkreis Ansbach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DL",
+		"name": "DöbeLn",
+		"location": "Landkreis Mittelsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DLG",
+		"name": "DilLinGen",
+		"location": "Landkreis Dillingen an der Donau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DM",
+		"name": "DemMin",
+		"location": "ehemaliger Landkreis Demmin/Kreis Demmin",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DN",
+		"name": "DüreN",
+		"location": "Kreis Düren",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DO",
+		"name": "DOrtmund",
+		"location": "Stadt Dortmund",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DON",
+		"name": "DONauwörth",
+		"location": "Landkreis Donau-Ries",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DS",
+		"name": "DonaueSchingen",
+		"location": "Schwarzwald-Baar-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DU",
+		"name": "DUisburg",
+		"location": "Stadt Duisburg",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DUD",
+		"name": "DUDerstadt",
+		"location": "Landkreis Göttingen ohne die Stadt Göttingen",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DÜW",
+		"name": "DÜrkheim an der Weinstraße",
+		"location": "Landkreis Bad Dürkheim",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DW",
+		"name": "DippoldisWalde",
+		"location": "Landkreis Sächsische Schweiz-Osterzgebirge",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "DZ",
+		"name": "DelitZsch",
+		"location": "Landkreis Nordsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "E",
+		"name": "Essen",
+		"location": "Stadt Essen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EA",
+		"name": "EisenAch",
+		"location": "Wartburgkreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EB",
+		"name": "EilenBurg",
+		"location": "Landkreis Nordsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EBE",
+		"name": "EBErsberg",
+		"location": "Landkreis Ebersberg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EBN",
+		"name": "EBerN",
+		"location": "Landkreis Haßberge",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EBS",
+		"name": "EBermannStadt",
+		"location": "Landkreis Bayreuth",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Forchheim",
+			"Landkreis Kulmbach"
+		]
+	},
+	{
+		"licenseNumber": "ECK",
+		"name": "ECKernförde",
+		"location": "Kreis Rendsburg-Eckernförde",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ED",
+		"name": "ErDing",
+		"location": "Landkreis Erding",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EE",
+		"name": "Elbe, Elster",
+		"location": "Landkreis Elbe-Elster",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EF",
+		"name": "ErFurt",
+		"location": "Stadt Erfurt",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EG",
+		"name": "EGgenfelden",
+		"location": "Landkreis Rottal-Inn",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EH",
+		"name": "EisenHüttenstadt",
+		"location": "Landkreis Oder-Spree",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EI",
+		"name": "EIchstätt",
+		"location": "Landkreis Eichstätt",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EIC",
+		"name": "EIChsfeld",
+		"location": "Landkreis Eichsfeld",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EIL",
+		"name": "EIsLeben",
+		"location": "Landkreis Mansfeld-Südharz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EIN",
+		"name": "EINbeck",
+		"location": "Landkreis Northeim",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EIS",
+		"name": "EISenberg",
+		"location": "Saale-Holzland-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EL",
+		"name": "EmsLand",
+		"location": "Landkreis Emsland",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EM",
+		"name": "EMmendingen",
+		"location": "Landkreis Emmendingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EMD",
+		"name": "EMDen",
+		"location": "Stadt Emden",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EMS",
+		"name": "EMS",
+		"location": "Rhein-Lahn-Kreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EN",
+		"name": "ENnepe",
+		"location": "Ennepe-Ruhr-Kreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ER",
+		"name": "ERlangen",
+		"location": "Stadt Erlangen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ERB",
+		"name": "ERBach",
+		"location": "Odenwaldkreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ERH",
+		"name": "ERlangen, Höchstadt",
+		"location": "Landkreis Erlangen-Höchstadt",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ERK",
+		"name": "ERKelenz",
+		"location": "Kreis Heinsberg",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ERZ",
+		"name": "ERZgebirge",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ES",
+		"name": "ESslingen",
+		"location": "Landkreis Esslingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ESB",
+		"name": "ESchenBach",
+		"location": "Landkreis Amberg-Sulzbach",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Bayreuth",
+			"Landkreis Neustadt an der Waldnaab",
+			"Landkreis Nürnberger Land"
+		]
+	},
+	{
+		"licenseNumber": "ESW",
+		"name": "ESchWege",
+		"location": "Werra-Meißner-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EU",
+		"name": "EUskirchen",
+		"location": "Kreis Euskirchen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "EW",
+		"name": "EbersWalde",
+		"location": "Landkreis Barnim",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "F",
+		"name": "Frankfurt",
+		"location": "Stadt Frankfurt am Main",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FB",
+		"name": "FriedBerg",
+		"location": "Wetteraukreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FD",
+		"name": "FulDa",
+		"location": "Landkreis Fulda",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FDB",
+		"name": "FrieDBerg",
+		"location": "Landkreis Aichach-Friedberg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FDS",
+		"name": "FreuDenStadt",
+		"location": "Landkreis Freudenstadt",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FEU",
+		"name": "FEUchtwangen",
+		"location": "Landkreis Ansbach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FF",
+		"name": "FrankFurt",
+		"location": "Stadt Frankfurt (Oder)",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FFB",
+		"name": "FürstenFeldBruck",
+		"location": "Landkreis Fürstenfeldbruck",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FG",
+		"name": "FreiberG",
+		"location": "Landkreis Mittelsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FI",
+		"name": "FInsterwalde",
+		"location": "Landkreis Elbe-Elster",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FKB",
+		"name": "FranKenBerg",
+		"location": "Landkreis Waldeck-Frankenberg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FL",
+		"name": "FLensburg",
+		"location": "Stadt Flensburg",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FLÖ",
+		"name": "FLÖha",
+		"location": "Landkreis Mittelsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FN",
+		"name": "FriedrichshafeN",
+		"location": "Bodenseekreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FO",
+		"name": "FOrchheim",
+		"location": "Landkreis Forchheim",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FOR",
+		"name": "FORst",
+		"location": "Landkreis Spree-Neiße",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FR",
+		"name": "FReiburg",
+		"location": "Stadt Freiburg im Breisgau",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Breisgau-Hochschwarzwald"
+		]
+	},
+	{
+		"licenseNumber": "FRG",
+		"name": "FReyung, Grafenau",
+		"location": "Landkreis Freyung-Grafenau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FRI",
+		"name": "FRIesland",
+		"location": "Landkreis Friesland",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FRW",
+		"name": "FReienWalde",
+		"location": "Landkreis Märkisch-Oderland",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FS",
+		"name": "FreiSing",
+		"location": "Landkreis Freising",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FT",
+		"name": "FrankenThal",
+		"location": "Stadt Frankenthal (Pfalz)",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FTL",
+		"name": "FreiTaL",
+		"location": "Landkreis Sächsische Schweiz-Osterzgebirge",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FÜ",
+		"name": "FÜrth",
+		"location": "Stadt Fürth",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Fürth (sonst)*"
+		]
+	},
+	{
+		"licenseNumber": "FÜS",
+		"name": "FÜSsen",
+		"location": "Landkreis Ostallgäu",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FW",
+		"name": "FürstenWalde",
+		"location": "Landkreis Oder-Spree",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "FZ",
+		"name": "FritZlar",
+		"location": "Schwalm-Eder-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "G",
+		"name": "Gera",
+		"location": "Stadt Gera",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GA",
+		"name": "GArdelegen",
+		"location": "Altmarkkreis Salzwedel",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GAN",
+		"name": "GANdersheim",
+		"location": "Landkreis Northeim",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GAP",
+		"name": "GArmisch-Partenkirchen",
+		"location": "Landkreis Garmisch-Partenkirchen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GC",
+		"name": "GlauChau",
+		"location": "Landkreis Zwickau",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GD",
+		"name": "GmünD",
+		"location": "Ostalbkreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GDB",
+		"name": "GaDeBusch",
+		"location": "ehemaliger Landkreis Gadebusch",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GE",
+		"name": "GElsenkirchen",
+		"location": "Stadt Gelsenkirchen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GEL",
+		"name": "GELdern",
+		"location": "Kreis Kleve",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GEO",
+		"name": "GErOlzhofen",
+		"location": "Landkreis Haßberge",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Schweinfurt"
+		]
+	},
+	{
+		"licenseNumber": "GER",
+		"name": "GERmersheim",
+		"location": "Landkreis Germersheim",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GF",
+		"name": "GiFhorn",
+		"location": "Landkreis Gifhorn",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GG",
+		"name": "Groß-Gerau",
+		"location": "Kreis Groß-Gerau",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GHA",
+		"name": "GeitHAin",
+		"location": "Landkreis Leipzig",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GHC",
+		"name": "GräfenHainiChen",
+		"location": "Landkreis Wittenberg",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GI",
+		"name": "GIeßen",
+		"location": "Landkreis Gießen",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GK",
+		"name": "GeilenKirchen",
+		"location": "Kreis Heinsberg",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GL",
+		"name": "GLadbach",
+		"location": "Rheinisch-Bergischer Kreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GLA",
+		"name": "GLAdbeck",
+		"location": "Kreis Recklinghausen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GM",
+		"name": "GumMersbach",
+		"location": "Oberbergischer Kreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GMN",
+		"name": "GrimMeN",
+		"location": "ehemaliger Landkreis Grimmen",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GN",
+		"name": "GelnhauseN",
+		"location": "Main-Kinzig-Kreis ohne die Stadt Hanau",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GNT",
+		"name": "GeNThin",
+		"location": "Landkreis Jerichower Land",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GÖ",
+		"name": "GÖttingen",
+		"location": "Landkreis Göttingen\nStadt Göttingen\nübriger Landkreis",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GOA",
+		"name": "Sankt GOAr",
+		"location": "Rhein-Hunsrück-Kreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GOH",
+		"name": "Sankt GOarsHausen",
+		"location": "Rhein-Lahn-Kreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GP",
+		"name": "GöpPingen",
+		"location": "Landkreis Göppingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GR",
+		"name": "GöRlitz",
+		"location": "Landkreis Görlitz",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GRA",
+		"name": "GRAfenau",
+		"location": "Landkreis Freyung-Grafenau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GRH",
+		"name": "GRoßenHain",
+		"location": "Landkreis Meißen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GRI",
+		"name": "GRIesbach",
+		"location": "Landkreis Rottal-Inn",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GRM",
+		"name": "GRimMa",
+		"location": "Landkreis Leipzig",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GRZ",
+		"name": "GReiZ",
+		"location": "Landkreis Greiz",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GS",
+		"name": "GoSlar",
+		"location": "Landkreis Goslar",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GT",
+		"name": "GüTersloh",
+		"location": "Kreis Gütersloh",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GTH",
+		"name": "GoTHa",
+		"location": "Landkreis Gotha",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GÜ",
+		"name": "GÜstrow",
+		"location": "Landkreis Rostock",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GUB",
+		"name": "GUBen",
+		"location": "Landkreis Spree-Neiße",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GUN",
+		"name": "GUNzenhausen",
+		"location": "Landkreis Weißenburg-Gunzenhausen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GV",
+		"name": "GreVenbroich",
+		"location": "Rhein-Kreis Neuss",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GVM",
+		"name": "GreVesMühlen",
+		"location": "ehemaliger Kreis Grevesmühlen",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GW",
+		"name": "GreifsWald",
+		"location": "ehemaliger Landkreis Greifswald",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "GZ",
+		"name": "GünZburg",
+		"location": "Landkreis Günzburg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "H",
+		"name": "Hannover",
+		"location": "Region Hannover\nStadt Hannover\nübrige Region",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HA",
+		"name": "HAgen",
+		"location": "Stadt Hagen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HAB",
+		"name": "HAmmelBurg",
+		"location": "Landkreis Bad Kissingen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HAL",
+		"name": "HALle",
+		"location": "Stadt Halle (Saale)",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HAM",
+		"name": "HAMm",
+		"location": "Stadt Hamm",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HAS",
+		"name": "HASsfurt",
+		"location": "Landkreis Haßberge",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HB",
+		"name": "Hansestadt Bremen",
+		"location": "Stadt Bremen, Senat und Bürgerschaft",
+		"county": "Bremen",
+		"additional_names": [
+			"Stadt Bremerhaven (X-9999)"
+		]
+	},
+	{
+		"licenseNumber": "HBN",
+		"name": "HildBurghauseN",
+		"location": "Landkreis Hildburghausen",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HBS",
+		"name": "HalBerStadt",
+		"location": "Landkreis Harz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HC",
+		"name": "HainiChen",
+		"location": "Landkreis Mittelsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HCH",
+		"name": "HeCHingen",
+		"location": "Landkreis Freudenstadt",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Zollernalbkreis"
+		]
+	},
+	{
+		"licenseNumber": "HD",
+		"name": "HeiDelberg",
+		"location": "Stadt Heidelberg",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Rhein-Neckar-Kreis"
+		]
+	},
+	{
+		"licenseNumber": "HDH",
+		"name": "HeiDenHeim",
+		"location": "Landkreis Heidenheim",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HDL",
+		"name": "HalDensLeben",
+		"location": "Landkreis Börde",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HE",
+		"name": "HElmstedt",
+		"location": "Landkreis Helmstedt",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HEB",
+		"name": "HErsBruck",
+		"location": "Landkreis Nürnberger Land",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HEF",
+		"name": "HErsFeld",
+		"location": "Landkreis Hersfeld-Rotenburg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HEI",
+		"name": "HEIde",
+		"location": "Kreis Dithmarschen",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HEL",
+		"name": "HEssischer Landtag",
+		"location": "Hessen, Landesregierung und Landtag",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HER",
+		"name": "HERne",
+		"location": "Stadt Herne",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HET",
+		"name": "HETtstedt",
+		"location": "Landkreis Mansfeld-Südharz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HF",
+		"name": "HerFord",
+		"location": "Kreis Herford",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HG",
+		"name": "HomburG",
+		"location": "Hochtaunuskreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HGN",
+		"name": "HaGeNow",
+		"location": "Landkreis Ludwigslust-Parchim",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HGW",
+		"name": "Hansestadt GreifsWald",
+		"location": "Stadt Greifswald (große kreisangehörige Stadt im Landkreis Vorpommern-Greifswald)",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HH",
+		"name": "Hansestadt Hamburg",
+		"location": "Freie und Hansestadt Hamburg, Senat und Bürgerschaft",
+		"county": "Hamburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HHM",
+		"name": "HoHenMölsen",
+		"location": "Burgenlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HI",
+		"name": "HIldesheim",
+		"location": "Landkreis Hildesheim",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HIG",
+		"name": "HeilIGenstadt",
+		"location": "Landkreis Eichsfeld",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HIP",
+		"name": "HIlPoltstein",
+		"location": "Landkreis Roth",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HK",
+		"name": "HeideKreis",
+		"location": "Landkreis Heidekreis",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HL",
+		"name": "Hansestadt Lübeck",
+		"location": "Stadt Lübeck",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HM",
+		"name": "HaMeln",
+		"location": "Landkreis Hameln-Pyrmont",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HMÜ",
+		"name": "Hann. MÜnden",
+		"location": "Landkreis Göttingen ohne die Stadt Göttingen",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HN",
+		"name": "HeilbronN",
+		"location": "Stadt Heilbronn",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Heilbronn"
+		]
+	},
+	{
+		"licenseNumber": "HO",
+		"name": "HOf",
+		"location": "Stadt Hof",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Hof"
+		]
+	},
+	{
+		"licenseNumber": "HOG",
+		"name": "HOfGeismar",
+		"location": "Landkreis Kassel",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HOH",
+		"name": "HOfHeim",
+		"location": "Landkreis Haßberge",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HOL",
+		"name": "HOLzminden",
+		"location": "Landkreis Holzminden",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HOM",
+		"name": "HOMburg",
+		"location": "Saarpfalz-Kreis ohne die Stadt St. Ingbert",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HOR",
+		"name": "HORb",
+		"location": "Landkreis Freudenstadt",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HÖS",
+		"name": "HÖchStadt",
+		"location": "Landkreis Erlangen-Höchstadt",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HOT",
+		"name": "HOhensTein",
+		"location": "Landkreis Zwickau",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HP",
+		"name": "HepPenheim",
+		"location": "Landkreis Bergstraße",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HR",
+		"name": "HombeRg",
+		"location": "Schwalm-Eder-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HRO",
+		"name": "Hansestadt ROstock",
+		"location": "Stadt Rostock",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HS",
+		"name": "HeinSberg",
+		"location": "Kreis Heinsberg",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HSK",
+		"name": "HochSauerlandKreis",
+		"location": "Hochsauerlandkreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HST",
+		"name": "Hansestadt STralsund",
+		"location": "Stadt Stralsund (große kreisangehörige Stadt im Landkreis Vorpommern-Rügen)",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HU",
+		"name": "HanaU",
+		"location": "Stadt Hanau (Sonderstatusstadt im Main-Kinzig-Kreis)",
+		"county": "Hessen",
+		"additional_names": [
+			"Main-Kinzig-Kreis (übriges Kreisgebiet)"
+		]
+	},
+	{
+		"licenseNumber": "HV",
+		"name": "HaVelberg",
+		"location": "Landkreis Stendal",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HVL",
+		"name": "HaVelLand",
+		"location": "Landkreis Havelland",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HWI",
+		"name": "Hansestadt WIsmar",
+		"location": "Stadt Wismar (große kreisangehörige Stadt im Landkreis Nordwestmecklenburg)",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HX",
+		"name": "HöXter",
+		"location": "Kreis Höxter",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HY",
+		"name": "HoYerswerda",
+		"location": "Landkreis Bautzen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "HZ",
+		"name": "HarZ",
+		"location": "Landkreis Harz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "IGB",
+		"name": "InGBert",
+		"location": "Stadt St. Ingbert (Mittelstadt im Saarpfalz-Kreis)",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "IK",
+		"name": "Ilm-Kreis",
+		"location": "Ilm-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "IL",
+		"name": "ILmenau",
+		"location": "Ilm-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ILL",
+		"name": "ILLertissen",
+		"location": "Landkreis Neu-Ulm",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "IN",
+		"name": "INgolstadt",
+		"location": "Stadt Ingolstadt",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "IZ",
+		"name": "ItZehoe",
+		"location": "Kreis Steinburg",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "J",
+		"name": "Jena",
+		"location": "Stadt Jena",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "JB",
+		"name": "JüterBog",
+		"location": "Landkreis Teltow-Fläming",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "JE",
+		"name": "JEssen",
+		"location": "Landkreis Wittenberg",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "JL",
+		"name": "Jerichower Land",
+		"location": "Landkreis Jerichower Land",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "JÜL",
+		"name": "JÜLich",
+		"location": "Kreis Düren",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "K",
+		"name": "Köln",
+		"location": "Stadt Köln",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KA",
+		"name": "KArlsruhe",
+		"location": "Stadt Karlsruhe",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Karlsruhe"
+		]
+	},
+	{
+		"licenseNumber": "KB",
+		"name": "KorBach",
+		"location": "Landkreis Waldeck-Frankenberg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KC",
+		"name": "KronaCh",
+		"location": "Landkreis Kronach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KE",
+		"name": "KEmpten",
+		"location": "Stadt Kempten (Allgäu)",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KEH",
+		"name": "KElHeim",
+		"location": "Landkreis Kelheim",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KEL",
+		"name": "KEhL",
+		"location": "Ortenaukreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KEM",
+		"name": "KEMnath",
+		"location": "Landkreis Bayreuth",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Tirschenreuth"
+		]
+	},
+	{
+		"licenseNumber": "KF",
+		"name": "KauFbeuren",
+		"location": "Stadt Kaufbeuren",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KG",
+		"name": "KissinGen",
+		"location": "Landkreis Bad Kissingen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KH",
+		"name": "KreuznacH",
+		"location": "Landkreis Bad Kreuznach",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KI",
+		"name": "KIel",
+		"location": "Stadt Kiel",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KIB",
+		"name": "KIrchheimBolanden",
+		"location": "Donnersbergkreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KK",
+		"name": "Kempen, Krefeld",
+		"location": "Kreis Viersen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KL",
+		"name": "KaisersLautern",
+		"location": "Stadt Kaiserslautern",
+		"county": "Rheinland-Pfalz",
+		"additional_names": [
+			"Landkreis Kaiserslautern"
+		]
+	},
+	{
+		"licenseNumber": "KLE",
+		"name": "KLEve",
+		"location": "Kreis Kleve",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KLZ",
+		"name": "KLötZe",
+		"location": "Altmarkkreis Salzwedel",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KM",
+		"name": "KaMenz",
+		"location": "Landkreis Bautzen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KN",
+		"name": "KoNstanz",
+		"location": "Landkreis Konstanz ohne die Gemeinde Büsingen am Hochrhein",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KO",
+		"name": "KOblenz",
+		"location": "Stadt Koblenz",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KÖN",
+		"name": "KÖNigshofen",
+		"location": "Landkreis Rhön-Grabfeld",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KÖT",
+		"name": "KÖThen",
+		"location": "Landkreis Anhalt-Bitterfeld",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KÖZ",
+		"name": "KÖtZting",
+		"location": "Landkreis Cham",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KR",
+		"name": "KRefeld",
+		"location": "Stadt Krefeld",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KRU",
+		"name": "KRUmbach",
+		"location": "Landkreis Günzburg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KS",
+		"name": "KasSel",
+		"location": "Landkreis Kassel und Stadt Kassel",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KT",
+		"name": "KiTzingen",
+		"location": "Landkreis Kitzingen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KU",
+		"name": "KUlmbach",
+		"location": "Landkreis Kulmbach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KÜN",
+		"name": "KÜNzelsau",
+		"location": "Hohenlohekreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KUS",
+		"name": "KUSel",
+		"location": "Landkreis Kusel",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KW",
+		"name": "Königs Wusterhausen",
+		"location": "Landkreis Dahme-Spreewald",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KY",
+		"name": "KYritz",
+		"location": "Landkreis Ostprignitz-Ruppin",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "KYF",
+		"name": "KYFfhäuser",
+		"location": "Kyffhäuserkreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "L",
+		"name": "Leipzig",
+		"location": "Stadt Leipzig",
+		"county": "Sachsen",
+		"additional_names": [
+			"Landkreis Leipzig"
+		]
+	},
+	{
+		"licenseNumber": "LA",
+		"name": "LAndshut",
+		"location": "Stadt Landshut",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Landshut"
+		]
+	},
+	{
+		"licenseNumber": "LAN",
+		"name": "LANdau",
+		"location": "Landkreis Dingolfing-Landau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LAU",
+		"name": "LAUf",
+		"location": "Landkreis Nürnberger Land",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LB",
+		"name": "LudwigsBurg",
+		"location": "Landkreis Ludwigsburg",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LBS",
+		"name": "LoBenStein",
+		"location": "Saale-Orla-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LBZ",
+		"name": "LüBZ",
+		"location": "Landkreis Ludwigslust-Parchim",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LC",
+		"name": "LuCkau",
+		"location": "Landkreis Dahme-Spreewald",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LD",
+		"name": "LanDau",
+		"location": "Stadt Landau in der Pfalz",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LDK",
+		"name": "Lahn-Dill-Kreis",
+		"location": "Lahn-Dill-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LDS",
+		"name": "Landkreis Dahme-Spreewald",
+		"location": "Landkreis Dahme-Spreewald",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LEO",
+		"name": "LEOnberg",
+		"location": "Landkreis Böblingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LER",
+		"name": "LEeR",
+		"location": "Landkreis Leer",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LEV",
+		"name": "LEVerkusen",
+		"location": "Stadt Leverkusen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LF",
+		"name": "LauFen",
+		"location": "Landkreis Altötting",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Berchtesgadener Land",
+			"Landkreis Traunstein"
+		]
+	},
+	{
+		"licenseNumber": "LG",
+		"name": "LüneburG",
+		"location": "Landkreis Lüneburg",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LH",
+		"name": "LüdingHausen",
+		"location": "Kreis Coesfeld",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": [
+			"Kreis Unna"
+		]
+	},
+	{
+		"licenseNumber": "LI",
+		"name": "LIndau",
+		"location": "Landkreis Lindau (Bodensee)",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LIB",
+		"name": "LIeBenwerda",
+		"location": "Landkreis Elbe-Elster",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LIF",
+		"name": "LIchtenFels",
+		"location": "Landkreis Lichtenfels",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LIP",
+		"name": "LIPpe",
+		"location": "Kreis Lippe",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LK",
+		"name": "LübbecKe",
+		"location": "Kreis Minden-Lübbecke",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LL",
+		"name": "Landsberg am Lech",
+		"location": "Landkreis Landsberg am Lech",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LM",
+		"name": "LiMburg",
+		"location": "Landkreis Limburg-Weilburg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LN",
+		"name": "LübbeN",
+		"location": "Landkreis Dahme-Spreewald",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LÖ",
+		"name": "LÖrrach",
+		"location": "Landkreis Lörrach",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LÖB",
+		"name": "LÖBau",
+		"location": "Landkreis Görlitz",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LOS",
+		"name": "Landkreis Oder-Spree",
+		"location": "Landkreis Oder-Spree",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LP",
+		"name": "LiPpstadt",
+		"location": "Kreis Soest",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LR",
+		"name": "LahR",
+		"location": "Ortenaukreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LRO",
+		"name": "Landkreis ROstock",
+		"location": "Landkreis Rostock",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LSA",
+		"name": "Land Sachsen-Anhalt",
+		"location": "Sachsen-Anhalt, Landesregierung, Landtag und Polizei",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LSN",
+		"name": "Landtag SachseN",
+		"location": "Sachsen, Landesregierung und Landtag",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LSZ",
+		"name": "LangenSalZa",
+		"location": "Unstrut-Hainich-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LU",
+		"name": "LUdwigshafen",
+		"location": "Stadt Ludwigshafen am Rhein",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LÜN",
+		"name": "LÜNen",
+		"location": "Kreis Unna",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LUK",
+		"name": "LUcKenwalde",
+		"location": "Landkreis Teltow-Fläming",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LUP",
+		"name": "LUdwigslust, Parchim",
+		"location": "Landkreis Ludwigslust-Parchim",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "LWL",
+		"name": "LudWigsLust",
+		"location": "Landkreis Ludwigslust-Parchim",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "M",
+		"name": "München",
+		"location": "Stadt München",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis München"
+		]
+	},
+	{
+		"licenseNumber": "MA",
+		"name": "MAnnheim",
+		"location": "Stadt Mannheim",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MAB",
+		"name": "MArienBerg",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MAI",
+		"name": "MAInburg",
+		"location": "Landkreis Kelheim",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Landshut"
+		]
+	},
+	{
+		"licenseNumber": "MAK",
+		"name": "MArKtredwitz",
+		"location": "Landkreis Wunsiedel im Fichtelgebirge",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MAL",
+		"name": "MALlersdorf",
+		"location": "Landkreis Landshut",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Straubing-Bogen"
+		]
+	},
+	{
+		"licenseNumber": "MB",
+		"name": "MiesBach",
+		"location": "Landkreis Miesbach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MC",
+		"name": "MalChin",
+		"location": "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MD",
+		"name": "MagDeburg",
+		"location": "Stadt Magdeburg",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ME",
+		"name": "MEttmann",
+		"location": "Kreis Mettmann",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MED",
+		"name": "MElDorf",
+		"location": "Kreis Dithmarschen",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MEG",
+		"name": "MElsunGen",
+		"location": "Schwalm-Eder-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MEI",
+		"name": "MEIßen",
+		"location": "Landkreis Meißen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MEK",
+		"name": "Mittlerer ErzgebirgsKreis",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MEL",
+		"name": "MELle",
+		"location": "Landkreis Osnabrück",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MER",
+		"name": "MERseburg",
+		"location": "Saalekreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MET",
+		"name": "MEllrichstadT",
+		"location": "Landkreis Rhön-Grabfeld",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MG",
+		"name": "MönchenGladbach",
+		"location": "Stadt Mönchengladbach",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MGH",
+		"name": "MerGentHeim",
+		"location": "Main-Tauber-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MGN",
+		"name": "MeininGeN",
+		"location": "Landkreis Schmalkalden-Meiningen",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MH",
+		"name": "MülHeim",
+		"location": "Stadt Mülheim an der Ruhr",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MHL",
+		"name": "MüHLhausen",
+		"location": "Unstrut-Hainich-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MI",
+		"name": "MInden",
+		"location": "Kreis Minden-Lübbecke",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MIL",
+		"name": "MILtenberg",
+		"location": "Landkreis Miltenberg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MK",
+		"name": "Märkischer Kreis",
+		"location": "Märkischer Kreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MKK",
+		"name": "Main-Kinzig-Kreis",
+		"location": "Main-Kinzig-Kreis ohne die Stadt Hanau",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ML",
+		"name": "Mansfelder Land",
+		"location": "Landkreis Mansfeld-Südharz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MM",
+		"name": "MemMingen",
+		"location": "Stadt Memmingen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MN",
+		"name": "MiNdelheim",
+		"location": "Landkreis Unterallgäu",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MO",
+		"name": "MOers",
+		"location": "Kreis Wesel",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MOD",
+		"name": "MarktOberDorf",
+		"location": "Landkreis Ostallgäu",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MOL",
+		"name": "Märkisch-OderLand",
+		"location": "Landkreis Märkisch-Oderland",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MON",
+		"name": "MONschau",
+		"location": "Städteregion Aachen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": [
+			"Kreis Düren"
+		]
+	},
+	{
+		"licenseNumber": "MOS",
+		"name": "MOSbach",
+		"location": "Neckar-Odenwald-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MQ",
+		"name": "Merseburg, Querfurt",
+		"location": "Saalekreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MR",
+		"name": "MaRburg",
+		"location": "Landkreis Marburg-Biedenkopf",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MS",
+		"name": "MünSter",
+		"location": "Stadt Münster",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MSE",
+		"name": "Mecklenburgische SEenplatte",
+		"location": "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MSH",
+		"name": "Mansfeld, SüdHarz",
+		"location": "Landkreis Mansfeld-Südharz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MSP",
+		"name": "Main, SPessart",
+		"location": "Landkreis Main-Spessart",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MST",
+		"name": "Mecklenburg-STrelitz",
+		"location": "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MTK",
+		"name": "Main-Taunus-Kreis",
+		"location": "Main-Taunus-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MTL",
+		"name": "MuldenTaL",
+		"location": "Landkreis Leipzig",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MUC",
+		"name": "MUenChen",
+		"location": "Stadt München",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MÜ",
+		"name": "MÜhldorf",
+		"location": "Landkreis Mühldorf am Inn",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MÜB",
+		"name": "MÜnchBerg",
+		"location": "Landkreis Bayreuth",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Hof"
+		]
+	},
+	{
+		"licenseNumber": "MÜL",
+		"name": "MÜLlheim",
+		"location": "Landkreis Breisgau-Hochschwarzwald",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MÜR",
+		"name": "MÜRitz",
+		"location": "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MVL",
+		"name": "Mecklenburg-Vorpommerscher Landtag",
+		"location": "Mecklenburg-Vorpommern, Landesregierung, Landtag und Polizei",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MW",
+		"name": "MittWeida",
+		"location": "Landkreis Mittelsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MY",
+		"name": "MaYen",
+		"location": "Landkreis Mayen-Koblenz",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MYK",
+		"name": "MaYen, Koblenz",
+		"location": "Landkreis Mayen-Koblenz",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "MZ",
+		"name": "MainZ",
+		"location": "Stadt Mainz",
+		"county": "Rheinland-Pfalz",
+		"additional_names": [
+			"Landkreis Mainz-Bingen"
+		]
+	},
+	{
+		"licenseNumber": "MZG",
+		"name": "MerZiG",
+		"location": "Landkreis Merzig-Wadern",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "N",
+		"name": "Nürnberg",
+		"location": "Stadt Nürnberg",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Nürnberger Land"
+		]
+	},
+	{
+		"licenseNumber": "NAB",
+		"name": "NABburg",
+		"location": "Landkreis Amberg-Sulzbach",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Schwandorf"
+		]
+	},
+	{
+		"licenseNumber": "NAI",
+		"name": "NAIla",
+		"location": "Landkreis Hof",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NAU",
+		"name": "NAUen",
+		"location": "Landkreis Havelland",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NB",
+		"name": "NeuBrandenburg",
+		"location": "Stadt Neubrandenburg (große kreisangehörige Stadt im Landkreis Mecklenburgische Seenplatte)",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ND",
+		"name": "Neuburg an der Donau",
+		"location": "Landkreis Neuburg-Schrobenhausen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NDH",
+		"name": "NorDHausen",
+		"location": "Landkreis Nordhausen",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NE",
+		"name": "NEuss",
+		"location": "Rhein-Kreis Neuss",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NEA",
+		"name": "NEustadt an der Aisch",
+		"location": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NEB",
+		"name": "NEBra",
+		"location": "Burgenlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NEC",
+		"name": "NEustadt bei Coburg",
+		"location": "Stadt Coburg und Landkreis Coburg (→ Zweckverband Zulassungsstelle Coburg)",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NEN",
+		"name": "NEuNburg",
+		"location": "Landkreis Schwandorf",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NES",
+		"name": "NEustadt an der Saale",
+		"location": "Landkreis Rhön-Grabfeld",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NEU",
+		"name": "NEUstadt",
+		"location": "Landkreis Breisgau-Hochschwarzwald",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NEW",
+		"name": "NEustadt an der Waldnaab",
+		"location": "Landkreis Neustadt an der Waldnaab",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NF",
+		"name": "NordFriesland",
+		"location": "Kreis Nordfriesland",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NH",
+		"name": "NeuHaus",
+		"location": "Landkreis Sonneberg",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NI",
+		"name": "NIenburg",
+		"location": "Landkreis Nienburg/Weser",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NK",
+		"name": "NeunKirchen",
+		"location": "Landkreis Neunkirchen",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NL",
+		"name": "Niedersächsischer Landtag",
+		"location": "Niedersachsen, Landesregierung und Landtag",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NM",
+		"name": "NeuMarkt",
+		"location": "Landkreis Neumarkt in der Oberpfalz",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NMB",
+		"name": "NauMBurg",
+		"location": "Burgenlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NMS",
+		"name": "NeuMünSter",
+		"location": "Stadt Neumünster",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NÖ",
+		"name": "NÖrdlingen",
+		"location": "Landkreis Donau-Ries",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NOH",
+		"name": "NOrdHorn",
+		"location": "Landkreis Grafschaft Bentheim",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NOL",
+		"name": "Niederschlesische OberLausitz",
+		"location": "Landkreis Görlitz",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NOM",
+		"name": "NOrtheiM",
+		"location": "Landkreis Northeim",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NOR",
+		"name": "NORden",
+		"location": "Landkreis Aurich",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NP",
+		"name": "NeurupPin",
+		"location": "Landkreis Ostprignitz-Ruppin",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NR",
+		"name": "Neuwied am Rhein",
+		"location": "Landkreis Neuwied",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NRW",
+		"name": "NordRhein-Westfalen",
+		"location": "Nordrhein-Westfalen, Landesregierung, Landtag und Polizei",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NT",
+		"name": "NürTingen",
+		"location": "Landkreis Esslingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NU",
+		"name": "Neu-Ulm",
+		"location": "Landkreis Neu-Ulm",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NVP",
+		"name": "NordVorPommern",
+		"location": "Landkreis Vorpommern-Rügen ohne die Stadt Stralsund",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NW",
+		"name": "Neustadt an der Weinstraße",
+		"location": "Stadt Neustadt an der Weinstraße",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NWM",
+		"name": "NordWestMecklenburg",
+		"location": "Landkreis Nordwestmecklenburg ohne die Stadt Wismar",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NY",
+		"name": "NieskY",
+		"location": "Landkreis Görlitz",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "NZ",
+		"name": "NeustrelitZ",
+		"location": "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OA",
+		"name": "OberAllgäu",
+		"location": "Landkreis Oberallgäu",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OAL",
+		"name": "OstALlgäu",
+		"location": "Landkreis Ostallgäu",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OB",
+		"name": "OBerhausen",
+		"location": "Stadt Oberhausen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OBB",
+		"name": "OBernBurg",
+		"location": "Landkreis Miltenberg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OBG",
+		"name": "OsterBurG",
+		"location": "Landkreis Stendal",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OC",
+		"name": "OsChersleben",
+		"location": "Landkreis Börde",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OCH",
+		"name": "OCHsenfurt",
+		"location": "Landkreis Würzburg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OD",
+		"name": "OlDesloe",
+		"location": "Kreis Stormarn",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OE",
+		"name": "OlpE",
+		"location": "Kreis Olpe",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OF",
+		"name": "OFfenbach",
+		"location": "Landkreis Offenbach und Stadt Offenbach am Main",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OG",
+		"name": "OffenburG",
+		"location": "Ortenaukreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OH",
+		"name": "OstHolstein",
+		"location": "Kreis Ostholstein",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OHA",
+		"name": "Osterode am HArz",
+		"location": "Landkreis Göttingen ohne die Stadt Göttingen",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ÖHR",
+		"name": "ÖHRingen",
+		"location": "Hohenlohekreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OHV",
+		"name": "OberHaVel",
+		"location": "Landkreis Oberhavel",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OHZ",
+		"name": "OsterHolZ",
+		"location": "Landkreis Osterholz",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OK",
+		"name": "OhreKreis",
+		"location": "Landkreis Börde",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OL",
+		"name": "OLdenburg",
+		"location": "Stadt Oldenburg",
+		"county": "Niedersachsen",
+		"additional_names": [
+			"Landkreis Oldenburg"
+		]
+	},
+	{
+		"licenseNumber": "OP",
+		"name": "OPladen",
+		"location": "Stadt Leverkusen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OPR",
+		"name": "OstPrignitz, Ruppin",
+		"location": "Landkreis Ostprignitz-Ruppin",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OS",
+		"name": "OSnabrück",
+		"location": "Stadt Osnabrück",
+		"county": "Niedersachsen",
+		"additional_names": [
+			"Landkreis Osnabrück"
+		]
+	},
+	{
+		"licenseNumber": "OSL",
+		"name": "OberSpreewald, Lausitz",
+		"location": "Landkreis Oberspreewald-Lausitz",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OTW",
+		"name": "OTtWeiler",
+		"location": "Landkreis Neunkirchen",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OVI",
+		"name": "OberVIechtach",
+		"location": "Landkreis Schwandorf",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OVL",
+		"name": "OberVogtLand",
+		"location": "Vogtlandkreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "OZ",
+		"name": "OschatZ",
+		"location": "Landkreis Nordsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "P",
+		"name": "Potsdam",
+		"location": "Stadt Potsdam",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PA",
+		"name": "PAssau",
+		"location": "Stadt Passau",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Passau"
+		]
+	},
+	{
+		"licenseNumber": "PAF",
+		"name": "PfAFfenhofen",
+		"location": "Landkreis Pfaffenhofen an der Ilm",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PAN",
+		"name": "PfArrkircheN",
+		"location": "Landkreis Rottal-Inn",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PAR",
+		"name": "PARsberg",
+		"location": "Landkreis Kelheim",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Neumarkt in der Oberpfalz"
+		]
+	},
+	{
+		"licenseNumber": "PB",
+		"name": "PaderBorn",
+		"location": "Kreis Paderborn",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PCH",
+		"name": "ParCHim",
+		"location": "Landkreis Ludwigslust-Parchim",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PE",
+		"name": "PEine",
+		"location": "Landkreis Peine",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PEG",
+		"name": "PEGnitz",
+		"location": "Landkreis Bayreuth",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Forchheim",
+			"Landkreis Nürnberger Land"
+		]
+	},
+	{
+		"licenseNumber": "PF",
+		"name": "PForzheim",
+		"location": "Stadt Pforzheim",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Enzkreis"
+		]
+	},
+	{
+		"licenseNumber": "PI",
+		"name": "PInneberg",
+		"location": "Kreis Pinneberg",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PIR",
+		"name": "PIRna",
+		"location": "Landkreis Sächsische Schweiz-Osterzgebirge",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PL",
+		"name": "PLauen",
+		"location": "Vogtlandkreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PLÖ",
+		"name": "PLÖn",
+		"location": "Kreis Plön",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PM",
+		"name": "Potsdam, Mittelmark",
+		"location": "Landkreis Potsdam-Mittelmark",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PN",
+		"name": "PößNeck",
+		"location": "Saale-Orla-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PR",
+		"name": "PRignitz",
+		"location": "Landkreis Prignitz",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PRÜ",
+		"name": "PRÜm",
+		"location": "Eifelkreis Bitburg-Prüm",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PS",
+		"name": "PirmaSens",
+		"location": "Stadt Pirmasens",
+		"county": "Rheinland-Pfalz",
+		"additional_names": [
+			"Landkreis Südwestpfalz"
+		]
+	},
+	{
+		"licenseNumber": "PW",
+		"name": "PaseWalk",
+		"location": "Landkreis Vorpommern-Greifswald ohne die Stadt Greifswald",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "PZ",
+		"name": "PrenZlau",
+		"location": "Landkreis Uckermark",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "QFT",
+		"name": "QuerFurT",
+		"location": "Saalekreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "QLB",
+		"name": "QuedLinBurg",
+		"location": "Landkreis Harz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "R",
+		"name": "Regensburg",
+		"location": "Stadt Regensburg",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Regensburg"
+		]
+	},
+	{
+		"licenseNumber": "RA",
+		"name": "RAstatt",
+		"location": "Landkreis Rastatt",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RC",
+		"name": "ReiChenbach",
+		"location": "Vogtlandkreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RD",
+		"name": "RenDsburg",
+		"location": "Kreis Rendsburg-Eckernförde",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RDG",
+		"name": "Ribnitz-DamGarten",
+		"location": "Landkreis Vorpommern-Rügen ohne die Stadt Stralsund",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RE",
+		"name": "REcklinghausen",
+		"location": "Kreis Recklinghausen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "REG",
+		"name": "REGen",
+		"location": "Landkreis Regen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "REH",
+		"name": "REHau",
+		"location": "Landkreis Hof",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Wunsiedel im Fichtelgebirge"
+		]
+	},
+	{
+		"licenseNumber": "REI",
+		"name": "REIchenhall",
+		"location": "Landkreis Berchtesgadener Land",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RG",
+		"name": "Riesa, Großenhain",
+		"location": "Landkreis Meißen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RH",
+		"name": "RotH",
+		"location": "Landkreis Roth",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RI",
+		"name": "RInteln",
+		"location": "Landkreis Schaumburg",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RID",
+		"name": "RIeDenburg",
+		"location": "Landkreis Kelheim",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RIE",
+		"name": "RIEsa",
+		"location": "Landkreis Meißen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RL",
+		"name": "RochLitz",
+		"location": "Landkreis Mittelsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RM",
+		"name": "Röbel/Müritz",
+		"location": "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RN",
+		"name": "RatheNow",
+		"location": "Landkreis Havelland",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RO",
+		"name": "ROsenheim",
+		"location": "Stadt Rosenheim",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Rosenheim"
+		]
+	},
+	{
+		"licenseNumber": "ROD",
+		"name": "RODing",
+		"location": "Landkreis Cham",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Schwandorf"
+		]
+	},
+	{
+		"licenseNumber": "ROF",
+		"name": "ROtenburg an der Fulda",
+		"location": "Landkreis Hersfeld-Rotenburg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ROK",
+		"name": "ROcKenhausen",
+		"location": "Donnersbergkreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ROL",
+		"name": "ROttenburg an der Laaber",
+		"location": "Landkreis Kelheim",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Landshut"
+		]
+	},
+	{
+		"licenseNumber": "ROS",
+		"name": "ROStock",
+		"location": "Landkreis Rostock",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ROT",
+		"name": "ROthenburg ob der Tauber",
+		"location": "Landkreis Ansbach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ROW",
+		"name": "ROtenburg (Wümme)",
+		"location": "Landkreis Rotenburg (Wümme)",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RP",
+		"name": "Rhein-Pfalz",
+		"location": "Rhein-Pfalz-Kreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RPL",
+		"name": "Rheinland-Pfälzischer Landtag",
+		"location": "Rheinland-Pfalz, Landesregierung, Landtag und Polizei",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RS",
+		"name": "RemScheid",
+		"location": "Stadt Remscheid",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RSL",
+		"name": "RosSLau",
+		"location": "Stadt Dessau-Roßlau",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RT",
+		"name": "ReuTlingen",
+		"location": "Landkreis Reutlingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RU",
+		"name": "RUdolstadt",
+		"location": "Landkreis Saalfeld-Rudolstadt",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RÜD",
+		"name": "RÜDesheim",
+		"location": "Rheingau-Taunus-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RÜG",
+		"name": "RÜGen",
+		"location": "Landkreis Vorpommern-Rügen ohne die Stadt Stralsund",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RV",
+		"name": "RaVensburg",
+		"location": "Landkreis Ravensburg",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RW",
+		"name": "RottWeil",
+		"location": "Landkreis Rottweil",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "RZ",
+		"name": "RatZeburg",
+		"location": "Kreis Herzogtum Lauenburg",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "S",
+		"name": "Stuttgart",
+		"location": "Stadt Stuttgart",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SAB",
+		"name": "SAarBurg",
+		"location": "Landkreis Trier-Saarburg",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SAD",
+		"name": "SchwAnDorf",
+		"location": "Landkreis Schwandorf",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SÄK",
+		"name": "SÄcKingen",
+		"location": "Landkreis Waldshut",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SAL",
+		"name": "SAarländischer Landtag",
+		"location": "Saarland, Landesregierung, Landtag und Polizei",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SAN",
+		"name": "StAdtsteiNach",
+		"location": "Landkreis Hof",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Kronach",
+			"Landkreis Kulmbach"
+		]
+	},
+	{
+		"licenseNumber": "SAW",
+		"name": "SAlzWedel",
+		"location": "Altmarkkreis Salzwedel",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SB",
+		"name": "SaarBrücken",
+		"location": "Regionalverband Saarbrücken ohne die Stadt Völklingen",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SBG",
+		"name": "StrasBurG",
+		"location": "Landkreis Vorpommern-Greifswald ohne die Stadt Greifswald",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SBK",
+		"name": "SchöneBecK",
+		"location": "Salzlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SC",
+		"name": "SChwabach",
+		"location": "Stadt Schwabach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SCZ",
+		"name": "SChleiZ",
+		"location": "Saale-Orla-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SDH",
+		"name": "SonDersHausen",
+		"location": "Kyffhäuserkreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SDL",
+		"name": "StenDaL",
+		"location": "Landkreis Stendal",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SDT",
+		"name": "SchweDT",
+		"location": "Landkreis Uckermark",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SE",
+		"name": "SEgeberg",
+		"location": "Kreis Segeberg",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SEB",
+		"name": "SEBnitz",
+		"location": "Landkreis Sächsische Schweiz-Osterzgebirge",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SEE",
+		"name": "SEElow",
+		"location": "Landkreis Märkisch-Oderland",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SEF",
+		"name": "SchEinFeld",
+		"location": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SEL",
+		"name": "SELb",
+		"location": "Landkreis Wunsiedel im Fichtelgebirge",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SFB",
+		"name": "SenFtenBerg",
+		"location": "Landkreis Oberspreewald-Lausitz",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SFT",
+		"name": "StaßFurT",
+		"location": "Salzlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SG",
+		"name": "SolinGen",
+		"location": "Stadt Solingen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SGH",
+		"name": "SanGerHausen",
+		"location": "Landkreis Mansfeld-Südharz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SH",
+		"name": "Schleswig-Holstein",
+		"location": "Schleswig-Holstein, Landesregierung, Landtag und Polizei",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SHA",
+		"name": "Schwäbisch HAll",
+		"location": "Landkreis Schwäbisch Hall",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SHG",
+		"name": "StadtHaGen",
+		"location": "Landkreis Schaumburg",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SHK",
+		"name": "Saale-Holzland-Kreis",
+		"location": "Saale-Holzland-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SHL",
+		"name": "SuHL",
+		"location": "Stadt Suhl",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SI",
+		"name": "SIegen",
+		"location": "Kreis Siegen-Wittgenstein",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SIG",
+		"name": "SIGmaringen",
+		"location": "Landkreis Sigmaringen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SIM",
+		"name": "SIMmern",
+		"location": "Rhein-Hunsrück-Kreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SK",
+		"name": "SaaleKreis",
+		"location": "Saalekreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SL",
+		"name": "SchLeswig",
+		"location": "Kreis Schleswig-Flensburg",
+		"county": "Schleswig-Holstein",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SLE",
+		"name": "SchLEiden",
+		"location": "Kreis Düren",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": [
+			"Kreis Euskirchen"
+		]
+	},
+	{
+		"licenseNumber": "SLF",
+		"name": "SaaLFeld",
+		"location": "Landkreis Saalfeld-Rudolstadt",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SLG",
+		"name": "SauLGau",
+		"location": "Landkreis Ravensburg",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Sigmaringen"
+		]
+	},
+	{
+		"licenseNumber": "SLK",
+		"name": "SalzLandKreis",
+		"location": "Salzlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SLN",
+		"name": "SchmölLN",
+		"location": "Landkreis Altenburger Land",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SLS",
+		"name": "SaarLouiS",
+		"location": "Landkreis Saarlouis",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SLÜ",
+		"name": "SchLÜchtern",
+		"location": "Main-Kinzig-Kreis ohne die Stadt Hanau",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SLZ",
+		"name": "SaLZungen",
+		"location": "Wartburgkreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SM",
+		"name": "SchMalkalden",
+		"location": "Landkreis Schmalkalden-Meiningen",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SMÜ",
+		"name": "SchwabMÜnchen",
+		"location": "Landkreis Augsburg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SN",
+		"name": "SchweriN",
+		"location": "Stadt Schwerin",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SO",
+		"name": "SOest",
+		"location": "Kreis Soest",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SOB",
+		"name": "SchrOBenhausen",
+		"location": "Landkreis Neuburg-Schrobenhausen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SOG",
+		"name": "SchOnGau",
+		"location": "Landkreis Weilheim-Schongau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SOK",
+		"name": "Saale-Orla-Kreis",
+		"location": "Saale-Orla-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SÖM",
+		"name": "SÖMmerda",
+		"location": "Landkreis Sömmerda",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SON",
+		"name": "SONneberg",
+		"location": "Landkreis Sonneberg",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SP",
+		"name": "SPeyer",
+		"location": "Stadt Speyer",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SPB",
+		"name": "SPremBerg",
+		"location": "Landkreis Spree-Neiße",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SPN",
+		"name": "SPree, Neiße",
+		"location": "Landkreis Spree-Neiße",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SR",
+		"name": "StRaubing",
+		"location": "Landkreis Straubing-Bogen",
+		"county": "Bayern",
+		"additional_names": [
+			"Stadt Straubing"
+		]
+	},
+	{
+		"licenseNumber": "SRB",
+		"name": "StRausBerg",
+		"location": "Landkreis Märkisch-Oderland",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SRO",
+		"name": "StadtROda",
+		"location": "Saale-Holzland-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ST",
+		"name": "STeinfurt",
+		"location": "Kreis Steinfurt",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "STA",
+		"name": "STArnberg",
+		"location": "Landkreis Starnberg",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "STB",
+		"name": "STernBerg",
+		"location": "Landkreis Ludwigslust-Parchim",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "STD",
+		"name": "STaDe",
+		"location": "Landkreis Stade",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "STE",
+		"name": "STaffelstEin",
+		"location": "Landkreis Lichtenfels",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "STL",
+		"name": "STolLberg",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "STO",
+		"name": "STOckach",
+		"location": "Landkreis Konstanz",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Sigmaringen"
+		]
+	},
+	{
+		"licenseNumber": "SU",
+		"name": "SiegbUrg",
+		"location": "Rhein-Sieg-Kreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SUL",
+		"name": "SULzbach-Rosenberg",
+		"location": "Landkreis Amberg-Sulzbach",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SÜW",
+		"name": "SÜdliche Weinstraße",
+		"location": "Landkreis Südliche Weinstraße",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SW",
+		"name": "SchWeinfurt",
+		"location": "Stadt Schweinfurt",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Schweinfurt"
+		]
+	},
+	{
+		"licenseNumber": "SWA",
+		"name": "SchWAlbach",
+		"location": "Rheingau-Taunus-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SY",
+		"name": "SYke",
+		"location": "Landkreis Diepholz",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SZ",
+		"name": "SalZgitter",
+		"location": "Stadt Salzgitter",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "SZB",
+		"name": "SchwarZenBerg",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TBB",
+		"name": "TauBerBischofsheim",
+		"location": "Main-Tauber-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TDO",
+		"name": "Torgau, Delitzsch, Oschatz",
+		"location": "Landkreis Nordsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TE",
+		"name": "TEcklenburg",
+		"location": "Kreis Steinfurt",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TET",
+		"name": "TETerow",
+		"location": "Landkreis Rostock",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TF",
+		"name": "Teltow, Fläming",
+		"location": "Landkreis Teltow-Fläming",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TG",
+		"name": "TorGau",
+		"location": "Landkreis Nordsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "THL",
+		"name": "THüringer Landtag",
+		"location": "Thüringen, Landesregierung und Landtag",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "THW",
+		"name": "Technisches HilfsWerk",
+		"location": "Bundesanstalt Technisches Hilfswerk",
+		"county": "bundesweit",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TIR",
+		"name": "TIRschenreuth",
+		"location": "Landkreis Tirschenreuth",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TO",
+		"name": "Torgau, Oschatz",
+		"location": "Landkreis Nordsachsen",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TÖL",
+		"name": "TÖLz",
+		"location": "Landkreis Bad Tölz-Wolfratshausen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TP",
+		"name": "TemPlin",
+		"location": "Landkreis Uckermark",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TR",
+		"name": "TRier",
+		"location": "Landkreis Trier-Saarburg und Stadt Trier",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TS",
+		"name": "TraunStein",
+		"location": "Landkreis Traunstein",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TT",
+		"name": "TeTtnang",
+		"location": "Bodenseekreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TÜ",
+		"name": "TÜbingen",
+		"location": "Landkreis Tübingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "TUT",
+		"name": "TUTtlingen",
+		"location": "Landkreis Tuttlingen",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ÜB",
+		"name": "ÜBerlingen",
+		"location": "Bodenseekreis",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Landkreis Ravensburg",
+			"Landkreis Sigmaringen"
+		]
+	},
+	{
+		"licenseNumber": "UE",
+		"name": "UElzen",
+		"location": "Landkreis Uelzen",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "UEM",
+		"name": "UEckerMünde",
+		"location": "ehemaliger Kreis Ueckermünde",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "UFF",
+		"name": "UFFenheim",
+		"location": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "UH",
+		"name": "Unstrut, Hainich",
+		"location": "Unstrut-Hainich-Kreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "UL",
+		"name": "ULm",
+		"location": "Stadt Ulm",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Alb-Donau-Kreis"
+		]
+	},
+	{
+		"licenseNumber": "UM",
+		"name": "UckerMark",
+		"location": "Landkreis Uckermark",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "UN",
+		"name": "UNna",
+		"location": "Kreis Unna",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "USI",
+		"name": "USIngen",
+		"location": "Hochtaunuskreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "V",
+		"name": "Vogtland",
+		"location": "Vogtlandkreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VAI",
+		"name": "VAIhingen",
+		"location": "Landkreis Ludwigsburg",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VB",
+		"name": "VogelsBerg",
+		"location": "Vogelsbergkreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VEC",
+		"name": "VEChta",
+		"location": "Landkreis Vechta",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VER",
+		"name": "VERden",
+		"location": "Landkreis Verden",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VG",
+		"name": "Vorpommern-Greifswald",
+		"location": "Landkreis Vorpommern-Greifswald",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VIB",
+		"name": "VIlsBiburg",
+		"location": "Landkreis Landshut",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Mühldorf a.Inn",
+			"Landkreis Rottal-Inn"
+		]
+	},
+	{
+		"licenseNumber": "VIE",
+		"name": "VIErsen",
+		"location": "Kreis Viersen",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VIT",
+		"name": "VIechTach",
+		"location": "Landkreis Regen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VK",
+		"name": "VölKlingen",
+		"location": "Stadt Völklingen (Mittelstadt im Regionalverband Saarbrücken)",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VOH",
+		"name": "VOHenstrauß",
+		"location": "Landkreis Neustadt an der Waldnaab",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VR",
+		"name": "Vorpommern-Rügen",
+		"location": "Landkreis Vorpommern-Rügen",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "VS",
+		"name": "Villingen-Schwenningen",
+		"location": "Schwarzwald-Baar-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "W",
+		"name": "Wuppertal",
+		"location": "Stadt Wuppertal",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WA",
+		"name": "WAldeck",
+		"location": "Landkreis Waldeck-Frankenberg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WAF",
+		"name": "WArendorF",
+		"location": "Kreis Warendorf",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WAK",
+		"name": "WArtburgKreis",
+		"location": "Wartburgkreis",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WAN",
+		"name": "WANne",
+		"location": "Stadt Herne",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WAR",
+		"name": "WARburg",
+		"location": "Kreis Höxter",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WAT",
+		"name": "WATtenscheid",
+		"location": "Stadt Bochum",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WB",
+		"name": "WittenBerg",
+		"location": "Landkreis Wittenberg",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WBS",
+		"name": "WorBiS",
+		"location": "Landkreis Eichsfeld",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WDA",
+		"name": "WerDAu",
+		"location": "Landkreis Zwickau",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WE",
+		"name": "WEimar",
+		"location": "Stadt Weimar",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WEL",
+		"name": "WEiLburg",
+		"location": "Landkreis Limburg-Weilburg",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WEN",
+		"name": "WEideN",
+		"location": "Stadt Weiden in der Oberpfalz",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WER",
+		"name": "WERtingen",
+		"location": "Landkreis Augsburg",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Dillingen an der Donau"
+		]
+	},
+	{
+		"licenseNumber": "WES",
+		"name": "WESel",
+		"location": "Kreis Wesel",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WF",
+		"name": "WolFenbüttel",
+		"location": "Landkreis Wolfenbüttel",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WG",
+		"name": "WanGen",
+		"location": "Landkreis Ravensburg",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WHV",
+		"name": "WilhelmsHaVen",
+		"location": "Stadt Wilhelmshaven",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WI",
+		"name": "WIesbaden",
+		"location": "Stadt Wiesbaden",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WIL",
+		"name": "WIttLich",
+		"location": "Landkreis Bernkastel-Wittlich",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WIS",
+		"name": "WISmar",
+		"location": "ehemaliger Kreis Wismar",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WIT",
+		"name": "WITten",
+		"location": "Ennepe-Ruhr-Kreis",
+		"county": "Nordrhein-Westfalen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WIZ",
+		"name": "WItZenhausen",
+		"location": "Werra-Meißner-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WK",
+		"name": "WittstocK",
+		"location": "Landkreis Ostprignitz-Ruppin",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WL",
+		"name": "Winsen (Luhe)",
+		"location": "Landkreis Harburg",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WLG",
+		"name": "WoLGast",
+		"location": "ehemaliger Kreis Wolgast",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WM",
+		"name": "WeilheiM",
+		"location": "Landkreis Weilheim-Schongau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WMS",
+		"name": "WolMirStedt",
+		"location": "Landkreis Börde",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WN",
+		"name": "WaiblingeN",
+		"location": "Rems-Murr-Kreis",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WND",
+		"name": "WeNDel",
+		"location": "Landkreis St. Wendel",
+		"county": "Saarland",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WO",
+		"name": "WOrms",
+		"location": "Stadt Worms",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WOB",
+		"name": "WOlfsBurg",
+		"location": "Stadt Wolfsburg",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WOH",
+		"name": "WOlfHagen",
+		"location": "Landkreis Kassel",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WOL",
+		"name": "WOLfach",
+		"location": "Landkreis Freudenstadt",
+		"county": "Baden-Württemberg",
+		"additional_names": [
+			"Ortenaukreis"
+		]
+	},
+	{
+		"licenseNumber": "WOR",
+		"name": "WOlfRatshausen",
+		"location": "Landkreis Bad Tölz-Wolfratshausen",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis München",
+			"Landkreis Starnberg"
+		]
+	},
+	{
+		"licenseNumber": "WOS",
+		"name": "WOlfStein",
+		"location": "Landkreis Freyung-Grafenau",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WR",
+		"name": "WernigeRode",
+		"location": "Landkreis Harz",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WRN",
+		"name": "WaReN",
+		"location": "ehemaliger Kreis Waren",
+		"county": "Mecklenburg-Vorpommern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WS",
+		"name": "WasSerburg",
+		"location": "Landkreis Mühldorf a.Inn",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Rosenheim"
+		]
+	},
+	{
+		"licenseNumber": "WSF",
+		"name": "WeisSenFels",
+		"location": "Burgenlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WST",
+		"name": "WesterSTede",
+		"location": "Landkreis Ammerland",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WSW",
+		"name": "WeisSWasser",
+		"location": "Landkreis Görlitz",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WT",
+		"name": "WaldshuT",
+		"location": "Landkreis Waldshut",
+		"county": "Baden-Württemberg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WTL",
+		"name": "WitTLage",
+		"location": "Landkreis Osnabrück",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WTM",
+		"name": "WitTMund",
+		"location": "Landkreis Wittmund",
+		"county": "Niedersachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WÜ",
+		"name": "WÜrzburg",
+		"location": "Stadt Würzburg",
+		"county": "Bayern",
+		"additional_names": [
+			"Landkreis Würzburg"
+		]
+	},
+	{
+		"licenseNumber": "WUG",
+		"name": "WeißenbUrG",
+		"location": "Landkreis Weißenburg-Gunzenhausen",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WÜM",
+		"name": "WaldMÜnchen (mit einem Buchstabendreher)",
+		"location": "Landkreis Cham",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WUN",
+		"name": "WUNsiedel",
+		"location": "Landkreis Wunsiedel im Fichtelgebirge",
+		"county": "Bayern",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WUR",
+		"name": "WURzen",
+		"location": "Landkreis Leipzig",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WW",
+		"name": "WesterWald",
+		"location": "Westerwaldkreis",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WZ",
+		"name": "WetZlar",
+		"location": "Lahn-Dill-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "WZL",
+		"name": "WanZLeben",
+		"location": "Landkreis Börde",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "X",
+		"name": "willkürlich gewählt",
+		"location": "Internationale Hauptquartiere (NATO)",
+		"county": "bundesweit",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "Y",
+		"name": "„Y“ wurde genommen, da es bei Gründung der Bundeswehr noch frei war. „BW“ o. Ä. war bereits vergeben. (BW = Bundes-Wasserstraßen-Verwaltung)",
+		"location": "Bundeswehr",
+		"county": "",
+		"additional_names": [
+			"Y-1 Kfz des Generalinspekteurs der Bundeswehr"
+		]
+	},
+	{
+		"licenseNumber": "Z",
+		"name": "Zwickau",
+		"location": "Landkreis Zwickau",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZE",
+		"name": "ZErbst",
+		"location": "Landkreis Anhalt-Bitterfeld",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZEL",
+		"name": "ZELl",
+		"location": "Landkreis Cochem-Zell",
+		"county": "Rheinland-Pfalz",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZI",
+		"name": "ZIttau",
+		"location": "Landkreis Görlitz",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZIG",
+		"name": "ZIeGenhain",
+		"location": "Schwalm-Eder-Kreis",
+		"county": "Hessen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZP",
+		"name": "ZschoPau",
+		"location": "Erzgebirgskreis",
+		"county": "Sachsen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZR",
+		"name": "ZeulenRoda",
+		"location": "Landkreis Greiz",
+		"county": "Thüringen",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZS",
+		"name": "ZoSsen",
+		"location": "Landkreis Teltow-Fläming",
+		"county": "Brandenburg",
+		"additional_names": []
+	},
+	{
+		"licenseNumber": "ZW",
+		"name": "ZWeibrücken",
+		"location": "Stadt Zweibrücken",
+		"county": "Rheinland-Pfalz",
+		"additional_names": [
+			"Landkreis Südwestpfalz"
+		]
+	},
+	{
+		"licenseNumber": "ZZ",
+		"name": "ZeitZ",
+		"location": "Burgenlandkreis",
+		"county": "Sachsen-Anhalt",
+		"additional_names": []
+	}
+]

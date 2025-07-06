@@ -1,0 +1,13 @@
+{
+	"en": {
+		"licenseNumber": "License Number",
+		"county": "County",
+		"additional_names": "Additional Names"
+	},
+	"de": {
+		"licenseNumber": "Kennzeichen",
+		"county": "Bundesland",
+		"location": "Region",
+		"additional_names": "Weitere Namen"
+	}
+}

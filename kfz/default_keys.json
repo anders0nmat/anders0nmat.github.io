@@ -1,0 +1,14 @@
+{
+	"key-order": [
+		"licenseNumber",
+		"name",
+		"location",
+		"county",
+		"additional_names"
+	],
+	"key-list": [
+		"name",
+		"location",
+		"county"
+	]
+}

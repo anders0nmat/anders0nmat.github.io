@@ -1,0 +1,461 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+	animation-duration: 0.01ms !important;
+	animation-iteration-count: 1 !important;
+	transition-duration: 0.01ms !important;
+	scroll-behavior: auto !important;
+  }
+}
+/* ========================= END OF RESET ========================= */
+
+@font-face {
+	font-family: EuroPlate;
+	src: url(eu-plate.ttf);
+}
+
+:root {
+	--muted-background: light-dark(whitesmoke, rgb(22, 22, 22));
+	--background: light-dark(white, rgb(31, 31, 31));
+
+	--muted-text: light-dark(rgb(104, 104, 104), gray);
+
+	--separator: light-dark(rgb(226, 226, 226), rgb(56, 56, 56));
+	--selected: light-dark(rgb(0, 173, 226), rgb(0, 100, 167));
+
+	--europe-blue: #039;
+
+	--plate-border: light-dark(black, rgb(136, 136, 136));
+
+	color-scheme: light dark;
+
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+
+	margin-inline: auto;
+	max-width: 60ch;
+
+	background-color: var(--muted-background);
+}
+
+.titlebar {
+	background-color: var(--background);
+	display: flex;
+	flex-flow: column;
+
+	position: sticky;
+	top: 0;
+
+	padding: 0.75em 1em;
+
+	border-bottom: thin solid var(--separator);
+
+	& .row {
+		display: flex;
+		align-items: center;
+		justify-content: stretch;
+		gap: 0.5em;
+	}
+
+	#license-number {
+		flex-grow: 1;
+		border: 3px solid var(--plate-border);
+		border-right: none;
+		border-radius: 0.75em 0 0 0.75em;
+
+		font-family: EuroPlate;
+		padding: 0.25em 0.5em;
+
+		font-size: 1.25rem;
+
+		background: none;
+
+		&:placeholder-shown {
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		}
+
+		&:focus-within {
+			outline: none;
+			border-color: var(--selected);
+		}
+	}
+
+	#settings {
+		color: currentColor;
+	}
+
+	#back {
+		display: flex;
+		color: currentColor;
+		text-decoration: none;
+	}
+}
+
+#plate-list {
+	list-style: none;
+	padding: 0.5em 1em;
+	margin: 0;
+
+	display: grid;
+	grid-template-columns: max-content auto;
+	gap: 0.5em;
+	overflow: hidden;
+
+	& > li {
+		display: grid;
+		grid-template-columns: subgrid;
+		grid-column: 1 / -1;
+
+		align-items: start;
+
+		background-color: var(--background);
+		padding: 0.5em;
+
+		& > a {
+			display: contents;
+			color: currentColor;
+		}
+	}
+}
+
+
+.license-plate {
+	border: 3px solid var(--plate-border);
+	border-right: none;
+	border-radius: 0.75em 0 0 0.75em;
+	overflow: hidden;
+
+	display: flex;
+	align-items: stretch;
+	
+	& .eu-emblem {
+		background-color: var(--europe-blue);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5em;
+		color: white;
+		font-weight: 700;
+
+		padding: 0.25em;
+		line-height: 1;
+		
+		& img {
+			width: 2ch;
+		}
+	}
+
+	& .license-number {
+		font-family: EuroPlate;
+		margin: 0.125em 0.25em;
+
+		font-size: 2rem;
+	}
+}
+
+.plate-detail {
+	display: flex;
+	flex-direction: column;
+	font-size: 85%;
+
+	& tr {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		gap: 0.5ch;
+	}
+
+	& td:nth-of-type(1) {
+		display: block;
+		font-size: 75%;
+		font-variant: small-caps;
+		color: var(--muted-text);
+	}
+
+	& td:nth-of-type(2) {
+		white-space: pre-line;
+	}
+}
+
+#detail .plate-item {
+	margin-block: 0.5em;
+	padding: 0.5em 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+
+	background-color: var(--background);
+
+	.plate-detail {
+		gap: 0.5em;
+	}
+}
+
+#settings {
+	display: flex;
+	flex-direction: column;
+	margin-block: 0.5em;
+	padding-inline: 1em;
+
+	gap: 2em;
+
+	& > div {
+		& > span:first-of-type {
+			display: block;
+			font-variant: small-caps;
+		}
+
+		& > textarea {
+			width: 100%;
+
+			background: none;
+			border: thin solid var(--separator);
+			resize: vertical;
+		}
+	}
+}
+
+/*
+:root {
+	--muted-background: light-dark(whitesmoke, rgb(22, 22, 22));
+	--background: light-dark(white, rgb(31, 31, 31));
+
+	--separator: light-dark(rgb(226, 226, 226), rgb(56, 56, 56));
+
+	color-scheme: light dark;
+}
+
+body {
+	background-color: var(--muted-background);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+	margin-inline: auto;
+	max-width: fit-content;
+	background-color: var(--background);
+	padding: 3em;
+	padding-top: 1.5em;
+
+	display: flex;
+	flex-flow: column;
+	align-items: stretch;
+}
+
+@font-face {
+	font-family: EuroPlate;
+	src: url(eu-plate.ttf);
+}
+
+.license-plate {
+	border: 3px solid light-dark(black, rgb(145, 145, 145));
+	border-right: none;
+	border-radius: 0.5em 0 0 0.5em;
+
+	color: light-dark(black, rgb(206, 206, 206));
+	background: light-dark(white, rgb(22, 22, 22));
+
+	display: flex;
+	flex-flow: row nowrap;
+	padding-right: 1em;
+	overflow: hidden;
+}
+
+#plate-list {
+	display: grid;
+	grid-template-columns: min-content min-content minmax(10ch, 30ch);
+	grid-auto-rows: auto;
+	gap: 2em 1em;
+	padding: 0;
+
+	li {
+		display: contents;
+	}
+
+	.plate-item {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: subgrid;
+		grid-column: 1 / -1;
+
+		align-items: center;
+
+		color: currentColor;
+		text-decoration: none;
+
+		table {
+			grid-template-columns: subgrid;
+			grid-column: span 2;
+		}
+	}
+}
+
+.plate-item table {
+	display: grid;
+	grid-template-columns: min-content minmax(10ch, 30ch);
+	gap: 0.25em 0.5em;
+	align-items: first baseline;
+
+	tr {
+		display: grid;
+		grid-template-columns: subgrid;
+		grid-column: span 2;
+		
+		&:not(:first-of-type) {
+			border-top: thin solid var(--separator);
+		}
+	}
+}
+
+.plate-item td:nth-of-type(1) {
+	color: gray;
+	font-variant: small-caps;
+	font-size: 80%;
+	width: fit-content;
+}
+
+.plate-item td:nth-of-type(2) {
+	white-space: pre-line;
+}
+
+#license-number {
+	width: 10ch;
+	background: none;
+	padding-inline: 0.25em;
+
+	div:has(&) {
+		padding-block: 0.5em 1em;
+		border-bottom: thin solid var(--separator);
+		background: var(--background);
+		position: sticky;
+		top: 0;
+	}
+}
+
+.eu-emblem {
+	background-color: #039;
+	margin-right: 1em;
+	
+
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-inline: 0.25em;
+
+	& img {
+		width: 2em;
+	}
+	& .country-code {
+
+		color: white;
+		
+		font-weight: 600;
+		font-size: 1.25em;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.license-number {
+	font-family: EuroPlate;
+	font-size: 4rem;
+	white-space: pre;
+	word-spacing: 0.3ch;
+	width: 4ch;
+	border: none;
+	outline: none;
+	line-height: 1;
+	padding-block: 0.125em;
+}
+
+#detail {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 1em;
+
+	.plate-item {
+		display: contents;
+	}
+}
+
+#back {
+	display: inline-flex;
+	width: fit-content;
+	padding: 0.25em;
+
+	color: currentColor;
+	text-decoration: none;
+}
+*/

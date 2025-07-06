@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "ES2022",
+		"outDir": ".",
+		"target": "ES2022",
+		"strictNullChecks": true,
+		"isolatedModules": true,
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
