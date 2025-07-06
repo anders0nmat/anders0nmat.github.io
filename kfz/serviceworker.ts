@@ -1,7 +1,5 @@
 /// <reference lib="WebWorker" />
-export {}
 
-// declare var self: ServiceWorkerGlobalScope
 const cacheName = "v1"
 
 async function addToCache(resources: string[]) {
@@ -9,25 +7,22 @@ async function addToCache(resources: string[]) {
 	await cache.addAll(resources)
 }
 
-// self.addEventListener("install", event => {
-// 	event.waitUntil(
-// 		addToCache([
-// 			'/kfz/index.html',
-// 			'/kfz/index.css',
-// 			'/kfz/index.js',
+self.addEventListener("install", event => {
+	event.waitUntil(
+		addToCache([
+			'/kfz',
 			
-// 			'/kfz/settings.html',
-// 			'/kfz/settings.js',
+			'/kfz/settings',
 
-// 			'/kfz/data.json',
-// 			'/kfz/i18n.json',
-// 			'/kfz/default_keys.json',
+			'/kfz/data.json',
+			'/kfz/i18n.json',
+			'/kfz/default_keys.json',
 			
-// 			'/kfz/eu-plate.ttf',
-// 			'/kfz/eu-stars.svg',
-// 		])
-// 	)
-// })
+			'/kfz/eu-plate.ttf',
+			'/kfz/eu-stars.svg',
+		])
+	)
+})
 
 async function putInCache(request: RequestInfo, response: Response) {
 	const cache = await caches.open(cacheName)
@@ -48,6 +43,6 @@ async function cacheLast(request: RequestInfo, event: FetchEvent): Promise<Respo
 	}
 }
 
-// self.addEventListener("fetch", event => {
-// 	event.respondWith(cacheLast(event.request, event))
-// })
+self.addEventListener("fetch", event => {
+	event.respondWith(cacheLast(event.request, event))
+})

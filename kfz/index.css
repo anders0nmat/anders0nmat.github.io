@@ -280,6 +280,7 @@ body {
 			background: none;
 			border: thin solid var(--separator);
 			resize: vertical;
+			padding: 0.25em 0.5em;
 		}
 	}
 }
