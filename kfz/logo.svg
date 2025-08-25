@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#353535"
+     bordercolor="#898989"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#2b2b2b"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0716961"
+     inkscape:cx="40.123314"
+     inkscape:cy="201.08312"
+     inkscape:window-width="2560"
+     inkscape:window-height="1412"
+     inkscape:window-x="2560"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.136;stroke-linejoin:round;stroke-miterlimit:5;paint-order:stroke fill markers"
+       id="rect1"
+       width="135.46666"
+       height="135.46666"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#003399;fill-opacity:1;stroke:none;stroke-width:0.125122;stroke-linejoin:round;stroke-miterlimit:5;paint-order:stroke fill markers"
+       id="rect2"
+       width="49.526318"
+       height="135.46666"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.6667px;font-family:'Euro Plate';-inkscape-font-specification:'Euro Plate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:6.61458px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.136;stroke-linejoin:round;stroke-miterlimit:5;paint-order:stroke fill markers"
+       x="67.164894"
+       y="93.554344"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:'Euro Plate';-inkscape-font-specification:'Euro Plate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:6.61458px;fill:#000000;fill-opacity:1;stroke-width:0.136"
+         x="67.164894"
+         y="93.554344"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:'Euro Plate';-inkscape-font-specification:'Euro Plate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:10.5833px;fill:#ffffff;fill-opacity:1"
+           id="tspan3">K</tspan><tspan
+           style="letter-spacing:0px;word-spacing:-0.00264583px"
+           id="tspan5">FZ</tspan></tspan></text>
+  </g>
+</svg>
