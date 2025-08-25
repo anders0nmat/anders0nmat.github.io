@@ -32,6 +32,17 @@ async function cacheLast(request, event) {
         });
     }
 }
+async function cacheFirstUpdate(request, event) {
+    const cachedResponse = await caches.match(request);
+    if (cachedResponse) {
+        fetch(request)
+            .then(response => putInCache(request, response.clone()));
+        return cachedResponse;
+    }
+    const response = await fetch(request);
+    putInCache(request, response.clone());
+    return response;
+}
 self.addEventListener("fetch", event => {
-    event.respondWith(cacheLast(event.request, event));
+    event.respondWith(cacheFirstUpdate(event.request, event));
 });
