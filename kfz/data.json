@@ -5256,5 +5256,1015 @@
 		"location": "Burgenlandkreis",
 		"county": "Sachsen-Anhalt",
 		"additional_names": []
-	}
+	},
+	{
+        "licenseNumber": "0-10",
+        "name": "Diplomatenkennzeichen - Heiliger Stuhl bzw. Vatikanstadt",
+        "location": "Heiliger Stuhl bzw. Vatikanstadt"
+    },
+    {
+        "licenseNumber": "0-11",
+        "name": "Diplomatenkennzeichen - \u00c4gypten",
+        "location": "\u00c4gypten"
+    },
+    {
+        "licenseNumber": "0-12",
+        "name": "Diplomatenkennzeichen - Angola",
+        "location": "Angola"
+    },
+    {
+        "licenseNumber": "0-13",
+        "name": "Diplomatenkennzeichen - Albanien",
+        "location": "Albanien"
+    },
+    {
+        "licenseNumber": "0-14",
+        "name": "Diplomatenkennzeichen - \u00c4thiopien",
+        "location": "\u00c4thiopien"
+    },
+    {
+        "licenseNumber": "0-15",
+        "name": "Diplomatenkennzeichen - Afghanistan",
+        "location": "Afghanistan"
+    },
+    {
+        "licenseNumber": "0-16",
+        "name": "Diplomatenkennzeichen - Algerien",
+        "location": "Algerien"
+    },
+    {
+        "licenseNumber": "0-17",
+        "name": "Diplomatenkennzeichen - Vereinigte Staaten (USA)",
+        "location": "Vereinigte Staaten (USA)"
+    },
+    {
+        "licenseNumber": "0-18",
+        "name": "Diplomatenkennzeichen - Argentinien",
+        "location": "Argentinien"
+    },
+    {
+        "licenseNumber": "0-19",
+        "name": "Diplomatenkennzeichen - Australien",
+        "location": "Australien"
+    },
+    {
+        "licenseNumber": "0-20",
+        "name": "Diplomatenkennzeichen - Bangladesch",
+        "location": "Bangladesch"
+    },
+    {
+        "licenseNumber": "0-21",
+        "name": "Diplomatenkennzeichen - Belgien",
+        "location": "Belgien"
+    },
+    {
+        "licenseNumber": "0-22",
+        "name": "Diplomatenkennzeichen - Brunei",
+        "location": "Brunei"
+    },
+    {
+        "licenseNumber": "0-23",
+        "name": "Diplomatenkennzeichen - Bulgarien",
+        "location": "Bulgarien"
+    },
+    {
+        "licenseNumber": "0-24",
+        "name": "Diplomatenkennzeichen - Myanmar (fr\u00fcher Birma)",
+        "location": "Myanmar (fr\u00fcher Birma)"
+    },
+    {
+        "licenseNumber": "0-25",
+        "name": "Diplomatenkennzeichen - Bolivien",
+        "location": "Bolivien"
+    },
+    {
+        "licenseNumber": "0-26",
+        "name": "Diplomatenkennzeichen - Brasilien",
+        "location": "Brasilien"
+    },
+    {
+        "licenseNumber": "0-27",
+        "name": "Diplomatenkennzeichen - Burundi",
+        "location": "Burundi"
+    },
+    {
+        "licenseNumber": "0-28",
+        "name": "Diplomatenkennzeichen - Chile",
+        "location": "Chile"
+    },
+    {
+        "licenseNumber": "0-29",
+        "name": "Diplomatenkennzeichen - Volksrepublik China",
+        "location": "Volksrepublik China"
+    },
+    {
+        "licenseNumber": "0-30",
+        "name": "Diplomatenkennzeichen - Costa\u00a0Rica",
+        "location": "Costa\u00a0Rica"
+    },
+    {
+        "licenseNumber": "0-31",
+        "name": "Diplomatenkennzeichen - Belarus",
+        "location": "Belarus"
+    },
+    {
+        "licenseNumber": "0-32",
+        "name": "Diplomatenkennzeichen - Bosnien und Herzegowina",
+        "location": "Bosnien und Herzegowina"
+    },
+    {
+        "licenseNumber": "0-33",
+        "name": "Diplomatenkennzeichen - \u00c4quatorialguinea",
+        "location": "\u00c4quatorialguinea"
+    },
+    {
+        "licenseNumber": "0-34",
+        "name": "Diplomatenkennzeichen - D\u00e4nemark",
+        "location": "D\u00e4nemark"
+    },
+    {
+        "licenseNumber": "0-35",
+        "name": "Diplomatenkennzeichen - Benin (fr\u00fcher Dahomey)",
+        "location": "Benin (fr\u00fcher Dahomey)"
+    },
+    {
+        "licenseNumber": "0-36",
+        "name": "Diplomatenkennzeichen - Dominikanische Republik",
+        "location": "Dominikanische Republik"
+    },
+    {
+        "licenseNumber": "0-37",
+        "name": "Diplomatenkennzeichen - Ecuador",
+        "location": "Ecuador"
+    },
+    {
+        "licenseNumber": "0-38",
+        "name": "Diplomatenkennzeichen - Elfenbeink\u00fcste",
+        "location": "Elfenbeink\u00fcste"
+    },
+    {
+        "licenseNumber": "0-39",
+        "name": "Diplomatenkennzeichen - El Salvador",
+        "location": "El Salvador"
+    },
+    {
+        "licenseNumber": "0-40",
+        "name": "Diplomatenkennzeichen - Kosovo",
+        "location": "Kosovo"
+    },
+    {
+        "licenseNumber": "0-41",
+        "name": "Diplomatenkennzeichen - Estland",
+        "location": "Estland"
+    },
+    {
+        "licenseNumber": "0-42",
+        "name": "Diplomatenkennzeichen - Liechtenstein",
+        "location": "Liechtenstein"
+    },
+    {
+        "licenseNumber": "0-43",
+        "name": "Diplomatenkennzeichen - Montenegro",
+        "location": "Montenegro"
+    },
+    {
+        "licenseNumber": "0-44",
+        "name": "Diplomatenkennzeichen - Finnland",
+        "location": "Finnland"
+    },
+    {
+        "licenseNumber": "0-45",
+        "name": "Diplomatenkennzeichen - Frankreich",
+        "location": "Frankreich"
+    },
+    {
+        "licenseNumber": "0-46",
+        "name": "Diplomatenkennzeichen - Gabun",
+        "location": "Gabun"
+    },
+    {
+        "licenseNumber": "0-47",
+        "name": "Diplomatenkennzeichen - Ghana",
+        "location": "Ghana"
+    },
+    {
+        "licenseNumber": "0-48",
+        "name": "Diplomatenkennzeichen - Griechenland",
+        "location": "Griechenland"
+    },
+    {
+        "licenseNumber": "0-49",
+        "name": "Diplomatenkennzeichen - Vereinigtes K\u00f6nigreich (\u201eGro\u00dfbritannien\u201c)",
+        "location": "Vereinigtes K\u00f6nigreich (\u201eGro\u00dfbritannien\u201c)"
+    },
+    {
+        "licenseNumber": "0-50",
+        "name": "Diplomatenkennzeichen - Guatemala",
+        "location": "Guatemala"
+    },
+    {
+        "licenseNumber": "0-51",
+        "name": "Diplomatenkennzeichen - Guinea",
+        "location": "Guinea"
+    },
+    {
+        "licenseNumber": "0-52",
+        "name": "Diplomatenkennzeichen - Lettland",
+        "location": "Lettland"
+    },
+    {
+        "licenseNumber": "0-53",
+        "name": "Diplomatenkennzeichen - Litauen",
+        "location": "Litauen"
+    },
+    {
+        "licenseNumber": "0-54",
+        "name": "Diplomatenkennzeichen - Haiti",
+        "location": "Haiti"
+    },
+    {
+        "licenseNumber": "0-55",
+        "name": "Diplomatenkennzeichen - Honduras",
+        "location": "Honduras"
+    },
+    {
+        "licenseNumber": "0-56",
+        "name": "Diplomatenkennzeichen - Indien",
+        "location": "Indien"
+    },
+    {
+        "licenseNumber": "0-57",
+        "name": "Diplomatenkennzeichen - Indonesien",
+        "location": "Indonesien"
+    },
+    {
+        "licenseNumber": "0-58",
+        "name": "Diplomatenkennzeichen - Irak",
+        "location": "Irak"
+    },
+    {
+        "licenseNumber": "0-59",
+        "name": "Diplomatenkennzeichen - Iran",
+        "location": "Iran"
+    },
+    {
+        "licenseNumber": "0-60",
+        "name": "Diplomatenkennzeichen - Irland",
+        "location": "Irland"
+    },
+    {
+        "licenseNumber": "0-61",
+        "name": "Diplomatenkennzeichen - Island",
+        "location": "Island"
+    },
+    {
+        "licenseNumber": "0-62",
+        "name": "Diplomatenkennzeichen - Laos",
+        "location": "Laos"
+    },
+    {
+        "licenseNumber": "0-63",
+        "name": "Diplomatenkennzeichen - Kap Verde",
+        "location": "Kap Verde"
+    },
+    {
+        "licenseNumber": "0-64",
+        "name": "Diplomatenkennzeichen - Israel",
+        "location": "Israel"
+    },
+    {
+        "licenseNumber": "0-65",
+        "name": "Diplomatenkennzeichen - Italien",
+        "location": "Italien"
+    },
+    {
+        "licenseNumber": "0-66",
+        "name": "Diplomatenkennzeichen - Jamaika",
+        "location": "Jamaika"
+    },
+    {
+        "licenseNumber": "0-67",
+        "name": "Diplomatenkennzeichen - Japan",
+        "location": "Japan"
+    },
+    {
+        "licenseNumber": "0-68",
+        "name": "Diplomatenkennzeichen - Jemen",
+        "location": "Jemen"
+    },
+    {
+        "licenseNumber": "0-69",
+        "name": "Diplomatenkennzeichen - Jordanien",
+        "location": "Jordanien"
+    },
+    {
+        "licenseNumber": "0-70",
+        "name": "Diplomatenkennzeichen - Serbien (fr\u00fcher \u00a0\u00a0BR Jugoslawien)",
+        "location": "Serbien (fr\u00fcher \u00a0\u00a0BR Jugoslawien)"
+    },
+    {
+        "licenseNumber": "0-71",
+        "name": "Diplomatenkennzeichen - Kuwait",
+        "location": "Kuwait"
+    },
+    {
+        "licenseNumber": "0-72",
+        "name": "Diplomatenkennzeichen - Kuba",
+        "location": "Kuba"
+    },
+    {
+        "licenseNumber": "0-73",
+        "name": "Diplomatenkennzeichen - Katar",
+        "location": "Katar"
+    },
+    {
+        "licenseNumber": "0-74",
+        "name": "Diplomatenkennzeichen - Kamerun",
+        "location": "Kamerun"
+    },
+    {
+        "licenseNumber": "0-75",
+        "name": "Diplomatenkennzeichen - Kanada",
+        "location": "Kanada"
+    },
+    {
+        "licenseNumber": "0-76",
+        "name": "Diplomatenkennzeichen - Kenia",
+        "location": "Kenia"
+    },
+    {
+        "licenseNumber": "0-77",
+        "name": "Diplomatenkennzeichen - Kolumbien",
+        "location": "Kolumbien"
+    },
+    {
+        "licenseNumber": "0-78",
+        "name": "Diplomatenkennzeichen - Republik Kongo",
+        "location": "Republik Kongo"
+    },
+    {
+        "licenseNumber": "0-79",
+        "name": "Diplomatenkennzeichen - S\u00fcdkorea (\u201eKorea\u201c)",
+        "location": "S\u00fcdkorea (\u201eKorea\u201c)"
+    },
+    {
+        "licenseNumber": "0-80",
+        "name": "Diplomatenkennzeichen - Libanon",
+        "location": "Libanon"
+    },
+    {
+        "licenseNumber": "0-81",
+        "name": "Diplomatenkennzeichen - Liberia",
+        "location": "Liberia"
+    },
+    {
+        "licenseNumber": "0-82",
+        "name": "Diplomatenkennzeichen - Libyen",
+        "location": "Libyen"
+    },
+    {
+        "licenseNumber": "0-83",
+        "name": "Diplomatenkennzeichen - Lesotho",
+        "location": "Lesotho"
+    },
+    {
+        "licenseNumber": "0-84",
+        "name": "Diplomatenkennzeichen - Luxemburg",
+        "location": "Luxemburg"
+    },
+    {
+        "licenseNumber": "0-85",
+        "name": "Diplomatenkennzeichen - Madagaskar",
+        "location": "Madagaskar"
+    },
+    {
+        "licenseNumber": "0-86",
+        "name": "Diplomatenkennzeichen - Malawi",
+        "location": "Malawi"
+    },
+    {
+        "licenseNumber": "0-87",
+        "name": "Diplomatenkennzeichen - Malaysia",
+        "location": "Malaysia"
+    },
+    {
+        "licenseNumber": "0-88",
+        "name": "Diplomatenkennzeichen - Mali",
+        "location": "Mali"
+    },
+    {
+        "licenseNumber": "0-89",
+        "name": "Diplomatenkennzeichen - Marokko",
+        "location": "Marokko"
+    },
+    {
+        "licenseNumber": "0-90",
+        "name": "Diplomatenkennzeichen - Mauretanien",
+        "location": "Mauretanien"
+    },
+    {
+        "licenseNumber": "0-91",
+        "name": "Diplomatenkennzeichen - Mexiko",
+        "location": "Mexiko"
+    },
+    {
+        "licenseNumber": "0-92",
+        "name": "Diplomatenkennzeichen - Malta",
+        "location": "Malta"
+    },
+    {
+        "licenseNumber": "0-93",
+        "name": "Diplomatenkennzeichen - Monaco",
+        "location": "Monaco"
+    },
+    {
+        "licenseNumber": "0-94",
+        "name": "Diplomatenkennzeichen - Nepal",
+        "location": "Nepal"
+    },
+    {
+        "licenseNumber": "0-95",
+        "name": "Diplomatenkennzeichen - Neuseeland",
+        "location": "Neuseeland"
+    },
+    {
+        "licenseNumber": "0-96",
+        "name": "Diplomatenkennzeichen - Nicaragua",
+        "location": "Nicaragua"
+    },
+    {
+        "licenseNumber": "0-97",
+        "name": "Diplomatenkennzeichen - Niederlande",
+        "location": "Niederlande"
+    },
+    {
+        "licenseNumber": "0-98",
+        "name": "Diplomatenkennzeichen - Niger",
+        "location": "Niger"
+    },
+    {
+        "licenseNumber": "0-99",
+        "name": "Diplomatenkennzeichen - Nigeria",
+        "location": "Nigeria"
+    },
+    {
+        "licenseNumber": "0-100",
+        "name": "Diplomatenkennzeichen - Norwegen",
+        "location": "Norwegen"
+    },
+    {
+        "licenseNumber": "0-101",
+        "name": "Diplomatenkennzeichen - Mongolei",
+        "location": "Mongolei"
+    },
+    {
+        "licenseNumber": "0-102",
+        "name": "Diplomatenkennzeichen - Mosambik",
+        "location": "Mosambik"
+    },
+    {
+        "licenseNumber": "0-103",
+        "name": "Diplomatenkennzeichen - Oman",
+        "location": "Oman"
+    },
+    {
+        "licenseNumber": "0-104",
+        "name": "Diplomatenkennzeichen - Burkina\u00a0Faso (fr\u00fcher \u00a0\u00a0Obervolta)",
+        "location": "Burkina\u00a0Faso (fr\u00fcher \u00a0\u00a0Obervolta)"
+    },
+    {
+        "licenseNumber": "0-105",
+        "name": "Diplomatenkennzeichen - \u00d6sterreich",
+        "location": "\u00d6sterreich"
+    },
+    {
+        "licenseNumber": "0-106",
+        "name": "Diplomatenkennzeichen - Pakistan",
+        "location": "Pakistan"
+    },
+    {
+        "licenseNumber": "0-107",
+        "name": "Diplomatenkennzeichen - Panama",
+        "location": "Panama"
+    },
+    {
+        "licenseNumber": "0-108",
+        "name": "Diplomatenkennzeichen - Paraguay",
+        "location": "Paraguay"
+    },
+    {
+        "licenseNumber": "0-109",
+        "name": "Diplomatenkennzeichen - Peru",
+        "location": "Peru"
+    },
+    {
+        "licenseNumber": "0-110",
+        "name": "Diplomatenkennzeichen - Philippinen",
+        "location": "Philippinen"
+    },
+    {
+        "licenseNumber": "0-111",
+        "name": "Diplomatenkennzeichen - Polen",
+        "location": "Polen"
+    },
+    {
+        "licenseNumber": "0-112",
+        "name": "Diplomatenkennzeichen - Portugal",
+        "location": "Portugal"
+    },
+    {
+        "licenseNumber": "0-113",
+        "name": "Diplomatenkennzeichen - Papua-Neuguinea (derzeit keine Botschaft)",
+        "location": "Papua-Neuguinea (derzeit keine Botschaft)"
+    },
+    {
+        "licenseNumber": "0-114",
+        "name": "Diplomatenkennzeichen - Namibia",
+        "location": "Namibia"
+    },
+    {
+        "licenseNumber": "0-115",
+        "name": "Diplomatenkennzeichen - Ruanda",
+        "location": "Ruanda"
+    },
+    {
+        "licenseNumber": "0-116",
+        "name": "Diplomatenkennzeichen - Rum\u00e4nien",
+        "location": "Rum\u00e4nien"
+    },
+    {
+        "licenseNumber": "0-117",
+        "name": "Diplomatenkennzeichen - Sambia",
+        "location": "Sambia"
+    },
+    {
+        "licenseNumber": "0-118",
+        "name": "Diplomatenkennzeichen - Saudi-Arabien",
+        "location": "Saudi-Arabien"
+    },
+    {
+        "licenseNumber": "0-119",
+        "name": "Diplomatenkennzeichen - Schweden",
+        "location": "Schweden"
+    },
+    {
+        "licenseNumber": "0-120",
+        "name": "Diplomatenkennzeichen - Schweiz",
+        "location": "Schweiz"
+    },
+    {
+        "licenseNumber": "0-121",
+        "name": "Diplomatenkennzeichen - Senegal",
+        "location": "Senegal"
+    },
+    {
+        "licenseNumber": "0-122",
+        "name": "Diplomatenkennzeichen - Sierra Leone",
+        "location": "Sierra Leone"
+    },
+    {
+        "licenseNumber": "0-123",
+        "name": "Diplomatenkennzeichen - Singapur",
+        "location": "Singapur"
+    },
+    {
+        "licenseNumber": "0-124",
+        "name": "Diplomatenkennzeichen - Simbabwe",
+        "location": "Simbabwe"
+    },
+    {
+        "licenseNumber": "0-125",
+        "name": "Diplomatenkennzeichen - Somalia",
+        "location": "Somalia"
+    },
+    {
+        "licenseNumber": "0-126",
+        "name": "Diplomatenkennzeichen - Spanien",
+        "location": "Spanien"
+    },
+    {
+        "licenseNumber": "0-127",
+        "name": "Diplomatenkennzeichen - Sri Lanka",
+        "location": "Sri Lanka"
+    },
+    {
+        "licenseNumber": "0-128",
+        "name": "Diplomatenkennzeichen - Sudan",
+        "location": "Sudan"
+    },
+    {
+        "licenseNumber": "0-129",
+        "name": "Diplomatenkennzeichen - S\u00fcdafrika",
+        "location": "S\u00fcdafrika"
+    },
+    {
+        "licenseNumber": "0-130",
+        "name": "Diplomatenkennzeichen - Syrien",
+        "location": "Syrien"
+    },
+    {
+        "licenseNumber": "0-131",
+        "name": "Diplomatenkennzeichen - Tansania",
+        "location": "Tansania"
+    },
+    {
+        "licenseNumber": "0-132",
+        "name": "Diplomatenkennzeichen - Thailand",
+        "location": "Thailand"
+    },
+    {
+        "licenseNumber": "0-133",
+        "name": "Diplomatenkennzeichen - Togo",
+        "location": "Togo"
+    },
+    {
+        "licenseNumber": "0-134",
+        "name": "Diplomatenkennzeichen - Tonga (derzeit keine Botschaft)",
+        "location": "Tonga (derzeit keine Botschaft)"
+    },
+    {
+        "licenseNumber": "0-135",
+        "name": "Diplomatenkennzeichen - Tschechien",
+        "location": "Tschechien"
+    },
+    {
+        "licenseNumber": "0-136",
+        "name": "Diplomatenkennzeichen - Tschad",
+        "location": "Tschad"
+    },
+    {
+        "licenseNumber": "0-137",
+        "name": "Diplomatenkennzeichen - T\u00fcrkei",
+        "location": "T\u00fcrkei"
+    },
+    {
+        "licenseNumber": "0-138",
+        "name": "Diplomatenkennzeichen - Tunesien",
+        "location": "Tunesien"
+    },
+    {
+        "licenseNumber": "0-139",
+        "name": "Diplomatenkennzeichen - Uganda",
+        "location": "Uganda"
+    },
+    {
+        "licenseNumber": "0-140",
+        "name": "Diplomatenkennzeichen - Russland (fr\u00fcher \u201eUdSSR\u201c \u2192\u00a0\u00a0Sowjetunion)",
+        "location": "Russland (fr\u00fcher \u201eUdSSR\u201c \u2192\u00a0\u00a0Sowjetunion)"
+    },
+    {
+        "licenseNumber": "0-141",
+        "name": "Diplomatenkennzeichen - Uruguay",
+        "location": "Uruguay"
+    },
+    {
+        "licenseNumber": "0-142",
+        "name": "Diplomatenkennzeichen - Ungarn",
+        "location": "Ungarn"
+    },
+    {
+        "licenseNumber": "0-143",
+        "name": "Diplomatenkennzeichen - Ukraine",
+        "location": "Ukraine"
+    },
+    {
+        "licenseNumber": "0-144",
+        "name": "Diplomatenkennzeichen - Grenada (derzeit keine Botschaft)",
+        "location": "Grenada (derzeit keine Botschaft)"
+    },
+    {
+        "licenseNumber": "0-145",
+        "name": "Diplomatenkennzeichen - frei",
+        "location": "frei"
+    },
+    {
+        "licenseNumber": "0-146",
+        "name": "Diplomatenkennzeichen - Venezuela",
+        "location": "Venezuela"
+    },
+    {
+        "licenseNumber": "0-147",
+        "name": "Diplomatenkennzeichen - Vietnam",
+        "location": "Vietnam"
+    },
+    {
+        "licenseNumber": "0-148",
+        "name": "Diplomatenkennzeichen - Vereinigte Arabische Emirate",
+        "location": "Vereinigte Arabische Emirate"
+    },
+    {
+        "licenseNumber": "0-149",
+        "name": "Diplomatenkennzeichen - frei",
+        "location": "frei"
+    },
+    {
+        "licenseNumber": "0-150",
+        "name": "Diplomatenkennzeichen - frei",
+        "location": "frei"
+    },
+    {
+        "licenseNumber": "0-151",
+        "name": "Diplomatenkennzeichen - Demokratische Republik Kongo (fr\u00fcher \u00a0\u00a0Zaire)",
+        "location": "Demokratische Republik Kongo (fr\u00fcher \u00a0\u00a0Zaire)"
+    },
+    {
+        "licenseNumber": "0-152",
+        "name": "Diplomatenkennzeichen - Zentralafrikanische Republik (derzeit keine Botschaft)",
+        "location": "Zentralafrikanische Republik (derzeit keine Botschaft)"
+    },
+    {
+        "licenseNumber": "0-153",
+        "name": "Diplomatenkennzeichen - Zypern",
+        "location": "Zypern"
+    },
+    {
+        "licenseNumber": "0-154",
+        "name": "Diplomatenkennzeichen - Kroatien",
+        "location": "Kroatien"
+    },
+    {
+        "licenseNumber": "0-155",
+        "name": "Diplomatenkennzeichen - Slowenien",
+        "location": "Slowenien"
+    },
+    {
+        "licenseNumber": "0-156",
+        "name": "Diplomatenkennzeichen - Aserbaidschan",
+        "location": "Aserbaidschan"
+    },
+    {
+        "licenseNumber": "0-157",
+        "name": "Diplomatenkennzeichen - Slowakei",
+        "location": "Slowakei"
+    },
+    {
+        "licenseNumber": "0-158",
+        "name": "Diplomatenkennzeichen - Kasachstan",
+        "location": "Kasachstan"
+    },
+    {
+        "licenseNumber": "0-159",
+        "name": "Diplomatenkennzeichen - Nordmazedonien",
+        "location": "Nordmazedonien"
+    },
+    {
+        "licenseNumber": "0-160",
+        "name": "Diplomatenkennzeichen - Usbekistan",
+        "location": "Usbekistan"
+    },
+    {
+        "licenseNumber": "0-161",
+        "name": "Diplomatenkennzeichen - Eritrea",
+        "location": "Eritrea"
+    },
+    {
+        "licenseNumber": "0-162",
+        "name": "Diplomatenkennzeichen - Georgien",
+        "location": "Georgien"
+    },
+    {
+        "licenseNumber": "0-163",
+        "name": "Diplomatenkennzeichen - Tadschikistan",
+        "location": "Tadschikistan"
+    },
+    {
+        "licenseNumber": "0-164",
+        "name": "Diplomatenkennzeichen - Bahrain",
+        "location": "Bahrain"
+    },
+    {
+        "licenseNumber": "0-165",
+        "name": "Diplomatenkennzeichen - Kambodscha",
+        "location": "Kambodscha"
+    },
+    {
+        "licenseNumber": "0-166",
+        "name": "Diplomatenkennzeichen - Armenien",
+        "location": "Armenien"
+    },
+    {
+        "licenseNumber": "0-167",
+        "name": "Diplomatenkennzeichen - Kirgisistan",
+        "location": "Kirgisistan"
+    },
+    {
+        "licenseNumber": "0-168",
+        "name": "Diplomatenkennzeichen - Moldau",
+        "location": "Moldau"
+    },
+    {
+        "licenseNumber": "0-169",
+        "name": "Diplomatenkennzeichen - Turkmenistan",
+        "location": "Turkmenistan"
+    },
+    {
+        "licenseNumber": "0-200",
+        "name": "Diplomatenkennzeichen - Mauritius",
+        "location": "Mauritius"
+    },
+    {
+        "licenseNumber": "0-201",
+        "name": "Diplomatenkennzeichen - Nordkorea",
+        "location": "Nordkorea"
+    },
+    {
+        "licenseNumber": "0-202",
+        "name": "Diplomatenkennzeichen - Dschibuti",
+        "location": "Dschibuti"
+    },
+    {
+        "licenseNumber": "0-203",
+        "name": "Diplomatenkennzeichen - Guinea-Bissau",
+        "location": "Guinea-Bissau"
+    },
+    {
+        "licenseNumber": "0-204",
+        "name": "Diplomatenkennzeichen - S\u00fcdsudan",
+        "location": "S\u00fcdsudan"
+    },
+    {
+        "licenseNumber": "0-205",
+        "name": "Diplomatenkennzeichen - Botswana",
+        "location": "Botswana"
+    },
+    {
+        "licenseNumber": "0-206",
+        "name": "Diplomatenkennzeichen - Malediven",
+        "location": "Malediven"
+    },
+	{
+        "licenseNumber": "0-170",
+        "name": "Internationale Arbeitsorganisation (ILO)",
+        "location": "Berlin"
+    },
+    {
+        "licenseNumber": "0-171",
+        "name": "Europ\u00e4ische Zentralbank (EZB)",
+        "location": "Frankfurt am Main"
+    },
+    {
+        "licenseNumber": "0-172",
+        "name": "Europ\u00e4ische Agentur f\u00fcr Flugsicherheit (EASA)",
+        "location": "K\u00f6ln"
+    },
+    {
+        "licenseNumber": "0-173",
+        "name": "Vereinte Nationen, Der Hohe Fl\u00fcchtlingskommissar (UNHCR)",
+        "location": "Berlin"
+    },
+    {
+        "licenseNumber": "0-174",
+        "name": "Gemeinsame Organisation f\u00fcr R\u00fcstungskooperation (OCCAR)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-175",
+        "name": "Verbindungsstelle der International Organisation for Migration (IOM)\n[bislang: Zwischenstaatliches Komitee f\u00fcr Europ\u00e4ische Auswanderung (ICEM), Bonn]",
+        "location": "Berlin"
+    },
+    {
+        "licenseNumber": "0-176",
+        "name": "B\u00fcro der Liga der Arabischen Staaten",
+        "location": "Berlin"
+    },
+    {
+        "licenseNumber": "0-177",
+        "name": "Deutsch-Franz\u00f6sisches Jugendwerk (DFJW), Generalsekretariat",
+        "location": "Berlin"
+    },
+    {
+        "licenseNumber": "",
+        "name": "Europ\u00e4isches Operations-Zentrum f\u00fcr Weltraumforschung (ESOC)",
+        "location": "Darmstadt"
+    },
+    {
+        "licenseNumber": "",
+        "name": "NATO EF 2000 and Tornado Development, Production & Logistics Management Agency (NETMA)\n[bislang: NATO-Organisation f\u00fcr Produktion und Logistik, M\u00fcnchen (NAMMA), M\u00fcnchen]",
+        "location": "Unterhaching"
+    },
+    {
+        "licenseNumber": "0-180",
+        "name": "Europ\u00e4ische S\u00fcdsternwarte (ESO)",
+        "location": "Garching bei M\u00fcnchen"
+    },
+    {
+        "licenseNumber": "0-181",
+        "name": "Europ\u00e4isches Laboratorium f\u00fcr Molekularbiologie (EMBL)",
+        "location": "Heidelberg"
+    },
+    {
+        "licenseNumber": "0-182",
+        "name": "Europ\u00e4ische Kommission \u2013 Vertretung in Deutschland \u2212",
+        "location": ""
+    },
+    {
+        "licenseNumber": "0-183",
+        "name": "Europ\u00e4isches Patentamt (EPA)",
+        "location": "M\u00fcnchen"
+    },
+    {
+        "licenseNumber": "",
+        "name": "Organisation f\u00fcr wirtschaftliche Zusammenarbeit und Entwicklung (OECD)",
+        "location": "Berlin"
+    },
+    {
+        "licenseNumber": "0-185",
+        "name": "Weltern\u00e4hrungsprogramm der Vereinten Nationen \u2013 B\u00fcro Berlin \u2013",
+        "location": "Berlin"
+    },
+    {
+        "licenseNumber": "",
+        "name": "Europ\u00e4ische Organisation f\u00fcr die Nutzung meteorologischer Satelliten (EUMETSAT)",
+        "location": "Darmstadt"
+    },
+    {
+        "licenseNumber": "",
+        "name": "Europ\u00e4isches Astronautenzentrum (EAC)",
+        "location": "K\u00f6ln"
+    },
+    {
+        "licenseNumber": "0-188",
+        "name": "UNESCO-Institut f\u00fcr Lebenslanges Lernen",
+        "location": "Hamburg"
+    },
+    {
+        "licenseNumber": "0-189",
+        "name": "Deutsch-Polnisches Jugendwerk (DPJW)",
+        "location": "Potsdam"
+    },
+    {
+        "licenseNumber": "0-190",
+        "name": "Weltbank (IFC)",
+        "location": "Frankfurt am Main"
+    },
+    {
+        "licenseNumber": "0-191",
+        "name": "Europ\u00e4isches Zentrum f\u00fcr Umwelt und Gesundheit \u2013 Weltgesundheitsorganisation \u2013 Regionalb\u00fcro f\u00fcr Europa",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-192",
+        "name": "Umweltprogramm der Vereinten Nationen \u2013 Sekretariat zur Erhaltung der wandernden wildlebenden Tierarten (GMS)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-193",
+        "name": "Sekretariat der Klimarahmen-Konvention (UNFCCC)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-194",
+        "name": "Freiwilligenprogramm der Vereinten Nationen (UNV)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-195",
+        "name": "Internationaler Seegerichtshof (ISGH)",
+        "location": "Hamburg"
+    },
+    {
+        "licenseNumber": "0-196",
+        "name": "Informationszentrum der Vereinten Nationen (UNIC)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-197",
+        "name": "UN-Sekretariat der W\u00fcstenkonvention (UNCCD)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-198",
+        "name": "UNESCO-Internationales Zentrum f\u00fcr Berufsbildung (UNESCO-Centre)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-199",
+        "name": "Universit\u00e4t der Vereinten Nationen \u2013 Forschungsinstitut f\u00fcr Katastrophenmanagement \u2212",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-300",
+        "name": "Plattform der Vereinten Nationen f\u00fcr raumfahrtgest\u00fctzte Informationen f\u00fcr Katastrophenmanagement und Notfallma\u00dfnahmen (UNOOSA/UN-SPIDER)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-301",
+        "name": "Sekretariat f\u00fcr die Studie \u201eDie \u00d6konomie der \u00d6kosysteme und der biologischen Vielfalt\u201c (UNEP/TEEB)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-302",
+        "name": "Internationale Organisation f\u00fcr Erneuerbare Energien \u2013 Innovations und Technologiezentrum (IRENA/IITC)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-303",
+        "name": "Welttreuhandfonds f\u00fcr Kulturpflanzenvielfalt (GCDT)",
+        "location": "Bonn"
+    },
+    {
+        "licenseNumber": "0-317",
+        "name": "Bank f\u00fcr Internationalen Zahlungsausgleich (BIZ) \u2013 BIZ Innovation Eurosystem Centre",
+        "location": "Basel (Schweiz)"
+    }
 ]
