@@ -28,7 +28,7 @@ async function fetchJson(url: RequestInfo | URL): Promise<any> {
 	return await result.json()
 }
 
-const DEFAULT_KEY_SETTINGS = await fetchJson('/kfz/default_keys.json')
+const DEFAULT_SETTINGS = await fetchJson('/kfz/default_settings.json')
 const STORAGE = window.localStorage
 
 function loadValues() {
@@ -41,7 +41,7 @@ function loadValues() {
 		}
 	}
 
-	Object.keys(DEFAULT_KEY_SETTINGS).forEach(key => {
+	Object.keys(DEFAULT_SETTINGS).forEach(key => {
 		const element = document.getElementById(key)
 		if (element === null) { return }
 
@@ -52,7 +52,7 @@ function loadValues() {
 				element.value = objectToValue(JSON.parse(storedValue))
 			}
 
-			element.placeholder = objectToValue(DEFAULT_KEY_SETTINGS[element.id])
+			element.placeholder = objectToValue(DEFAULT_SETTINGS[element.id])
 		}
 	})
 }
@@ -80,13 +80,13 @@ function saveValues(key?: string) {
 		saveValue(key)
 	}
 	else {
-		Object.keys(DEFAULT_KEY_SETTINGS).forEach(saveValue)
+		Object.keys(DEFAULT_SETTINGS).forEach(saveValue)
 	}
 }
 
 
 loadValues()
-Object.keys(DEFAULT_KEY_SETTINGS).forEach(key => {
+Object.keys(DEFAULT_SETTINGS).forEach(key => {
 	const element = document.getElementById(key)
 	if (element === null) { return }
 

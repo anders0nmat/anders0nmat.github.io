@@ -1,0 +1,24 @@
+{
+    "datasources": [
+        "/kfz/data/de.json"
+    ],
+	"key-order": [
+		"licenseNumber",
+		"name",
+		"location",
+		"county",
+		"additional_names",
+        "seen",
+        "source",
+        "id",
+        "keys"
+	],
+	"key-list": [
+		"name",
+		"location",
+		"county"
+	],
+    "key-markup": [
+        "name"
+    ]
+}

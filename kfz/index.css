@@ -157,6 +157,12 @@ body {
 		color: currentColor;
 		text-decoration: none;
 	}
+
+    #seen {
+        background: none;
+        border: thin solid var(--separator);
+        padding: 0.25em 0.5em;
+    }
 }
 
 #plate-list {
@@ -183,6 +189,10 @@ body {
 			display: contents;
 			color: currentColor;
 		}
+
+        &[data-seen="true"] {
+            border: thin solid green;
+        }
 	}
 }
 
@@ -244,6 +254,11 @@ body {
 	& td:nth-of-type(2) {
 		white-space: pre-line;
 	}
+
+    & em {
+        font-weight: bold;
+        font-style: normal;
+    }
 }
 
 #detail .plate-item {

@@ -20,7 +20,7 @@
 	},
 	{
 		"licenseNumber": "A",
-		"name": "Augsburg",
+		"name": "&Augsburg",
 		"location": "Stadt Augsburg",
 		"county": "Bayern",
 		"additional_names": [
@@ -29,14 +29,14 @@
 	},
 	{
 		"licenseNumber": "AA",
-		"name": "AAlen",
+		"name": "&A&alen",
 		"location": "Ostalbkreis",
 		"county": "Baden-Württemberg",
 		"additional_names": []
 	},
 	{
 		"licenseNumber": "AB",
-		"name": "AschaffenBurg",
+		"name": "&Aschaffen&burg",
 		"location": "Stadt Aschaffenburg",
 		"county": "Bayern",
 		"additional_names": [
@@ -45,7 +45,7 @@
 	},
 	{
 		"licenseNumber": "ABG",
-		"name": "AltenBurG",
+		"name": "&Alten&bur&g",
 		"location": "Landkreis Altenburger Land",
 		"county": "Thüringen",
 		"additional_names": []
@@ -6133,12 +6133,12 @@
         "location": "Berlin"
     },
     {
-        "licenseNumber": "",
+        "licenseNumber": "BN-178",
         "name": "Europ\u00e4isches Operations-Zentrum f\u00fcr Weltraumforschung (ESOC)",
         "location": "Darmstadt"
     },
     {
-        "licenseNumber": "",
+        "licenseNumber": "BN-179",
         "name": "NATO EF 2000 and Tornado Development, Production & Logistics Management Agency (NETMA)\n[bislang: NATO-Organisation f\u00fcr Produktion und Logistik, M\u00fcnchen (NAMMA), M\u00fcnchen]",
         "location": "Unterhaching"
     },
@@ -6163,7 +6163,7 @@
         "location": "M\u00fcnchen"
     },
     {
-        "licenseNumber": "",
+        "licenseNumber": "BN-184",
         "name": "Organisation f\u00fcr wirtschaftliche Zusammenarbeit und Entwicklung (OECD)",
         "location": "Berlin"
     },
@@ -6173,12 +6173,12 @@
         "location": "Berlin"
     },
     {
-        "licenseNumber": "",
+        "licenseNumber": "BN-186",
         "name": "Europ\u00e4ische Organisation f\u00fcr die Nutzung meteorologischer Satelliten (EUMETSAT)",
         "location": "Darmstadt"
     },
     {
-        "licenseNumber": "",
+        "licenseNumber": "BN-187",
         "name": "Europ\u00e4isches Astronautenzentrum (EAC)",
         "location": "K\u00f6ln"
     },
@@ -6263,7 +6263,7 @@
         "location": "Bonn"
     },
     {
-        "licenseNumber": "0-317",
+        "licenseNumber": ["0-317", "B-317"],
         "name": "Bank f\u00fcr Internationalen Zahlungsausgleich (BIZ) \u2013 BIZ Innovation Eurosystem Centre",
         "location": "Basel (Schweiz)"
     }
