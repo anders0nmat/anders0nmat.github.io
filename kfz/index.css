@@ -112,11 +112,9 @@ body {
 	flex-flow: column;
 
 	position: sticky;
-	top: 0;
 
 	padding: 0.75em 1em;
 
-	border-bottom: thin solid var(--separator);
 
 	& .row {
 		display: flex;
@@ -131,7 +129,6 @@ body {
 		border-right: none;
 		border-radius: 0.75em 0 0 0.75em;
 
-		font-family: EuroPlate;
 		padding: 0.25em 0.5em;
 
 		font-size: 1.25rem;
@@ -165,6 +162,24 @@ body {
     }
 }
 
+#list {
+    display: flex;
+    flex-flow: column;
+}
+
+#list:not(.bottom) .titlebar {
+    top: 0;
+	border-bottom: thin solid var(--separator);
+}
+
+#list.bottom .titlebar {
+    bottom: 0;
+    order: 1;
+	border-top: thin solid var(--separator);
+}
+
+
+
 #plate-list {
 	list-style: none;
 	padding: 0.5em 1em;
@@ -184,6 +199,8 @@ body {
 
 		background-color: var(--background);
 		padding: 0.5em;
+
+        overflow: hidden;
 
 		& > a {
 			display: contents;
@@ -236,6 +253,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-size: 85%;
+
+    min-width: 0;
 
 	& tr {
 		display: flex;

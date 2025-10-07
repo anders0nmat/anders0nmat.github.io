@@ -21,6 +21,11 @@ async function registerServiceWorker() {
     }
 }
 registerServiceWorker();
+const storage = window.localStorage;
+const bottomSearchBar = JSON.parse(storage.getItem("bottom-search") ?? "false");
+if (bottomSearchBar) {
+    document.getElementById('list').classList.add("bottom");
+}
 async function fetchJson(url) {
     const result = await fetch(url);
     return await result.json();

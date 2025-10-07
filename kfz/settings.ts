@@ -45,7 +45,16 @@ function loadValues() {
 		const element = document.getElementById(key)
 		if (element === null) { return }
 
-		if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
+        if (element instanceof HTMLInputElement && element.type == "checkbox") {
+            const storedValue = STORAGE.getItem(key)
+            if (storedValue !== null) {
+                element.checked = JSON.parse(storedValue)
+            }
+            else {
+                element.checked = DEFAULT_SETTINGS[key]
+            }
+        }
+		else if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
 			const storedValue = STORAGE.getItem(key)
 
 			if (storedValue !== null) {
@@ -61,14 +70,17 @@ function saveValues(key?: string) {
 	const saveValue = key => {
 		const element = document.getElementById(key)
 		if (element === null) { return }
-
-		if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
-			if (element.value === "") {
+   
+        if (element instanceof HTMLTextAreaElement) {
+            const valueLines = element.value.split('\n')
+            STORAGE.setItem(key, JSON.stringify(valueLines))
+        }
+		else if (element instanceof HTMLInputElement) {
+            if (element.type == "checkbox") {
+                STORAGE.setItem(key, JSON.stringify(element.checked))
+            }
+			else if (element.value === "") {
 				STORAGE.removeItem(key)
-			}
-			else if (element instanceof HTMLTextAreaElement) {
-				const valueLines = element.value.split('\n')
-				STORAGE.setItem(key, JSON.stringify(valueLines))
 			}
 			else {
 				STORAGE.setItem(key, JSON.stringify(element.value))

@@ -20,5 +20,6 @@
 	],
     "key-markup": [
         "name"
-    ]
+    ],
+    "bottom-search": false
 }

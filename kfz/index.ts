@@ -24,6 +24,12 @@ async function registerServiceWorker() {
 }
 registerServiceWorker()
 
+const storage = window.localStorage
+const bottomSearchBar = JSON.parse(storage.getItem("bottom-search") ?? "false")
+if (bottomSearchBar) {
+    document.getElementById('list')!.classList.add("bottom")
+}
+
 async function fetchJson(url: RequestInfo | URL): Promise<any> {
 	const result = await fetch(url)
 	return await result.json()
@@ -311,6 +317,4 @@ document.getElementById('seen')?.addEventListener('click', _ => {
 window.addEventListener('hashchange', displayLocationHash)
 displayLocationHash()
 updateSeenList()
-
-
 
