@@ -66,8 +66,13 @@ function saveValues(key) {
             return;
         }
         if (element instanceof HTMLTextAreaElement) {
-            const valueLines = element.value.split('\n');
-            STORAGE.setItem(key, JSON.stringify(valueLines));
+            if (element.value === "") {
+                STORAGE.removeItem(key);
+            }
+            else {
+                const valueLines = element.value.split('\n');
+                STORAGE.setItem(key, JSON.stringify(valueLines));
+            }
         }
         else if (element instanceof HTMLInputElement) {
             if (element.type == "checkbox") {
