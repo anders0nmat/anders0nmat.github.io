@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"module": "ES2022",
+		"module": "preserve",
 		"outDir": ".",
 		"target": "es2024",
 		"strictNullChecks": true,

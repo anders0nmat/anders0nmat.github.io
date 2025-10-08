@@ -141,12 +141,43 @@ export class Datasource {
     }
     static async fromURL(url) {
         const datasource = new Datasource(url);
-        const rsp = await fetch(url);
-        const json = await rsp.json();
-        json.forEach(e => {
-            const item = new Item(e, datasource);
-            datasource.items.set(item.key, item);
-        });
+        const extension = url.pathname.split('.').pop();
+        if (extension == "json") {
+            const rsp = await fetch(url);
+            const json = await rsp.json();
+            json.forEach(e => {
+                const item = new Item(e, datasource);
+                datasource.items.set(item.key, item);
+            });
+        }
+        else if (extension == "csv") {
+            await new Promise(resolve => window.Papa.parse(url.href, {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                step(row) {
+                    const data = row.data;
+                    Object.keys(data).forEach(key => {
+                        if (!key.startsWith('$')) {
+                            return;
+                        }
+                        const newKey = key.substring(1);
+                        const json = JSON.parse(data[key]);
+                        data[newKey] = json;
+                        delete data[key];
+                    });
+                    if ("" in data) {
+                        Object.assign(data, data[""]);
+                        delete data[""];
+                    }
+                    const item = new Item(row.data, datasource);
+                    datasource.items.set(item.key, item);
+                },
+                complete() {
+                    resolve();
+                }
+            }));
+        }
         if (datasource.items.has(Datasource.datasouceIdent)) {
             datasource.setInfo(datasource.items.get(Datasource.datasouceIdent));
             datasource.items.delete(Datasource.datasouceIdent);
