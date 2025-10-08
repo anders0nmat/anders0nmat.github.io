@@ -27,10 +27,3 @@ const datasourceList = document.querySelector('#datasources > ul');
 Datasource.list.forEach(datasource => {
     datasourceList.append(getFragment(datasource));
 });
-/*const DATASOURCES: string[] = Settings.get("datasources")
-
-const fragments = await Promise.all(DATASOURCES.map(async url => await getFragment(new URL(url, location.href))))
-
-const datasourceList = document.querySelector('#datasources > ul')!
-fragments.forEach(e => datasourceList.append(e))
-*/

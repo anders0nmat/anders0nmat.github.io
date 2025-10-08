@@ -13,6 +13,7 @@ self.addEventListener("install", event => {
 			'/kfz',
 			
 			'/kfz/settings',
+            '/kfz/datasources',
 
 			'/kfz/data.json',
 			'/kfz/i18n.json',
