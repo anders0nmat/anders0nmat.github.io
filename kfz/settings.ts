@@ -1,4 +1,4 @@
-export {}
+import { Settings, I18N, translatePage } from "./common.js"
 
 async function registerServiceWorker() {
 	if (!("serviceWorker" in navigator)) { return }
@@ -23,13 +23,10 @@ async function registerServiceWorker() {
 }
 registerServiceWorker()
 
-async function fetchJson(url: RequestInfo | URL): Promise<any> {
-	const result = await fetch(url)
-	return await result.json()
-}
+await Settings.init()
+await I18N.init()
 
-const DEFAULT_SETTINGS = await fetchJson('/kfz/default_settings.json')
-const STORAGE = window.localStorage
+translatePage()
 
 function loadValues() {
 	const objectToValue = value => {
@@ -41,29 +38,18 @@ function loadValues() {
 		}
 	}
 
-	Object.keys(DEFAULT_SETTINGS).forEach(key => {
+    [...Settings.default.keys()].forEach(key => {
 		const element = document.getElementById(key)
 		if (element === null) { return }
 
         if (element instanceof HTMLInputElement && element.type == "checkbox") {
-            const storedValue = STORAGE.getItem(key)
-            if (storedValue !== null) {
-                element.checked = JSON.parse(storedValue)
-            }
-            else {
-                element.checked = DEFAULT_SETTINGS[key]
-            }
+            element.checked = Settings.get(key)
         }
 		else if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
-			const storedValue = STORAGE.getItem(key)
-
-			if (storedValue !== null) {
-				element.value = objectToValue(JSON.parse(storedValue))
-			}
-
-			element.placeholder = objectToValue(DEFAULT_SETTINGS[element.id])
+            element.value = Settings.has(key) ? objectToValue(Settings.get(key)) : ''
+            element.placeholder = objectToValue(Settings.default.get(key))
 		}
-	})
+    })
 }
 
 function saveValues(key?: string) {
@@ -73,22 +59,22 @@ function saveValues(key?: string) {
    
         if (element instanceof HTMLTextAreaElement) {
             if (element.value === "") {
-                STORAGE.removeItem(key)
+                Settings.delete(key)
             }
             else {
                 const valueLines = element.value.split('\n')
-                STORAGE.setItem(key, JSON.stringify(valueLines))
+                Settings.set(key, valueLines)
             }
         }
 		else if (element instanceof HTMLInputElement) {
             if (element.type == "checkbox") {
-                STORAGE.setItem(key, JSON.stringify(element.checked))
+                Settings.set(key, element.checked)
             }
 			else if (element.value === "") {
-				STORAGE.removeItem(key)
+                Settings.delete(key)
 			}
 			else {
-				STORAGE.setItem(key, JSON.stringify(element.value))
+                Settings.set(key, element.value)
 			}
 		}
 	}
@@ -97,13 +83,13 @@ function saveValues(key?: string) {
 		saveValue(key)
 	}
 	else {
-		Object.keys(DEFAULT_SETTINGS).forEach(saveValue)
+        [...Settings.default.keys()].forEach(saveValue)
 	}
 }
 
 
-loadValues()
-Object.keys(DEFAULT_SETTINGS).forEach(key => {
+loadValues();
+[...Settings.default.keys()].forEach(key => {
 	const element = document.getElementById(key)
 	if (element === null) { return }
 

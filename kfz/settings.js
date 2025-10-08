@@ -1,3 +1,4 @@
+import { Settings, I18N, translatePage } from "./common.js";
 async function registerServiceWorker() {
     if (!("serviceWorker" in navigator)) {
         return;
@@ -21,12 +22,9 @@ async function registerServiceWorker() {
     }
 }
 registerServiceWorker();
-async function fetchJson(url) {
-    const result = await fetch(url);
-    return await result.json();
-}
-const DEFAULT_SETTINGS = await fetchJson('/kfz/default_settings.json');
-const STORAGE = window.localStorage;
+await Settings.init();
+await I18N.init();
+translatePage();
 function loadValues() {
     const objectToValue = value => {
         if (Array.isArray(value)) {
@@ -36,26 +34,17 @@ function loadValues() {
             return value;
         }
     };
-    Object.keys(DEFAULT_SETTINGS).forEach(key => {
+    [...Settings.default.keys()].forEach(key => {
         const element = document.getElementById(key);
         if (element === null) {
             return;
         }
         if (element instanceof HTMLInputElement && element.type == "checkbox") {
-            const storedValue = STORAGE.getItem(key);
-            if (storedValue !== null) {
-                element.checked = JSON.parse(storedValue);
-            }
-            else {
-                element.checked = DEFAULT_SETTINGS[key];
-            }
+            element.checked = Settings.get(key);
         }
         else if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
-            const storedValue = STORAGE.getItem(key);
-            if (storedValue !== null) {
-                element.value = objectToValue(JSON.parse(storedValue));
-            }
-            element.placeholder = objectToValue(DEFAULT_SETTINGS[element.id]);
+            element.value = Settings.has(key) ? objectToValue(Settings.get(key)) : '';
+            element.placeholder = objectToValue(Settings.default.get(key));
         }
     });
 }
@@ -67,22 +56,22 @@ function saveValues(key) {
         }
         if (element instanceof HTMLTextAreaElement) {
             if (element.value === "") {
-                STORAGE.removeItem(key);
+                Settings.delete(key);
             }
             else {
                 const valueLines = element.value.split('\n');
-                STORAGE.setItem(key, JSON.stringify(valueLines));
+                Settings.set(key, valueLines);
             }
         }
         else if (element instanceof HTMLInputElement) {
             if (element.type == "checkbox") {
-                STORAGE.setItem(key, JSON.stringify(element.checked));
+                Settings.set(key, element.checked);
             }
             else if (element.value === "") {
-                STORAGE.removeItem(key);
+                Settings.delete(key);
             }
             else {
-                STORAGE.setItem(key, JSON.stringify(element.value));
+                Settings.set(key, element.value);
             }
         }
     };
@@ -90,15 +79,14 @@ function saveValues(key) {
         saveValue(key);
     }
     else {
-        Object.keys(DEFAULT_SETTINGS).forEach(saveValue);
+        [...Settings.default.keys()].forEach(saveValue);
     }
 }
 loadValues();
-Object.keys(DEFAULT_SETTINGS).forEach(key => {
+[...Settings.default.keys()].forEach(key => {
     const element = document.getElementById(key);
     if (element === null) {
         return;
     }
     element.addEventListener("change", _ => saveValues(element.id));
 });
-export {};

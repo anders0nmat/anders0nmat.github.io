@@ -5,6 +5,12 @@
 		"additional_names": "Additional Names"
 	},
 	"de": {
+        "Back": "Zurück",
+        "Key Order": "Schlüssel-Reihenfolge",
+        "Search": "Suchen",
+        "Seen": "Gesehen",
+        "seen": "Gesehen",
+
 		"licenseNumber": "Kennzeichen",
 		"county": "Bundesland",
 		"location": "Region",

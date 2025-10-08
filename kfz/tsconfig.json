@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"module": "ES2022",
 		"outDir": ".",
-		"target": "ES2022",
+		"target": "es2024",
 		"strictNullChecks": true,
 		"isolatedModules": true,
 		"skipLibCheck": true

@@ -1,146 +1,19 @@
 
-export {}
+import { Settings, I18N, translatePage, registerServiceWorker, sanitizeHTML, Item, Datasource, PlateData, generateAddToTable, FoundItems } from "./common.js"
 
-async function registerServiceWorker() {
-	if (!("serviceWorker" in navigator)) { return }
-
-	try {
-		const registration = await navigator.serviceWorker.register('./serviceworker.js', {
-			scope: "./"
-		})
-
-		if (registration.installing) {
-			console.log('[Service worker] installing...')
-		}
-		else if (registration.waiting) {
-			console.log('[Service worker] installed!')
-		}
-		else if (registration.active) {
-			console.log('[Service worker] active')
-		}
-	} catch (error) {
-		console.error('[Service worker]', error)
-	}
-}
+await Settings.init()
+await I18N.init()
 registerServiceWorker()
+translatePage()
 
-const storage = window.localStorage
-const bottomSearchBar = JSON.parse(storage.getItem("bottom-search") ?? "false")
-if (bottomSearchBar) {
+if (Settings.get("bottom-search")) {
     document.getElementById('list')!.classList.add("bottom")
 }
 
-async function fetchJson(url: RequestInfo | URL): Promise<any> {
-	const result = await fetch(url)
-	return await result.json()
-}
 
-function readListDefault(key: string, defaultList: string[]): string[] {
-	const storage = window.localStorage
-	const storedList = JSON.parse(storage.getItem(key) ?? '{}')
-
-	if (!Array.isArray(storedList)) {
-		return defaultList
-	}
-	return storedList
-}
-
-
-interface PlateData {
-	licenseNumber: string | string[]
-	[key: string]: any
-}
-
-interface KeyTranslation {
-	[key: string]: string
-}
-
-interface Translations {
-	[lang: string]: KeyTranslation
-}
-
-class FoundItems {
-    static items = new Map<string, Date>(FoundItems.load())
-
-    static load(): [string, Date][] {
-        const storage = window.localStorage
-        const storedList = JSON.parse(storage.getItem('found-items') ?? '{}')
-
-        return Object.entries(storedList).map(([id, date]: [string, string]) => [id, new Date(date)])
-    }
-
-    static save() {
-        const storage = window.localStorage
-        const jsonList = JSON.stringify(Object.fromEntries(this.items.entries()))
-        storage.setItem('found-items', jsonList)
-    }
-}
-
-class Item {
-    source: string
-    keys: string[]
-    info: Map<string, any>
-    element: HTMLElement
-    seen: Date | null
-
-    constructor(plate: PlateData, source: string) {
-        this.source = source
-        this.keys = Array.isArray(plate.licenseNumber) ? plate.licenseNumber : [plate.licenseNumber]
-        this.info = new Map(Object.entries(plate))
-        this.seen = FoundItems.items.get(this.id) ?? null
-    }
-
-    get key(): string {
-        return this.keys[0]
-    }
-
-    get id(): string {
-        return `${this.source}-${this.key}`.toLowerCase()
-    }
-
-    searchScore(query: string): [boolean, number] {
-        const terms = query.split(' ')
-        const scores: [boolean, number][] = terms.map(term => {
-            if (term.includes(':')) {
-                const [termKey, termValue] = term.split(':')
-
-                if (termKey == 'seen' && termValue) {
-                    const val = {
-                        'true': true,
-                        'yes': true,
-                        '1': true,
-                    }[termValue] ?? false
-                    return [val == (this.seen != null), 0]
-                }
-            }
-            else {
-                const max = Math.max(0, ...this.keys.map(e => {
-                    if (e.toLowerCase() == term) {
-                        return 2
-                    }
-                    else if (e.toLowerCase().includes(term)) {
-                        return 1
-                    }
-                    return 0
-                }))
-                return [max > 0, max]
-            }
-
-            return [true, 0]
-        })
-
-        if (scores.every(e => e[0])) {
-            return [true, Math.max(0, ...scores.map(e => e[1]))]
-        }
-        return [false, 0]
-    }
-}
-
-const TRANSLATIONS: Translations = await fetchJson('/kfz/i18n.json')
-const DEFAULT_SETTINGS = await fetchJson('/kfz/default_settings.json')
-const KEY_LIST: string[] = readListDefault('key-list', DEFAULT_SETTINGS['key-list'])
-const KEY_ORDER: string[] = readListDefault('key-order', DEFAULT_SETTINGS['key-order'])
-const MARKUP_KEYS: string[] = readListDefault('key-markup', DEFAULT_SETTINGS['key-markup'])
+const KEY_LIST = Settings.get("key-list")
+const KEY_ORDER = Settings.get("key-order")
+const MARKUP_KEYS: Set<string> = new Set(Settings.get("key-markup"))
 
 const EXCLUDE_KEYS = [
 	"licenseNumber"
@@ -164,17 +37,11 @@ function formatDataValue(value: any, allowHTML = false): string {
     }
     else {
         value = (value.toString() as string).replace(/&(.)/g, '<em>$1</em>')
-
-        const parser = new DOMParser()
-        const body = parser.parseFromString(value, "text/html").body
-
-        body.querySelectorAll(':not(b, i, em)').forEach(e => e.remove())
-        body.querySelectorAll('*').forEach(e => [...e.attributes].forEach(attr => e.removeAttribute(attr.name)))
-        return body.innerHTML
+        return sanitizeHTML(value, ['b', 'i', 'em'])
     }
 }
 
-function getPlateFragment(data: Item, keys: string[], translation: KeyTranslation, appendMissing: boolean): DocumentFragment {
+function getPlateFragment(data: Item, keys: string[], appendMissing: boolean): DocumentFragment {
 	const plate_template = document.getElementById('plate-template') as HTMLTemplateElement
 	const nodes = plate_template.content.cloneNode(true) as DocumentFragment
 	nodes.querySelector('.license-number')!.textContent = data.key
@@ -185,55 +52,31 @@ function getPlateFragment(data: Item, keys: string[], translation: KeyTranslatio
 	}
 
 	const dataTable = nodes.querySelector<HTMLTableElement>('table')!
-    const appendTable = (key: string, value: any) => {
-        const tr = document.createElement('tr')
-		const name = document.createElement('td')
-		const val = document.createElement('td')
-		name.textContent = translation[key] ?? key
+    const addToTable = generateAddToTable(dataTable)
 
-        if (MARKUP_KEYS.includes(key)) {
-            val.innerHTML = formatDataValue(value, true)
-        }
-        else {
-            val.textContent = formatDataValue(value)
-        }
-		tr.append(name, val)
-		dataTable.append(tr)   
-    }
 	keys.forEach(key => {
+        const valueIsHtml = MARKUP_KEYS.has(key)
         if (data.info.has(key)) {
-            appendTable(key, data.info.get(key))
+            addToTable(key, formatDataValue(data.info.get(key), valueIsHtml), valueIsHtml)
         }
         else if (key in data) {
-            appendTable(key, data[key])
+            addToTable(key, formatDataValue(data[key], valueIsHtml), valueIsHtml)
         }
 	})
 	return nodes
 }
 
-const DATA_SOURCES = readListDefault('datasources', DEFAULT_SETTINGS['datasources'])
+await Datasource.loadAll()
 
-const _ITEMS = (await Promise.all(DATA_SOURCES.map(async url => {
-    const source = new URL(url, location.href).pathname.split('/').pop()?.split('.').shift() ?? 'unknown'
-    try {
-        const json = await fetchJson(url) as PlateData[]
-        return json.map(e => {
-            const item = new Item(e, source)
-            return [item.id, item] as [string, Item]
-        })
-    }
-    catch {
-        return []
-    }
-}))).flat()
-
-const ITEMS = new Map(_ITEMS)
+const ITEMS = new Map(Datasource.list.flatMap(datasource => {
+    return [...datasource.items.values()].map(v => [v.id, v])
+}))
 
 ITEMS.forEach(e => {
 	const li = document.createElement('li')
 	const a = document.createElement('a')
 	a.href = `#${e.id}`
-	a.append(getPlateFragment(e, KEY_LIST, TRANSLATIONS['de'], false))
+	a.append(getPlateFragment(e, KEY_LIST, false))
 	li.append(a)
     li.dataset.id = e.id
 	document.getElementById('plate-list')?.appendChild(li)
@@ -276,8 +119,16 @@ function displayLocationHash() {
 		document.getElementById('detail')!.style.display = ''
 
 		const detail_main = document.querySelector<HTMLElement>('#detail .plate-item')
-		const selected_detail = getPlateFragment(item, KEY_ORDER, TRANSLATIONS['de'], true)
-		detail_main?.replaceChildren(selected_detail)
+		const selected_detail = getPlateFragment(item, KEY_ORDER, true)
+        if (detail_main) {
+            detail_main.replaceChildren(selected_detail)
+            if (item.seen) {
+                detail_main.dataset.seen = ''
+            }
+            else {
+                delete detail_main.dataset.seen
+            }
+        }
 	}
 	else {
 		// no/invalid id ; show list
@@ -290,7 +141,12 @@ function updateSeenList() {
     document.querySelectorAll<HTMLElement>('#plate-list > li').forEach(e => {
         const item = ITEMS.get(e.dataset.id ?? '')
         if (!item) { return }
-        e.dataset.seen = (item.seen != null).toString()
+        if (item.seen) {
+            e.dataset.seen = ''
+        }
+        else {
+            delete e.dataset.seen
+        }
     })
 }
 
@@ -302,12 +158,9 @@ document.getElementById('seen')?.addEventListener('click', _ => {
     
     if (FoundItems.items.has(itemId)) {
         FoundItems.items.delete(itemId)
-        item.seen = null
     }
     else {
-        const now = new Date()
-        FoundItems.items.set(itemId, now)
-        item.seen = now
+        FoundItems.items.set(itemId, new Date())
     }
     FoundItems.save()
     displayLocationHash()

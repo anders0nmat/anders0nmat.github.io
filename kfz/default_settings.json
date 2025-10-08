@@ -1,9 +1,10 @@
 {
+    "lang": "en",
     "datasources": [
-        "/kfz/data/de.json"
+        "/kfz/data/de.json",
+        "/kfz/data/de-diplomats.json"
     ],
 	"key-order": [
-		"licenseNumber",
 		"name",
 		"location",
 		"county",
